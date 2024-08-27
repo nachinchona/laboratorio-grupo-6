@@ -1,7 +1,14 @@
-# Decorator: patr贸n de dise帽o en Java
+# Trabajo pr醕tico 1
+## Decorator: patr髇 de dise駉 en Java
 
-La aplicaci贸n gr谩fica realizada en Java soluciona un problema concreto con el patr贸n de dise帽o Decorator (tambi茅n llamado Wrapper).
+La aplicaci髇 gr醘ica realizada en Java soluciona un problema concreto con el patr髇 de dise駉 Decorator (tambi閚 llamado Wrapper).
 
-Simula un sistema de suscripci贸n a notificaciones de distintos tipos.
+Simula un sistema de suscripci髇 a notificaciones de distintos tipos.
 
-![me](https://github.com/nachinchona/gui-tests/blob/main/Animation.gif)
+![me](https://github.com/nachinchona/gui-tests/blob/main/1-decorator.gif)
+
+## Concurrencia: ScheduledExecutorService + fixed delay
+
+La aplicaci髇 contiene un sistema concurrente para enviar notificaciones autom醫icamente durante una 1 hora cada 3 segundos.
+
+![me](https://github.com/nachinchona/gui-tests/blob/main/2-concurrencia.gif)
