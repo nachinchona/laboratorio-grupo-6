@@ -1,6 +1,3 @@
-package Decoradores;
-
-import Aplicacion.Notificador;
 
 public class WhatsAppDecorator extends DecoradorNotificador {
     public WhatsAppDecorator(Notificador notificador){

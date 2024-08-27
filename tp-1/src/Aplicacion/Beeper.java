@@ -1,4 +1,3 @@
-package Aplicacion;
 
 import java.util.Random;
 

@@ -1,4 +1,3 @@
-package Aplicacion;
 
 import javax.swing.*;
 import javax.swing.text.DefaultCaret;
@@ -28,14 +27,14 @@ public class GUI {
         control = new EnvioControl();
         notificador = new NotificadorBase(this, control);
 
-        frame = new JFrame("Aplicación");
+        frame = new JFrame("Aplicaciï¿½n");
 
-        // panel principal donde se acomodan los demás paneles
+        // panel principal donde se acomodan los demï¿½s paneles
 
         panelPrincipal = new JPanel();
         panelPrincipal.setLayout(new BoxLayout(panelPrincipal, BoxLayout.Y_AXIS));
 
-        titulo = new JLabel("¡Bienvenido al menú!");
+        titulo = new JLabel("ï¿½Bienvenido al menï¿½!");
         titulo.setAlignmentX(JLabel.CENTER_ALIGNMENT);
 
         panelPrincipal.add(titulo);
@@ -60,10 +59,10 @@ public class GUI {
         panelPrincipal.add(panelBotones);
         panelPrincipal.add(panelConcurrencia);
 
-        // panel para botón enviar y entrada de texto
+        // panel para botï¿½n enviar y entrada de texto
 
         panelEnviar = new JPanel();
-        botonEnviar = new JButton("Enviar notificación");
+        botonEnviar = new JButton("Enviar notificaciï¿½n");
         mensaje = new JTextField();
         mensaje.setColumns(30);
         mensaje.setFont(new Font("Arial", Font.PLAIN, 20));

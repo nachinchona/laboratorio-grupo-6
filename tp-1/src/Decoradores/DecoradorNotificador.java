@@ -1,7 +1,3 @@
-package Decoradores;
-
-import Aplicacion.EnvioControl;
-import Aplicacion.Notificador;
 
 //decorador base de la clase Notificador
 public abstract class DecoradorNotificador implements Notificador {
