@@ -13,6 +13,7 @@ public class GUI {
     private JPanel panelBotones;
     private JPanel panelConsola;
     private JPanel panelEnviar;
+    private JPanel panelConcurrencia;
     private JScrollPane output;
     private JTextArea consola;
     private JButton[] botones;
@@ -27,7 +28,7 @@ public class GUI {
 
         frame = new JFrame("Aplicacion");
 
-        // panel principal donde se acomodan los dem�s paneles
+        // panel principal donde se acomodan los demas paneles
 
         panelPrincipal = new JPanel();
         panelPrincipal.setLayout(new BoxLayout(panelPrincipal, BoxLayout.Y_AXIS));
@@ -37,11 +38,11 @@ public class GUI {
 
         panelPrincipal.add(titulo);
 
-        // panel de botones para suscribirse a notificaciones
+        // panel de botones para suscribirse a notificaciones y concurrencia
 
         panelBotones = new JPanel();
 
-        JPanel panelConcurrencia = new JPanel();
+        panelConcurrencia = new JPanel();
 
         botones = new JButton[5];
         for (int i = 0; i < botones.length; i++) {
@@ -112,7 +113,7 @@ public class GUI {
         botonEnviar.addActionListener(e -> notificador.enviar(mensaje.getText()));
     }
 
-    public void agregarTexto(String cadena) {
+    public synchronized void agregarTexto(String cadena) {
         consola.append(cadena + "\n");
     }
 }

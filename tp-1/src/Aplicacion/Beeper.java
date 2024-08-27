@@ -1,19 +1,22 @@
-import java.util.Random;
-
 public class Beeper implements Runnable {
     private Notificador notificador;
-    private String[] mensajes;
+    private String mensaje;
+    private int delay;
 
-    public Beeper(String[] mensajes) {
-        this.mensajes = mensajes;
+    public Beeper(String mensaje, int delay) {
+        this.mensaje = mensaje;
+        this.delay = delay;
     }
 
     public void setNotificador(Notificador notificador) {
         this.notificador = notificador;
     }
 
+    public int getDelay() {
+        return this.delay;
+    }
+
     public void run() {
-        Random r = new Random();
-        notificador.enviar(mensajes[r.nextInt(0, mensajes.length)]);
+        notificador.enviar(mensaje);
     }
 }

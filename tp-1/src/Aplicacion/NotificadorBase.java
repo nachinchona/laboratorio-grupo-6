@@ -12,11 +12,11 @@ public class NotificadorBase implements Notificador {
         gui.agregarTexto("Por notificacion comun: " + mensaje);
     }
 
-    public void mandar(String mensaje) {
-        gui.agregarTexto(mensaje);
-    }
-
     public EnvioControl getEnv(){
         return control;
+    }
+
+    public GUI getGUI() {
+        return this.gui;
     }
 }

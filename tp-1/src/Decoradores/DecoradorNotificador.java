@@ -2,10 +2,12 @@
 public abstract class DecoradorNotificador implements Notificador {
     protected Notificador notificadorDecorado;
     protected EnvioControl control;
+    protected GUI gui;
 
     public DecoradorNotificador(Notificador notificador) {
         notificadorDecorado = notificador;
         control = notificador.getEnv();
+        gui = notificador.getGUI();
         control.setNotificador(this);
     }
 
@@ -13,11 +15,11 @@ public abstract class DecoradorNotificador implements Notificador {
         notificadorDecorado.enviar(mensaje);
     }
 
-    public void mandar(String mensaje) {
-        notificadorDecorado.mandar(mensaje);
-    }
-
     public EnvioControl getEnv(){
         return notificadorDecorado.getEnv();
+    }
+
+    public GUI getGUI() {
+        return this.gui;
     }
 }
