@@ -3,7 +3,7 @@ import java.util.concurrent.*;
 
 public class EnvioControl extends Thread {
 
-    private String[] mensajes = {"Â¡Hola!", "Suscribete a nuestros canales de notificaciones"};
+    private String[] mensajes = {"¡Hola!", "Suscribete a nuestros canales de notificaciones"};
     private final ScheduledExecutorService scheduler = Executors.newScheduledThreadPool(1);
     private Beeper beeper = new Beeper(mensajes);
 

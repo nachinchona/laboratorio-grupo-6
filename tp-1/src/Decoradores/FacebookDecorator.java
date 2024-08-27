@@ -6,8 +6,8 @@ public class FacebookDecorator extends DecoradorNotificador {
     }
 
     public void enviar(String mensaje){
-        //super.enviar(mensaje + "\nPor Facebook: " + mensaje);
-        super.enviar(mensaje);
-        super.mandar("Por Facebook: " + mensaje);
+        super.enviar(mensaje + "\nPor Facebook: " + mensaje);
+        //super.enviar(mensaje);
+        //super.mandar("Por Facebook: " + mensaje);
     }
 }
