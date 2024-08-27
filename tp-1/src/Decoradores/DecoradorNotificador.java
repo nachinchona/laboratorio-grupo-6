@@ -1,4 +1,3 @@
-
 //decorador base de la clase Notificador
 public abstract class DecoradorNotificador implements Notificador {
     protected Notificador notificadorDecorado;

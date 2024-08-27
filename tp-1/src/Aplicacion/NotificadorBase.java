@@ -1,4 +1,3 @@
-
 //clase concreta de la interfaz
 public class NotificadorBase implements Notificador {
     private GUI gui;
@@ -10,7 +9,7 @@ public class NotificadorBase implements Notificador {
     }
 
     public void enviar(String mensaje) {
-        gui.agregarTexto("Por notificaci�n com�n: " + mensaje);
+        gui.agregarTexto("Por notificacion comun: " + mensaje);
     }
 
     public void mandar(String mensaje) {
