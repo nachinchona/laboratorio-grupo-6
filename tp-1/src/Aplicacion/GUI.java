@@ -4,7 +4,6 @@ import javax.swing.text.DefaultCaret;
 import java.awt.Font;
 import java.awt.Insets;
 
-
 public class GUI {
     private static String[] acciones = { "SMS", "WhatsApp", "Facebook", "Start Concurrencia", "Stop Concurrencia" };
     private JFrame frame;
@@ -108,7 +107,7 @@ public class GUI {
             control.start();
         });
         botones[4].addActionListener(e -> {
-            control.interrupt();
+            control.detener();
         });
         botonEnviar.addActionListener(e -> notificador.enviar(mensaje.getText()));
     }
