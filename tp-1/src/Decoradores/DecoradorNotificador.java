@@ -1,4 +1,7 @@
-//decorador base de la clase Notificador
+package Decoradores;
+
+import Aplicacion.*;
+
 public abstract class DecoradorNotificador implements Notificador {
     protected Notificador notificadorDecorado;
     protected EnvioControl control;

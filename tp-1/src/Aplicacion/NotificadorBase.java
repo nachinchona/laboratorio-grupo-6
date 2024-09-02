@@ -1,4 +1,5 @@
-//clase concreta de la interfaz
+package Aplicacion;
+
 public class NotificadorBase implements Notificador {
     private GUI gui;
     private EnvioControl control;

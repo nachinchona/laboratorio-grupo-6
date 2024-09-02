@@ -1,3 +1,7 @@
+package Decoradores;
+
+import Aplicacion.Notificador;
+
 public class SMSDecorator extends DecoradorNotificador {
     public SMSDecorator(Notificador notificador){
         super(notificador);

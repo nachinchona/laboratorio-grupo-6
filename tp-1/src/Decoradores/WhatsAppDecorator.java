@@ -1,3 +1,7 @@
+package Decoradores;
+
+import Aplicacion.Notificador;
+
 public class WhatsAppDecorator extends DecoradorNotificador {
     public WhatsAppDecorator(Notificador notificador){
         super(notificador);
@@ -8,5 +12,4 @@ public class WhatsAppDecorator extends DecoradorNotificador {
         super.enviar(mensaje);
         gui.agregarTexto("Por WhatsApp: " + mensaje);
     }
-
 }

@@ -1,8 +1,10 @@
+package Aplicacion;
+
 import javax.swing.*;
 import javax.swing.text.DefaultCaret;
-
 import java.awt.Font;
 import java.awt.Insets;
+import Decoradores.*;
 
 public class GUI {
     private static String[] acciones = { "SMS", "WhatsApp", "Facebook", "Start Concurrencia", "Stop Concurrencia" };

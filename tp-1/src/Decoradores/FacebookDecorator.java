@@ -1,3 +1,7 @@
+package Decoradores;
+
+import Aplicacion.Notificador;
+
 public class FacebookDecorator extends DecoradorNotificador {
     public FacebookDecorator(Notificador notificador){
         super(notificador);
