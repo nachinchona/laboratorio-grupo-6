@@ -7,7 +7,7 @@ a {
 }
 
 nav {
-    background-color: #333; /* Color de fondo para la barra de navegación */
+    background-color: #333; /* Color de fondo para la barra de navegaciï¿½n */
     padding: 10px 20px;
     display: flex;
     justify-content: space-between;
@@ -20,7 +20,7 @@ nav h1 {
 }
 
 #logo {
-    width: 60px; /* Ajusta el tamaño del logo */
+    width: 60px; /* Ajusta el tamaï¿½o del logo */
     height: 60px;
 }
 
@@ -30,6 +30,8 @@ nav ul {
     padding: 0;
     display: flex; 
     justify-content: center;
+    margin-top: 20px;
+
 }
 
 nav ul li {
