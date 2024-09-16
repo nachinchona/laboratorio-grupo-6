@@ -1,4 +1,54 @@
 h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+    background-color: #333; /* Color de fondo para la barra de navegaci�n */
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+nav h1 {
+    color: white;
+    font-size: 30px;
+    justify-content: center;
+    margin-left: 80px;
+}
+
+#logo {
+    width: 60px; /* Ajusta el tama�o del logo */
+    height: 60px;
+}
+
+nav ul {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    justify-content: center;
+}
+
+nav ul li {
+    margin-left: 20px;
+    justify-content: center;
+}
+
+.botonNav {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.botonNav:hover {
+    background-color: #555;
+    border-radius: 5px;
+}h1 {
     color: blue;
 }
 
