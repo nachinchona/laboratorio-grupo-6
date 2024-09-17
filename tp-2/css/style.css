@@ -19,18 +19,45 @@ body {
     background: #666666;
 }
 
-.fotoPlaylist {
+.playlist img {
     width: 60px;
     height: 60px;
     border-radius: 15px;
 }
 
+.cancion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 40px;
+    padding: 12px 12px;
+    width: 1000px;
+    height: 80px;
+    border: 1px solid white;
+    border-radius: 15px;
+    background: #666666;
+}
+
 .botonDesplegar {
+    position: relative;
     background-color:transparent;
-    border-style: inset;
-    border-color: transparent;
+    /*border-color: transparent;*/
     border-radius: 100px;
+
+    border-color: #111;
     transition: background-color 0.3s ease;
+}
+
+.botonDesplegar input[type=checkbox] {
+    display:none;
+    position: absolute;
+    width: 45px;
+    height: 52px;
+    left:-4px;
+    top:-5px;
+    clip-path: circle(47% at 50% 50%);
 }
 
 .botonDesplegar:hover {
@@ -42,14 +69,15 @@ body {
 }
 
 .flecha {
-    margin-top: 5px;
+    padding: 4px 6px 4px 6px;
+    margin-top: 6px;
     margin-left: 2px;
 }
 
 nav {
     background-color: rgb(24, 24, 24);
     margin-top: 10px;
-    margin-inline: -10px;
+    margin-inline: -8px;
     border-style:solid;
     border-color: #111;
     padding: 10px 20px;
@@ -58,14 +86,14 @@ nav {
     justify-content: space-between;
 }
 
-#logo {
-    width: 60px;
-    height: 60px;
-}
-
-#logo-titulo {
+#logoTitulo {
     display: flex;
     align-items: center;
+}
+
+#logoTitulo img {
+    width: 60px;
+    height: 60px;
 }
 
 nav h1 {
