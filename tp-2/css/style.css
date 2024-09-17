@@ -16,38 +16,40 @@ a {
 
 nav {
     background-color: rgb(24, 24, 24);
-    border-radius:15px;
+    margin-top: 10px;
+    margin-inline: -10px;
     border-style:solid;
     border-color: #111;
     padding: 10px 20px;
     display: flex;
+    align-items: center;
     justify-content: space-between;
-}
-
-nav h1 {
-    color: white;
-    font-size: 30px;
-    margin-left: 80px;
-    display: inline;
-    top: -18px;
-    left: -30px;
-    position: relative;
 }
 
 #logo {
     width: 60px;
     height: 60px;
-    margin-top: 5px;
+}
+
+#logo-titulo {
+    display: flex;
+    align-items: center;
+}
+
+nav h1 {
+    color: white;
+    font-size: 30px;
+    margin-left: 30px;
 }
 
 nav ul {
     list-style-type: none; 
     display: flex;
-    margin-top: 23px;
+    margin-left: 400px;
 }
 
 nav ul li {
-    margin-left: 20px;
+    margin-left: 30px;
 }
 
 .botonNav {
