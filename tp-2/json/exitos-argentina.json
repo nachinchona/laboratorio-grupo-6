@@ -8,354 +8,2468 @@
         "items": [
             {
                 "track": {
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/4kcQWQDK0u9AftVSpdrAgk"
+                            },
+                            "name": "Luck Ra"
+                        },
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/2UZIAOlrnyZmyzt1nuXr9y"
+                            },
+                            "name": "Nicki Nicole"
+                        }
+                    ],
+                    "album": {
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000b2737458417e3d46d9f336cd0e12",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00001e027458417e3d46d9f336cd0e12",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d000048517458417e3d46d9f336cd0e12",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/3Z9VnhuHM0BmsNUVPWMd7y"
+                        },
+                        "name": "DOCTOR",
+                        "release_date": "2024-08-29"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/5DSMm0BZXlSvqArsTX00Ge"
+                    },
                     "explicit": false,
+                    "preview_url": "https://p.scdn.co/mp3-preview/da1767fc90650adf4da6a6f02eab67e7f660d821?cid=96d19b8fd5ab4cf0b06c69e802c925a1",
                     "name": "DOCTOR",
                     "popularity": 76
                 }
             },
             {
                 "track": {
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/5Y3MV9DZ0d87NnVm56qSY1"
+                            },
+                            "name": "Tiago PZK"
+                        },
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/7FNnA9vBm6EKceENgCGRMb"
+                            },
+                            "name": "Anitta"
+                        },
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/0AqlFI0tz2DsEoJlKSIiT9"
+                            },
+                            "name": "Emilia"
+                        }
+                    ],
+                    "album": {
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000b2731298e171477186c8eb392fea",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00001e021298e171477186c8eb392fea",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d000048511298e171477186c8eb392fea",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/0jEGAl1Uz2PAE6XQyRGBtq"
+                        },
+                        "name": "Alegría",
+                        "release_date": "2024-08-08"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/5v9LMshhQsNtkUkcXRGO7i"
+                    },
                     "explicit": false,
+                    "preview_url": "https://p.scdn.co/mp3-preview/481bfc885494bc41d01803f22a75792d1b8ec5a7?cid=96d19b8fd5ab4cf0b06c69e802c925a1",
                     "name": "Alegría",
                     "popularity": 77
                 }
             },
             {
                 "track": {
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/1DxLCyH42yaHKGK3cl5bvG"
+                            },
+                            "name": "Maria Becerra"
+                        }
+                    ],
+                    "album": {
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000b273fec65c9c713528b0660967e0",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00001e02fec65c9c713528b0660967e0",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00004851fec65c9c713528b0660967e0",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/07QCnsWWoXTgLuU43VfB2u"
+                        },
+                        "name": "AGORA",
+                        "release_date": "2024-09-12"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/0EVxchTHYIgx618OrpcrdQ"
+                    },
                     "explicit": false,
+                    "preview_url": "https://p.scdn.co/mp3-preview/f2aeb80e50280c6b63066fb4aaecb530b2cbd4f7?cid=96d19b8fd5ab4cf0b06c69e802c925a1",
                     "name": "AGORA",
-                    "popularity": 64
+                    "popularity": 67
                 }
             },
             {
                 "track": {
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/790FomKkXshlbRYZFtlgla"
+                            },
+                            "name": "KAROL G"
+                        }
+                    ],
+                    "album": {
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000b273491678beaffcefac517a699e",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00001e02491678beaffcefac517a699e",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00004851491678beaffcefac517a699e",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/5ylbxH7EqpsmHZCRuiYewS"
+                        },
+                        "name": "Si Antes Te Hubiera Conocido",
+                        "release_date": "2024-06-21"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/6WatFBLVB0x077xWeoVc2k"
+                    },
                     "explicit": false,
+                    "preview_url": null,
                     "name": "Si Antes Te Hubiera Conocido",
                     "popularity": 96
                 }
             },
             {
                 "track": {
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/3jO7X5KupvwmWTHGtHgcgo"
+                            },
+                            "name": "Charly García"
+                        }
+                    ],
+                    "album": {
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000b273d2f2b4081256154b9385e389",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00001e02d2f2b4081256154b9385e389",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00004851d2f2b4081256154b9385e389",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/0k2JGzYRZQC3s3ZNTcyHoA"
+                        },
+                        "name": "La Lógica del Escorpión",
+                        "release_date": "2024-09-12"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/3BSA7eRvD25S4oX4rdngpU"
+                    },
                     "explicit": false,
+                    "preview_url": "https://p.scdn.co/mp3-preview/54bba76c1b34f18126e8b29bdf6fdc26ae00906d?cid=96d19b8fd5ab4cf0b06c69e802c925a1",
                     "name": "Rompela",
-                    "popularity": 63
+                    "popularity": 64
                 }
             },
             {
                 "track": {
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/55ru5B05MMBunM1tvH7Di6"
+                            },
+                            "name": "Valentino Merlo"
+                        },
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/4oZolC0sCwCAKqsNXfRlVS"
+                            },
+                            "name": "The La Planta"
+                        }
+                    ],
+                    "album": {
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000b27399978dc39516c09d14409e45",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00001e0299978dc39516c09d14409e45",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000485199978dc39516c09d14409e45",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/4ENi7P1IV01E2jzbHZeKxn"
+                        },
+                        "name": "Hoy",
+                        "release_date": "2024-05-22"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/0SoBfYjQHvL6cuWHtPUYnq"
+                    },
                     "explicit": false,
+                    "preview_url": "https://p.scdn.co/mp3-preview/fe8056d15a7778948466c77fc1aa425ae1d52f06?cid=96d19b8fd5ab4cf0b06c69e802c925a1",
                     "name": "Hoy",
                     "popularity": 83
                 }
             },
             {
                 "track": {
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/60XHOAhvEBiV6BGBOv8ClM"
+                            },
+                            "name": "La Joaqui"
+                        },
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/2eXWodjj5K1vVq2CSjl036"
+                            },
+                            "name": "DobleP"
+                        },
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/5f9pQjPeDbuRF1GowQXo3L"
+                            },
+                            "name": "Gusty dj"
+                        }
+                    ],
+                    "album": {
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000b273dc055793275af3cb09d0c2a3",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00001e02dc055793275af3cb09d0c2a3",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00004851dc055793275af3cb09d0c2a3",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/1iyOjIeFTikF2Tr5nqhGNc"
+                        },
+                        "name": "TERAPIA DE CHOQUE",
+                        "release_date": "2024-07-17"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/1HRUB9L0IRcRHzLVD4pk6C"
+                    },
                     "explicit": false,
+                    "preview_url": "https://p.scdn.co/mp3-preview/4ac2ebf3d09d84d30f5c1aa2b0d122a1f2fc17ee?cid=96d19b8fd5ab4cf0b06c69e802c925a1",
                     "name": "TERAPIA DE CHOQUE",
                     "popularity": 76
                 }
             },
             {
                 "track": {
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/0ZCO8oVkMj897cKgFH7fRW"
+                            },
+                            "name": "Los Ángeles Azules"
+                        },
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/0AqlFI0tz2DsEoJlKSIiT9"
+                            },
+                            "name": "Emilia"
+                        }
+                    ],
+                    "album": {
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000b273f975282219ded7470e667000",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00001e02f975282219ded7470e667000",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00004851f975282219ded7470e667000",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/1fXZxmn9aUIo5Zjx8zQFol"
+                        },
+                        "name": "Perdonarte, ¿Para Qué?",
+                        "release_date": "2024-05-23"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/4dLLdfiniBhDP9dlJQIOi4"
+                    },
                     "explicit": false,
+                    "preview_url": "https://p.scdn.co/mp3-preview/05adc065b8b74e79d602eed843bcd90fdd2a270c?cid=96d19b8fd5ab4cf0b06c69e802c925a1",
                     "name": "Perdonarte, ¿Para Qué?",
-                    "popularity": 82
+                    "popularity": 83
                 }
             },
             {
                 "track": {
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/7dlkBH23ERFXxuNoMHq94Y"
+                            },
+                            "name": "Q' Lokura"
+                        },
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/4kcQWQDK0u9AftVSpdrAgk"
+                            },
+                            "name": "Luck Ra"
+                        }
+                    ],
+                    "album": {
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000b273e8f9c14458416ac581322b40",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00001e02e8f9c14458416ac581322b40",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00004851e8f9c14458416ac581322b40",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/5BI7zRrLecwdHFZ3qzDYNR"
+                        },
+                        "name": "Mil Preguntas",
+                        "release_date": "2024-04-11"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/42mrOMjkQb7jRKatu0bqg4"
+                    },
                     "explicit": false,
+                    "preview_url": "https://p.scdn.co/mp3-preview/832c9f2fbeb2be7a529ef8ac80b4a2a0c04a0d5a?cid=96d19b8fd5ab4cf0b06c69e802c925a1",
                     "name": "Mil Preguntas",
                     "popularity": 74
                 }
             },
             {
                 "track": {
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/3jO7X5KupvwmWTHGtHgcgo"
+                            },
+                            "name": "Charly García"
+                        }
+                    ],
+                    "album": {
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000b273d2f2b4081256154b9385e389",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00001e02d2f2b4081256154b9385e389",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00004851d2f2b4081256154b9385e389",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/0k2JGzYRZQC3s3ZNTcyHoA"
+                        },
+                        "name": "La Lógica del Escorpión",
+                        "release_date": "2024-09-12"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/79thbxA6OpIUMVu8mROice"
+                    },
                     "explicit": false,
+                    "preview_url": "https://p.scdn.co/mp3-preview/4b1ded9b01b63fdbd6b763fa796af869f96b56c0?cid=96d19b8fd5ab4cf0b06c69e802c925a1",
                     "name": "Yo Ya Sé",
-                    "popularity": 62
+                    "popularity": 63
                 }
             },
             {
                 "track": {
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/3vQ0GE3mI0dAaxIMYe5g7z"
+                            },
+                            "name": "Paulo Londra"
+                        },
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/4kcQWQDK0u9AftVSpdrAgk"
+                            },
+                            "name": "Luck Ra"
+                        },
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/55ru5B05MMBunM1tvH7Di6"
+                            },
+                            "name": "Valentino Merlo"
+                        }
+                    ],
+                    "album": {
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000b2736a1452f9a83c490a4d18ef5a",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00001e026a1452f9a83c490a4d18ef5a",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d000048516a1452f9a83c490a4d18ef5a",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/7rd2Pb6dBQvrzgbJU3ihpC"
+                        },
+                        "name": "Princesa",
+                        "release_date": "2024-09-12"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/1db75lVrSgDFZI1gZh8JlV"
+                    },
                     "explicit": false,
+                    "preview_url": "https://p.scdn.co/mp3-preview/8cf87b385ac5e5cb57836dce6ff62a46a4f2d7f6?cid=96d19b8fd5ab4cf0b06c69e802c925a1",
                     "name": "Princesa",
-                    "popularity": 62
+                    "popularity": 64
                 }
             },
             {
                 "track": {
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/2OhUNb01gLwygOizYvTm0e"
+                            },
+                            "name": "Big One"
+                        },
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/1DxLCyH42yaHKGK3cl5bvG"
+                            },
+                            "name": "Maria Becerra"
+                        },
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/2x7PC78TmgqpEIjaGAZ0Oz"
+                            },
+                            "name": "Trueno"
+                        }
+                    ],
+                    "album": {
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000b2738530c1a3956e584fe1ddb2a4",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00001e028530c1a3956e584fe1ddb2a4",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d000048518530c1a3956e584fe1ddb2a4",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/5B3AaoOK8o22cYkdoBOVFI"
+                        },
+                        "name": "Cuando Te Vi | CROSSOVER #5",
+                        "release_date": "2024-06-27"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/5OwAhFlvFZ4ZdGDfroYgAm"
+                    },
                     "explicit": true,
+                    "preview_url": "https://p.scdn.co/mp3-preview/c1baa70938b44be4ee9add99e71c1abf3ce8c4f2?cid=96d19b8fd5ab4cf0b06c69e802c925a1",
                     "name": "Cuando Te Vi | CROSSOVER #5",
                     "popularity": 69
                 }
             },
             {
                 "track": {
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/2Jb9jVnCpWkXtoGznFJ6bF"
+                            },
+                            "name": "ECKO"
+                        },
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/6QVEWdYtBkaJcboEtH5FeB"
+                            },
+                            "name": "Los Turros"
+                        },
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/2eXWodjj5K1vVq2CSjl036"
+                            },
+                            "name": "DobleP"
+                        },
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/1NtRGHzfJ8H7dENIXu1tdk"
+                            },
+                            "name": "Cristian Di Marco"
+                        }
+                    ],
+                    "album": {
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000b273dfc12531e670b0c6da12fd2e",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00001e02dfc12531e670b0c6da12fd2e",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00004851dfc12531e670b0c6da12fd2e",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/0jhYJp2HjjXL4Qr30p8THp"
+                        },
+                        "name": "Loquita - Remix",
+                        "release_date": "2024-05-15"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/2N0hVk2Ant8751xPZUjCV2"
+                    },
                     "explicit": false,
+                    "preview_url": "https://p.scdn.co/mp3-preview/579d2290b3456fa2f79483f9a26b6a8589723102?cid=96d19b8fd5ab4cf0b06c69e802c925a1",
                     "name": "Loquita - Remix",
                     "popularity": 75
                 }
             },
             {
                 "track": {
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/1vqR17Iv8VFdzure1TAXEq"
+                            },
+                            "name": "LIT killah"
+                        },
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/2UZIAOlrnyZmyzt1nuXr9y"
+                            },
+                            "name": "Nicki Nicole"
+                        }
+                    ],
+                    "album": {
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000b273146b47b18f3629b498aca8c0",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00001e02146b47b18f3629b498aca8c0",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00004851146b47b18f3629b498aca8c0",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/3qJoZo7FtGMg9cdTVvrQLX"
+                        },
+                        "name": "Somos 3",
+                        "release_date": "2024-09-12"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/7csEjU6jEvfK606QrqoM0i"
+                    },
                     "explicit": true,
+                    "preview_url": "https://p.scdn.co/mp3-preview/8accf1e8375cf5a25b2a8a87e623b445cf5c23b2?cid=96d19b8fd5ab4cf0b06c69e802c925a1",
                     "name": "Somos 3",
-                    "popularity": 59
+                    "popularity": 61
                 }
             },
             {
                 "track": {
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/4kcQWQDK0u9AftVSpdrAgk"
+                            },
+                            "name": "Luck Ra"
+                        },
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/1JbemQ1fPt2YmSLjAFhPBv"
+                            },
+                            "name": "Chayanne"
+                        }
+                    ],
+                    "album": {
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000b27396b5ecac9bf7478c7da6ace5",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00001e0296b5ecac9bf7478c7da6ace5",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000485196b5ecac9bf7478c7da6ace5",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/4SoT5hvuP9LLXZM2QuV2Pz"
+                        },
+                        "name": "UN SIGLO SIN TI",
+                        "release_date": "2024-07-25"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/2AFC9ad4nGauS1cgm7FCqU"
+                    },
                     "explicit": false,
+                    "preview_url": "https://p.scdn.co/mp3-preview/8a98565666235aeac9b1772bd35db493a89bcf57?cid=96d19b8fd5ab4cf0b06c69e802c925a1",
                     "name": "UN SIGLO SIN TI",
                     "popularity": 78
                 }
             },
             {
                 "track": {
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/2UZIAOlrnyZmyzt1nuXr9y"
+                            },
+                            "name": "Nicki Nicole"
+                        }
+                    ],
+                    "album": {
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000b2738659ce6ed016e9d3551d1944",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00001e028659ce6ed016e9d3551d1944",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d000048518659ce6ed016e9d3551d1944",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/4EeOwzI5OcHYrETtQqkmQk"
+                        },
+                        "name": "Ojos Verdes",
+                        "release_date": "2024-04-24"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/2RmtEc2ZNDCzAU3vH0AbKx"
+                    },
                     "explicit": false,
+                    "preview_url": "https://p.scdn.co/mp3-preview/975cd5602295ae3906692a9349c60ca0ee17f989?cid=96d19b8fd5ab4cf0b06c69e802c925a1",
                     "name": "Ojos Verdes",
                     "popularity": 78
                 }
             },
             {
                 "track": {
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/7dlkBH23ERFXxuNoMHq94Y"
+                            },
+                            "name": "Q' Lokura"
+                        },
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/55ru5B05MMBunM1tvH7Di6"
+                            },
+                            "name": "Valentino Merlo"
+                        }
+                    ],
+                    "album": {
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000b273785da791bbcf68e43accedb3",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00001e02785da791bbcf68e43accedb3",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00004851785da791bbcf68e43accedb3",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/2zsRRXZwCOTRvF8r2m7TRv"
+                        },
+                        "name": "Tu Foto",
+                        "release_date": "2024-05-16"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/3cWo162YkfLIFyB3DWbVoH"
+                    },
                     "explicit": false,
+                    "preview_url": "https://p.scdn.co/mp3-preview/d8df1b697b7db5eb36a3e9bd2bad570284629c65?cid=96d19b8fd5ab4cf0b06c69e802c925a1",
                     "name": "Tu Foto - En Vivo",
-                    "popularity": 75
+                    "popularity": 76
                 }
             },
             {
                 "track": {
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/4kcQWQDK0u9AftVSpdrAgk"
+                            },
+                            "name": "Luck Ra"
+                        },
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/6HTUcOExehqydqa7C3usAa"
+                            },
+                            "name": "Abel Pintos"
+                        }
+                    ],
+                    "album": {
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000b2736d603f143510920defc4f1f6",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00001e026d603f143510920defc4f1f6",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d000048516d603f143510920defc4f1f6",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/10O0BuUEtx9Rs3S9pgUBKd"
+                        },
+                        "name": "QUE ME FALTE TODO",
+                        "release_date": "2023-10-26"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/1NMbORRsowjN8q000xlJ8l"
+                    },
                     "explicit": false,
+                    "preview_url": "https://p.scdn.co/mp3-preview/fb3d633ec294bada4994ce6c40a78f93c743858b?cid=96d19b8fd5ab4cf0b06c69e802c925a1",
                     "name": "QUE ME FALTE TODO",
                     "popularity": 68
                 }
             },
             {
                 "track": {
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/5Y3MV9DZ0d87NnVm56qSY1"
+                            },
+                            "name": "Tiago PZK"
+                        },
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/06Q5VlSAku57lFzyME3HrM"
+                            },
+                            "name": "Ke Personajes"
+                        }
+                    ],
+                    "album": {
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000b2739fb397a0226f89c380f2cfb6",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00001e029fb397a0226f89c380f2cfb6",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d000048519fb397a0226f89c380f2cfb6",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/4HB0tHV2edhM1QJXFYeKLy"
+                        },
+                        "name": "Piel",
+                        "release_date": "2024-02-01"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/4wS0TnQzVkY9ML1BPKpOk1"
+                    },
                     "explicit": true,
+                    "preview_url": "https://p.scdn.co/mp3-preview/3ddb455f6f0ee44f99649ca5aeb6131c07a542b4?cid=96d19b8fd5ab4cf0b06c69e802c925a1",
                     "name": "Piel",
                     "popularity": 78
                 }
             },
             {
                 "track": {
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/3jO7X5KupvwmWTHGtHgcgo"
+                            },
+                            "name": "Charly García"
+                        },
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/48Idb5uZga8diRAMTc9q3E"
+                            },
+                            "name": "David Lebón"
+                        }
+                    ],
+                    "album": {
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000b273d2f2b4081256154b9385e389",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00001e02d2f2b4081256154b9385e389",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00004851d2f2b4081256154b9385e389",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/0k2JGzYRZQC3s3ZNTcyHoA"
+                        },
+                        "name": "La Lógica del Escorpión",
+                        "release_date": "2024-09-12"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/3yN6KXgZZfe6SVjRytj5Z2"
+                    },
                     "explicit": false,
+                    "preview_url": "https://p.scdn.co/mp3-preview/2d70c1a93174807cc8974c0e2d4207cde453ec79?cid=96d19b8fd5ab4cf0b06c69e802c925a1",
                     "name": "La Medicina Nº 9",
-                    "popularity": 60
+                    "popularity": 61
                 }
             },
             {
                 "track": {
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/17SY5q1CMOZJBRuPcKWwPI"
+                            },
+                            "name": "J Abdiel"
+                        },
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/54seKvtsZauR1iauN0ptpo"
+                            },
+                            "name": "De La Rose"
+                        },
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/6TKygPpVT29oGUogu4J9Ec"
+                            },
+                            "name": "Yan Block"
+                        },
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/4s6Xg38sbqh4xpf4OqhVUK"
+                            },
+                            "name": "iZaak"
+                        },
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/2cPqdH7XMvwaBJEVjheH8g"
+                            },
+                            "name": "Jay Wheeler"
+                        }
+                    ],
+                    "album": {
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000b273b74935c2ae87cf1754391dc9",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00001e02b74935c2ae87cf1754391dc9",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00004851b74935c2ae87cf1754391dc9",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/4KparoC39Qn5NatBrMA7nN"
+                        },
+                        "name": "WYA REMIX RED",
+                        "release_date": "2024-05-10"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/4YnmQG1fnJR9LnTZtix70T"
+                    },
                     "explicit": true,
+                    "preview_url": "https://p.scdn.co/mp3-preview/5421a5574c5b523ca0df61f748d05d7e60dcac11?cid=96d19b8fd5ab4cf0b06c69e802c925a1",
                     "name": "WYA REMIX RED",
                     "popularity": 84
                 }
             },
             {
                 "track": {
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/7CvTknweLr9feJtRGrpDBy"
+                            },
+                            "name": "FloyyMenor"
+                        },
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/6U574RAq08wVaurzSaqEY3"
+                            },
+                            "name": "Lewis Somes"
+                        }
+                    ],
+                    "album": {
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000b273654c2006f5603f806c6eb286",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00001e02654c2006f5603f806c6eb286",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00004851654c2006f5603f806c6eb286",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/3tgMwB1zSEt1CqCdJ3zytF"
+                        },
+                        "name": "APAGA EL CEL",
+                        "release_date": "2024-05-17"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/4yyCGGdTVaYG17vhsrUPoL"
+                    },
                     "explicit": true,
+                    "preview_url": "https://p.scdn.co/mp3-preview/9b4df5d6e095927a0736cfc456885746165a00c0?cid=96d19b8fd5ab4cf0b06c69e802c925a1",
                     "name": "APAGA EL CEL",
                     "popularity": 83
                 }
             },
             {
                 "track": {
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/5RopQXy9tobYADC0GZyLVb"
+                            },
+                            "name": "elaggume"
+                        },
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/2Jb9jVnCpWkXtoGznFJ6bF"
+                            },
+                            "name": "ECKO"
+                        },
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/5xIOUIBQhGFX7HIj8lhdyU"
+                            },
+                            "name": "Omar Varela"
+                        },
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/5OnpSUKZU23JCU8axe7b2P"
+                            },
+                            "name": "Fauna Music"
+                        }
+                    ],
+                    "album": {
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000b273a84a6938da14f966941265d4",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00001e02a84a6938da14f966941265d4",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00004851a84a6938da14f966941265d4",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/1QGuXd9G1ymlQMq50ofEek"
+                        },
+                        "name": "SOLTERO",
+                        "release_date": "2024-05-30"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/7ytAHohytO1TxO9yF5vn7d"
+                    },
                     "explicit": false,
+                    "preview_url": "https://p.scdn.co/mp3-preview/160f285fb1f598c4510386e0619707adaeb190c3?cid=96d19b8fd5ab4cf0b06c69e802c925a1",
                     "name": "SOLTERO",
                     "popularity": 71
                 }
             },
             {
                 "track": {
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/3WMlRpW5JWuDI95TcEWt3r"
+                            },
+                            "name": "Salastkbron"
+                        },
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/5xIOUIBQhGFX7HIj8lhdyU"
+                            },
+                            "name": "Omar Varela"
+                        }
+                    ],
+                    "album": {
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000b2735bf52fae014832ff34ea6faa",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00001e025bf52fae014832ff34ea6faa",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d000048515bf52fae014832ff34ea6faa",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/6xKpzZVah8P8ybxXDOG4Ad"
+                        },
+                        "name": "444",
+                        "release_date": "2024-06-06"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/1MCArCVJUgBUrBnzUoZqmq"
+                    },
                     "explicit": false,
+                    "preview_url": "https://p.scdn.co/mp3-preview/ec18f13bcf761a1d23bd01e48d1150e3e62579de?cid=96d19b8fd5ab4cf0b06c69e802c925a1",
                     "name": "Dimelo Mami",
                     "popularity": 67
                 }
             },
             {
                 "track": {
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/3UTF2no3muGdiFXVujl94i"
+                            },
+                            "name": "Kapo"
+                        }
+                    ],
+                    "album": {
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000b27379945367a260e985a4471dc3",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00001e0279945367a260e985a4471dc3",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000485179945367a260e985a4471dc3",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/5H7sO778w4hgr2v2600ajN"
+                        },
+                        "name": "UWAIE",
+                        "release_date": "2024-08-15"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/5QjmUqgpPQgXgg4606DqZF"
+                    },
                     "explicit": false,
+                    "preview_url": "https://p.scdn.co/mp3-preview/1c5f61958fb04b0d3f6af10d66ffdb708b428096?cid=96d19b8fd5ab4cf0b06c69e802c925a1",
                     "name": "UWAIE",
                     "popularity": 89
                 }
             },
             {
                 "track": {
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/0AqlFI0tz2DsEoJlKSIiT9"
+                            },
+                            "name": "Emilia"
+                        }
+                    ],
+                    "album": {
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000b273da84cd82350fffd9ea160fae",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00001e02da84cd82350fffd9ea160fae",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00004851da84cd82350fffd9ea160fae",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/4hrs3KFCvbn6OWadD2qio4"
+                        },
+                        "name": "La_Playlist.mpeg",
+                        "release_date": "2024-06-20"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/0Cs2ANiGsCOQLKnCrNJ6hA"
+                    },
                     "explicit": false,
+                    "preview_url": "https://p.scdn.co/mp3-preview/acdbf8059a3e0b0e84f1fa1b51b47d708789aba9?cid=96d19b8fd5ab4cf0b06c69e802c925a1",
                     "name": "La_Playlist.mpeg",
                     "popularity": 77
                 }
             },
             {
                 "track": {
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/19HM5j0ULGSmEoRcrSe5x3"
+                            },
+                            "name": "Milo j"
+                        }
+                    ],
+                    "album": {
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000b273849b53ac432d482b9312f1cc",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00001e02849b53ac432d482b9312f1cc",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00004851849b53ac432d482b9312f1cc",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/6apkynw8DBUza2600Wm70t"
+                        },
+                        "name": "166",
+                        "release_date": "2024-07-11"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/16iLGYXMiLUhvqTEIu4pKB"
+                    },
                     "explicit": true,
+                    "preview_url": "https://p.scdn.co/mp3-preview/7f149cafe4d135e7746df097b747afe564cb3f41?cid=96d19b8fd5ab4cf0b06c69e802c925a1",
                     "name": "3 PECADOS DESPUES…",
                     "popularity": 80
                 }
             },
             {
                 "track": {
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/5Y3MV9DZ0d87NnVm56qSY1"
+                            },
+                            "name": "Tiago PZK"
+                        },
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/0tmwSHipWxN12fsoLcFU3B"
+                            },
+                            "name": "Manuel Turizo"
+                        }
+                    ],
+                    "album": {
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000b273981fb242b648850e0853881f",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00001e02981fb242b648850e0853881f",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00004851981fb242b648850e0853881f",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/3s6jmSUxBLRxzKdevnFmJS"
+                        },
+                        "name": "GOTTI A",
+                        "release_date": "2024-07-04"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/5eAYNG0ul2CutxVSzY61lz"
+                    },
                     "explicit": false,
+                    "preview_url": "https://p.scdn.co/mp3-preview/cebf47e6368c9d6bee1a6aeac889512ce77df2fb?cid=96d19b8fd5ab4cf0b06c69e802c925a1",
                     "name": "De Vuelta",
                     "popularity": 73
                 }
             },
             {
                 "track": {
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/5RopQXy9tobYADC0GZyLVb"
+                            },
+                            "name": "elaggume"
+                        },
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/5OnpSUKZU23JCU8axe7b2P"
+                            },
+                            "name": "Fauna Music"
+                        },
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/133e2UQ9uCSvJaN1awjZFY"
+                            },
+                            "name": "Coco Palmer"
+                        }
+                    ],
+                    "album": {
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000b273b4b366bb44d003abb2dcdee7",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00001e02b4b366bb44d003abb2dcdee7",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00004851b4b366bb44d003abb2dcdee7",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/2pT9dWP5sqm4FipajPLVpw"
+                        },
+                        "name": "TATTOO",
+                        "release_date": "2024-05-02"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/4kGGnJmqYqn6RQ9LMfvPcv"
+                    },
                     "explicit": true,
+                    "preview_url": "https://p.scdn.co/mp3-preview/a0af7613303530a1cce6fc63c1c00fde4a37a686?cid=96d19b8fd5ab4cf0b06c69e802c925a1",
                     "name": "TATTOO",
                     "popularity": 70
                 }
             },
             {
                 "track": {
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/3WMlRpW5JWuDI95TcEWt3r"
+                            },
+                            "name": "Salastkbron"
+                        },
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/2sp0CxickfFJun08JtXgiA"
+                            },
+                            "name": "Diel Paris"
+                        }
+                    ],
+                    "album": {
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000b2735a2df7f98f2a72532482a673",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00001e025a2df7f98f2a72532482a673",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d000048515a2df7f98f2a72532482a673",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/6lrNHcXSOvN82VYYtL9wCs"
+                        },
+                        "name": "Un Besito Más",
+                        "release_date": "2024-03-14"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/5rQSQlZXXjMcevPGoAfE1z"
+                    },
                     "explicit": false,
+                    "preview_url": "https://p.scdn.co/mp3-preview/f734a2a81c06355fb40380ebdfde361c519fb823?cid=96d19b8fd5ab4cf0b06c69e802c925a1",
                     "name": "Un Besito Más",
                     "popularity": 75
                 }
             },
             {
                 "track": {
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/2OhUNb01gLwygOizYvTm0e"
+                            },
+                            "name": "Big One"
+                        },
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/2BTS8Np1YzPQuXjgdlqsBB"
+                            },
+                            "name": "Emanero"
+                        },
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/55ru5B05MMBunM1tvH7Di6"
+                            },
+                            "name": "Valentino Merlo"
+                        }
+                    ],
+                    "album": {
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000b273aa5f1febee156636214656f0",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00001e02aa5f1febee156636214656f0",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00004851aa5f1febee156636214656f0",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/2nEAqrVGMybdrkN3gP9NGF"
+                        },
+                        "name": "Si Un Día Estás Sola | CROSSOVER #7",
+                        "release_date": "2024-09-03"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/5AkLEnorFvb7WIJOGqKYVT"
+                    },
                     "explicit": false,
+                    "preview_url": "https://p.scdn.co/mp3-preview/6ed4579b2b1bf4a6da12e36c97af1a07d710aa02?cid=96d19b8fd5ab4cf0b06c69e802c925a1",
                     "name": "Si Un Día Estás Sola | CROSSOVER #7",
-                    "popularity": 68
+                    "popularity": 69
                 }
             },
             {
                 "track": {
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/6k8mwkKJKKjBILo7ypBspl"
+                            },
+                            "name": "Ana Mena"
+                        },
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/0AqlFI0tz2DsEoJlKSIiT9"
+                            },
+                            "name": "Emilia"
+                        }
+                    ],
+                    "album": {
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000b273ebd1f4fb61032559a12f494e",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00001e02ebd1f4fb61032559a12f494e",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00004851ebd1f4fb61032559a12f494e",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/6TRRRmLdBwtELfN4EYeYSM"
+                        },
+                        "name": "CARITA TRISTE",
+                        "release_date": "2024-08-30"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/2mYlSgPvC5Np4mDg9DU5Mc"
+                    },
                     "explicit": false,
+                    "preview_url": "https://p.scdn.co/mp3-preview/348d0217a1c3becd19fd0f24eb9fd809fb174b27?cid=96d19b8fd5ab4cf0b06c69e802c925a1",
                     "name": "CARITA TRISTE",
                     "popularity": 76
                 }
             },
             {
                 "track": {
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/2BTS8Np1YzPQuXjgdlqsBB"
+                            },
+                            "name": "Emanero"
+                        },
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/1QZuAtDYNrk2QMogJulsyq"
+                            },
+                            "name": "Karina"
+                        },
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/6iYRN5eaz8LSxvwkhmwkRj"
+                            },
+                            "name": "j mena"
+                        },
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/6LZA6PhNCwUfHzqfpN1nYL"
+                            },
+                            "name": "Angela Torres"
+                        }
+                    ],
+                    "album": {
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000b273920fefc849f024967c853c90",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00001e02920fefc849f024967c853c90",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00004851920fefc849f024967c853c90",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/2j4yf0X00zieL424k90UVn"
+                        },
+                        "name": "SINVERGÜENZA - con Angela Torres",
+                        "release_date": "2023-12-05"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/2xbH0CuDbid800YW5nMPzR"
+                    },
                     "explicit": false,
+                    "preview_url": "https://p.scdn.co/mp3-preview/ebec694c8c8a6a6cedc8a3ebc3ad48bb93c6c1a5?cid=96d19b8fd5ab4cf0b06c69e802c925a1",
                     "name": "SINVERGÜENZA - con Angela Torres",
                     "popularity": 73
                 }
             },
             {
                 "track": {
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/7dlkBH23ERFXxuNoMHq94Y"
+                            },
+                            "name": "Q' Lokura"
+                        }
+                    ],
+                    "album": {
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000b273ac99fa258212d9d0472d832c",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00001e02ac99fa258212d9d0472d832c",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00004851ac99fa258212d9d0472d832c",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/2iDxLzsD09N23JARBiIGPA"
+                        },
+                        "name": "Cuarteto Sessions #3",
+                        "release_date": "2023-12-30"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/28v5fIoIa2Y07nqAXgBcXC"
+                    },
                     "explicit": false,
+                    "preview_url": "https://p.scdn.co/mp3-preview/08e09c8379f5bb6e04d778977d01fff5d62e91f0?cid=96d19b8fd5ab4cf0b06c69e802c925a1",
                     "name": "Cuarteto Sessions #3",
-                    "popularity": 53
+                    "popularity": 52
                 }
             },
             {
                 "track": {
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/4kcQWQDK0u9AftVSpdrAgk"
+                            },
+                            "name": "Luck Ra"
+                        },
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/2UqRkW2wfEkZmyvKyTTv2W"
+                            },
+                            "name": "Ulises Bueno"
+                        }
+                    ],
+                    "album": {
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000b273c74ad4347be109b552a738ba",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00001e02c74ad4347be109b552a738ba",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00004851c74ad4347be109b552a738ba",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/13Uyz9aJHEkfWPtt7b9lTG"
+                        },
+                        "name": "QUE SED",
+                        "release_date": "2024-03-22"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/4GLmfc26LRlW5otKs6TewR"
+                    },
                     "explicit": false,
+                    "preview_url": "https://p.scdn.co/mp3-preview/f9d45ba57ac2c51fb63b2425da1ddafb44abc5f3?cid=96d19b8fd5ab4cf0b06c69e802c925a1",
                     "name": "QUE SED",
                     "popularity": 67
                 }
             },
             {
                 "track": {
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/60XHOAhvEBiV6BGBOv8ClM"
+                            },
+                            "name": "La Joaqui"
+                        }
+                    ],
+                    "album": {
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000b273650b9c1e1291e1ad60649e78",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00001e02650b9c1e1291e1ad60649e78",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00004851650b9c1e1291e1ad60649e78",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/0Fp8YIrA3udbfxtjtC6PJd"
+                        },
+                        "name": "SAN TURRONA",
+                        "release_date": "2024-05-16"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/0EOynYGvn9TbAyKPyMAStL"
+                    },
                     "explicit": true,
+                    "preview_url": "https://p.scdn.co/mp3-preview/da28cfa0cd7eaca6165162bd910c0011b441954c?cid=96d19b8fd5ab4cf0b06c69e802c925a1",
                     "name": "SAN TURRONA",
                     "popularity": 75
                 }
             },
             {
                 "track": {
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/1DxLCyH42yaHKGK3cl5bvG"
+                            },
+                            "name": "Maria Becerra"
+                        }
+                    ],
+                    "album": {
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000b273d5e5c90215385815a0e23af8",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00001e02d5e5c90215385815a0e23af8",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00004851d5e5c90215385815a0e23af8",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/6wDJCPLe4cheYx7dWJQavb"
+                        },
+                        "name": "IMAN (Two Of Us)",
+                        "release_date": "2024-05-16"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/3sra6aEWWDXUiy46fWQobH"
+                    },
                     "explicit": false,
+                    "preview_url": "https://p.scdn.co/mp3-preview/28e22f115f648599aaedccba94deeb58512a7f11?cid=96d19b8fd5ab4cf0b06c69e802c925a1",
                     "name": "IMAN (Two Of Us)",
                     "popularity": 75
                 }
             },
             {
                 "track": {
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/7aqaIr9F3tHP7BMsmfAL8Z"
+                            },
+                            "name": "El Turko"
+                        },
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/2mrlK4Ow9Fb9U50qbkRMZd"
+                            },
+                            "name": "Mandale Flow"
+                        }
+                    ],
+                    "album": {
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000b27379036a2b0cac89fe1ab6dc2a",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00001e0279036a2b0cac89fe1ab6dc2a",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000485179036a2b0cac89fe1ab6dc2a",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/1gH4rdxJyj8q8fakRAvQHg"
+                        },
+                        "name": "30 Grados",
+                        "release_date": "2024-01-26"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/0GVPemmAwkXhFlYimhdDr3"
+                    },
                     "explicit": true,
+                    "preview_url": "https://p.scdn.co/mp3-preview/408cee101d2b51c5900cf319f89c32aab5afd320?cid=96d19b8fd5ab4cf0b06c69e802c925a1",
                     "name": "30 GRADOS",
                     "popularity": 69
                 }
             },
             {
                 "track": {
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/0AqlFI0tz2DsEoJlKSIiT9"
+                            },
+                            "name": "Emilia"
+                        },
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/7vXDAI8JwjW531ouMGbfcp"
+                            },
+                            "name": "TINI"
+                        }
+                    ],
+                    "album": {
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000b2732983489963bd8eb4d18916fc",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00001e022983489963bd8eb4d18916fc",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d000048512983489963bd8eb4d18916fc",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/54okOxhsxH5Lmxgdv4WwKN"
+                        },
+                        "name": "La_Original.mp3",
+                        "release_date": "2023-11-02"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/6VjagyaPDsRal64aHXNIUY"
+                    },
                     "explicit": false,
+                    "preview_url": "https://p.scdn.co/mp3-preview/ef94ea5c61f3ae9bb0f24f8aa11c9bacbdfe5643?cid=96d19b8fd5ab4cf0b06c69e802c925a1",
                     "name": "La_Original.mp3",
                     "popularity": 65
                 }
             },
             {
                 "track": {
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/3WMlRpW5JWuDI95TcEWt3r"
+                            },
+                            "name": "Salastkbron"
+                        },
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/5xIOUIBQhGFX7HIj8lhdyU"
+                            },
+                            "name": "Omar Varela"
+                        }
+                    ],
+                    "album": {
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000b2733d726bb2f492a00b25f320fa",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00001e023d726bb2f492a00b25f320fa",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d000048513d726bb2f492a00b25f320fa",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/2rqHSa1Lohs3fTDDFeFnBy"
+                        },
+                        "name": "Tal Para Cual",
+                        "release_date": "2024-01-11"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/0mJRX0WnqWlu8Boe7gpQ1P"
+                    },
                     "explicit": false,
+                    "preview_url": "https://p.scdn.co/mp3-preview/92fc4a2927967ae0df80f26b7125668eda2570d7?cid=96d19b8fd5ab4cf0b06c69e802c925a1",
                     "name": "Tal Para Cual",
                     "popularity": 70
                 }
             },
             {
                 "track": {
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/2OhUNb01gLwygOizYvTm0e"
+                            },
+                            "name": "Big One"
+                        },
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/2Eo4Yaukt9d6dnZrY5hQKi"
+                            },
+                            "name": "Ciro y los Persas"
+                        },
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/2eEmsgWmUFMbtU7agJpnjY"
+                            },
+                            "name": "Miranda!"
+                        }
+                    ],
+                    "album": {
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000b27362d5974845d98495a2f95ba8",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00001e0262d5974845d98495a2f95ba8",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000485162d5974845d98495a2f95ba8",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/5BtAmX3V5FPwiFYSlJYa8C"
+                        },
+                        "name": "A Donde Vas Si Te Vas | CROSSOVER #6",
+                        "release_date": "2024-08-20"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/35XYCdq5WIInKAk40fXlNS"
+                    },
                     "explicit": false,
+                    "preview_url": "https://p.scdn.co/mp3-preview/3f0d7d548fd2e01731027e60942c70e45d318c16?cid=96d19b8fd5ab4cf0b06c69e802c925a1",
                     "name": "A Donde Vas Si Te Vas | CROSSOVER #6",
                     "popularity": 66
                 }
             },
             {
                 "track": {
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/19HM5j0ULGSmEoRcrSe5x3"
+                            },
+                            "name": "Milo j"
+                        }
+                    ],
+                    "album": {
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000b273303962b47422064d8ebc9bb5",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00001e02303962b47422064d8ebc9bb5",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00004851303962b47422064d8ebc9bb5",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/3AROvUBUe1mMAauVt73kRF"
+                        },
+                        "name": "1 1 1",
+                        "release_date": "2023-11-30"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/6ERI20r4GlgPI6ZDVLcGMO"
+                    },
                     "explicit": false,
+                    "preview_url": "https://p.scdn.co/mp3-preview/6b3731e90c2a5be79a223174e3781b93af906259?cid=96d19b8fd5ab4cf0b06c69e802c925a1",
                     "name": "M.A.I",
                     "popularity": 9
                 }
             },
             {
                 "track": {
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/2eXWodjj5K1vVq2CSjl036"
+                            },
+                            "name": "DobleP"
+                        },
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/3WMlRpW5JWuDI95TcEWt3r"
+                            },
+                            "name": "Salastkbron"
+                        },
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/5f9pQjPeDbuRF1GowQXo3L"
+                            },
+                            "name": "Gusty dj"
+                        }
+                    ],
+                    "album": {
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000b27301f1968aea88fd6f729263f0",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00001e0201f1968aea88fd6f729263f0",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000485101f1968aea88fd6f729263f0",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/1opiHmX43rg1QONktnVcd7"
+                        },
+                        "name": "UH LA LA LA",
+                        "release_date": "2024-03-21"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/2eV3pmYGM1bm1vWHc0t8WF"
+                    },
                     "explicit": false,
+                    "preview_url": "https://p.scdn.co/mp3-preview/7520254b1ed09f699507b64908a6cf88befa20ba?cid=96d19b8fd5ab4cf0b06c69e802c925a1",
                     "name": "UH LA LA LA",
                     "popularity": 67
                 }
             },
             {
                 "track": {
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/2x7PC78TmgqpEIjaGAZ0Oz"
+                            },
+                            "name": "Trueno"
+                        }
+                    ],
+                    "album": {
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000b27368a450f7bcdc187e20f0ba0a",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00001e0268a450f7bcdc187e20f0ba0a",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000485168a450f7bcdc187e20f0ba0a",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/3EWJoKrG9XnCjvAPzkQZ88"
+                        },
+                        "name": "EL ÚLTIMO BAILE",
+                        "release_date": "2024-05-23"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/1pymWRCuZfCd0zdiBJo0Hj"
+                    },
                     "explicit": true,
+                    "preview_url": "https://p.scdn.co/mp3-preview/2f10aa6bf08d7c4b1a7737c3accb9b738f885c73?cid=96d19b8fd5ab4cf0b06c69e802c925a1",
                     "name": "REAL GANGSTA LOVE",
                     "popularity": 89
                 }
             },
             {
                 "track": {
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/3UTF2no3muGdiFXVujl94i"
+                            },
+                            "name": "Kapo"
+                        }
+                    ],
+                    "album": {
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000b273bec27af08f82b25eb198be4d",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00001e02bec27af08f82b25eb198be4d",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00004851bec27af08f82b25eb198be4d",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/3IdVqIfyLPqxPZusYgifLo"
+                        },
+                        "name": "Ohnana",
+                        "release_date": "2024-06-06"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/1fTjqf10accJCDYstPwwZ6"
+                    },
                     "explicit": false,
+                    "preview_url": "https://p.scdn.co/mp3-preview/f71b962af9adf9597e0a6446ce4291389d56be4c?cid=96d19b8fd5ab4cf0b06c69e802c925a1",
                     "name": "Ohnana",
                     "popularity": 89
                 }
             },
             {
                 "track": {
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/2LRoIwlKmHjgvigdNGBHNo"
+                            },
+                            "name": "Feid"
+                        },
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/7jAs1uPnpfNmT6e5qtEPxq"
+                            },
+                            "name": "ATL Jacob"
+                        }
+                    ],
+                    "album": {
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000b273f1aad814a40ec7419c234242",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00001e02f1aad814a40ec7419c234242",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00004851f1aad814a40ec7419c234242",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/0lgs2Sa82lyX89nBUWyUy6"
+                        },
+                        "name": "FERXXOCALIPSIS",
+                        "release_date": "2023-12-01"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/7bywjHOc0wSjGGbj04XbVi"
+                    },
                     "explicit": false,
+                    "preview_url": null,
                     "name": "LUNA",
                     "popularity": 90
                 }
             },
             {
                 "track": {
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/6B1hSmaLdOvChinK2Z7gfi"
+                            },
+                            "name": "Maisak"
+                        },
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/2LRoIwlKmHjgvigdNGBHNo"
+                            },
+                            "name": "Feid"
+                        }
+                    ],
+                    "album": {
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000b273edd9fbb8df345ace64a558d7",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00001e02edd9fbb8df345ace64a558d7",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00004851edd9fbb8df345ace64a558d7",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/00ESTj1vBUkIbaTHaXaXu3"
+                        },
+                        "name": "SE ME OLVIDA",
+                        "release_date": "2024-08-23"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/2gmd7lY3QSzLh0xIY4cRvi"
+                    },
                     "explicit": true,
+                    "preview_url": null,
                     "name": "SE ME OLVIDA",
                     "popularity": 87
                 }
             },
             {
                 "track": {
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/4s6Xg38sbqh4xpf4OqhVUK"
+                            },
+                            "name": "iZaak"
+                        },
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/6nVcHLIgY5pE2YCl8ubca1"
+                            },
+                            "name": "JHAYCO"
+                        },
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/2R21vXR83lH98kGeO99Y66"
+                            },
+                            "name": "Anuel AA"
+                        }
+                    ],
+                    "album": {
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000b2735f516e13e1b417769a0a7cdd",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00001e025f516e13e1b417769a0a7cdd",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d000048515f516e13e1b417769a0a7cdd",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/4Rx0nQkh5sR1O0Z8lBgig9"
+                        },
+                        "name": "BBY BOO (REMIX)",
+                        "release_date": "2024-03-27"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/43PiEypaceH339CSNiggyj"
+                    },
                     "explicit": true,
+                    "preview_url": "https://p.scdn.co/mp3-preview/ea43faebdf6df757cd32c123133c94f97fa86df3?cid=96d19b8fd5ab4cf0b06c69e802c925a1",
                     "name": "BBY BOO - REMIX",
                     "popularity": 79
                 }
             },
             {
                 "track": {
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/74KM79TiuVKeVCqs8QtB0B"
+                            },
+                            "name": "Sabrina Carpenter"
+                        }
+                    ],
+                    "album": {
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000b273fd8d7a8d96871e791cb1f626",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00001e02fd8d7a8d96871e791cb1f626",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00004851fd8d7a8d96871e791cb1f626",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/3iPSVi54hsacKKl1xIR2eH"
+                        },
+                        "name": "Short n' Sweet",
+                        "release_date": "2024-08-23"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/5G2f63n7IPVPPjfNIGih7Q"
+                    },
                     "explicit": false,
+                    "preview_url": null,
                     "name": "Taste",
                     "popularity": 95
                 }
             },
             {
                 "track": {
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/1oSPZhvZMIrWW5I41kPkkY"
+                            },
+                            "name": "Jimin"
+                        }
+                    ],
+                    "album": {
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000b273f02c451189a709b9a952aaec",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00001e02f02c451189a709b9a952aaec",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00004851f02c451189a709b9a952aaec",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/15XcLhiVMlSOipUddTNDnr"
+                        },
+                        "name": "MUSE",
+                        "release_date": "2024-07-19"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/7tI8dRuH2Yc6RuoTjxo4dU"
+                    },
                     "explicit": false,
+                    "preview_url": "https://p.scdn.co/mp3-preview/02687a01e9ec00f4e947f39e910c7e0c6fa83e10?cid=96d19b8fd5ab4cf0b06c69e802c925a1",
                     "name": "Who",
                     "popularity": 94
                 }
             }
         ]
-    }
+    },
+    "name": "Éxitos Argentina",
+    "description": "Si la rompe está acá. Foto: Nicki Nicole & Luck Ra."
 }
