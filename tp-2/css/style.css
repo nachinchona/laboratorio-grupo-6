@@ -19,18 +19,54 @@ body {
     background: #666666;
 }
 
-.fotoPlaylist {
+.playlist img {
     width: 60px;
     height: 60px;
     border-radius: 15px;
 }
 
+.cancion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 40px;
+    padding: 12px 12px;
+    width: 1000px;
+    height: 80px;
+    border: 1px solid white;
+    border-radius: 15px;
+    background: #666666;
+}
+
 .botonDesplegar {
+    position: relative;
     background-color:transparent;
-    border-style: inset;
-    border-color: transparent;
     border-radius: 100px;
     transition: background-color 0.3s ease;
+}
+
+.botonDesplegar label input[type=checkbox] {
+    display: none;
+    position: absolute;
+    width: 45px;
+    height: 52px;
+    left:-4px;
+    top:-5px;
+    clip-path: circle(47% at 50% 50%);
+}
+
+.botonDesplegar label input[type=checkbox] + svg {
+    transition-duration: 0.2s;
+    transition-property: transform;
+    transform: rotate(270deg);
+}
+
+.botonDesplegar label input[type=checkbox]:checked + svg {
+    transition-duration: 0.2s;
+    transition-property: transform;
+    transform: rotate(360deg);
 }
 
 .botonDesplegar:hover {
@@ -41,15 +77,16 @@ body {
     background-color: #FFF;
 }
 
-.flecha {
-    margin-top: 5px;
-    margin-left: 2px;
+.botonDesplegar svg {
+    padding: 4px 6px 4px 6px;
+    margin-top: 4px;
+    margin-left: 3px;
 }
 
 nav {
     background-color: rgb(24, 24, 24);
     margin-top: 10px;
-    margin-inline: -10px;
+    margin-inline: -8px;
     border-style:solid;
     border-color: #111;
     padding: 10px 20px;
@@ -58,14 +95,14 @@ nav {
     justify-content: space-between;
 }
 
-#logo {
-    width: 60px;
-    height: 60px;
-}
-
-#logo-titulo {
+#logoTitulo {
     display: flex;
     align-items: center;
+}
+
+#logoTitulo img {
+    width: 60px;
+    height: 60px;
 }
 
 nav h1 {
@@ -95,15 +132,4 @@ nav ul li {
 .botonNav:hover {
     background-color: #555;
     border-radius: 5px;
-}
-
-.cajaPreguntas{
-content: "\2B22";
-  display:block;
-  color: magenta;
-  font-size:135px;
-  -webkit-transform: rotate(-30deg);
-  -moz-transform: rotate(-30deg);
-  -o-transform: rotate(-30deg);
-  transform: rotate(-30deg);
 }
