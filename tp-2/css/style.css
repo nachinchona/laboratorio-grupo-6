@@ -28,13 +28,14 @@ body {
 .cancion {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    list-style: none;
+    position : absolute;
     box-sizing: border-box;
-    margin: auto;
-    margin-top: 40px;
+    margin-left: 117px;
+    margin-top: 230px;
     padding: 12px 12px;
-    width: 1000px;
-    height: 80px;
+    width: 870px;
+    height: 120px;
     border: 1px solid white;
     border-radius: 15px;
     background: #666666;
