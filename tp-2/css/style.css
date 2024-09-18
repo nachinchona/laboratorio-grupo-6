@@ -19,10 +19,18 @@ body {
     background: #666666;
 }
 
-.playlist img {
+.playlist .fotoYNombre {
+    display: flex;
+}
+
+.playlist .fotoYNombre img {
     width: 60px;
     height: 60px;
     border-radius: 15px;
+}
+
+.playlist .fotoYNombre h3 {
+    margin-left: 20px;
 }
 
 .cancion {
@@ -52,8 +60,8 @@ body {
     position: absolute;
     width: 45px;
     height: 52px;
-    left:-4px;
-    top:-5px;
+    left:-3px;
+    top:-3px;
     clip-path: circle(47% at 50% 50%);
 }
 
