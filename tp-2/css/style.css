@@ -43,21 +43,30 @@ body {
 .botonDesplegar {
     position: relative;
     background-color:transparent;
-    /*border-color: transparent;*/
     border-radius: 100px;
-
-    border-color: #111;
     transition: background-color 0.3s ease;
 }
 
-.botonDesplegar input[type=checkbox] {
-    display:none;
+.botonDesplegar label input[type=checkbox] {
+    display: none;
     position: absolute;
     width: 45px;
     height: 52px;
     left:-4px;
     top:-5px;
     clip-path: circle(47% at 50% 50%);
+}
+
+.botonDesplegar label input[type=checkbox] + svg {
+    transition-duration: 0.2s;
+    transition-property: transform;
+    transform: rotate(270deg);
+}
+
+.botonDesplegar label input[type=checkbox]:checked + svg {
+    transition-duration: 0.2s;
+    transition-property: transform;
+    transform: rotate(360deg);
 }
 
 .botonDesplegar:hover {
@@ -68,10 +77,10 @@ body {
     background-color: #FFF;
 }
 
-.flecha {
+.botonDesplegar svg {
     padding: 4px 6px 4px 6px;
-    margin-top: 6px;
-    margin-left: 2px;
+    margin-top: 4px;
+    margin-left: 3px;
 }
 
 nav {
