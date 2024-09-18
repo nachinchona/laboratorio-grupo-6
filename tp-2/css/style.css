@@ -4,7 +4,7 @@ body {
     background-color: #333;
 }
 
-.playlist {
+.barraPlaylist {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -19,17 +19,26 @@ body {
     background: #666666;
 }
 
-.playlist .fotoYNombre {
-    display: flex;
+.barraPlaylist:has(.botonDesplegar) + .canciones {
+    display: grid;
+    overflow: hidden;
+    max-height: 0px;
+    transition: max-height 1s ease;
 }
 
-.playlist .fotoYNombre img {
+.barraPlaylist:has(.botonDesplegar input:checked) + .canciones {
+    /*horrible pero bueno despues con js se puede ver*/
+    max-height: 99999px;
+}
+
+.barraPlaylist img {
     width: 60px;
     height: 60px;
     border-radius: 15px;
 }
 
-.playlist .fotoYNombre h3 {
+.barraPlaylist h3 {
+    margin-right: auto;
     margin-left: 20px;
 }
 
@@ -41,11 +50,22 @@ body {
     margin: auto;
     margin-top: 40px;
     padding: 12px 12px;
-    width: 1000px;
+    width: 700px;
     height: 80px;
     border: 1px solid white;
     border-radius: 15px;
     background: #666666;
+}
+
+.cancion img {
+    width: 60px;
+    height: 60px;
+    border-radius: 15px;
+}
+
+.cancion h3 {
+    margin-right: auto;
+    margin-left: 20px;
 }
 
 .botonDesplegar {
@@ -134,6 +154,7 @@ nav ul li {
     color: white;
     font-size: 18px;
     padding: 10px;
+    border-radius: 5px;
     transition: background-color 0.3s ease;
 }
 
