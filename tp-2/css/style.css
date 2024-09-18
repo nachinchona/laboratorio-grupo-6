@@ -19,17 +19,14 @@ body {
     background: #666666;
 }
 
-.playlist .fotoYNombre {
-    display: flex;
-}
-
-.playlist .fotoYNombre img {
+.playlist img {
     width: 60px;
     height: 60px;
     border-radius: 15px;
 }
 
-.playlist .fotoYNombre h3 {
+.playlist h3 {
+    margin-right: auto;
     margin-left: 20px;
 }
 
