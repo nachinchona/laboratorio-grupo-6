@@ -96,3 +96,14 @@ nav ul li {
     background-color: #555;
     border-radius: 5px;
 }
+
+.cajaPreguntas{
+content: "\2B22";
+  display:block;
+  color: magenta;
+  font-size:135px;
+  -webkit-transform: rotate(-30deg);
+  -moz-transform: rotate(-30deg);
+  -o-transform: rotate(-30deg);
+  transform: rotate(-30deg);
+}
