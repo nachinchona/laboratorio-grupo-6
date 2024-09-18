@@ -1,17 +1,10 @@
 body {
     background-color: #333;
+    font-family: 'Montserrat', sans-serif;
     /*
     background-image: url("../resources/michi.png");
     background-position: 20%;
     */
-}
-
-h1 {
-    font-family: 'Montserrat', sans-serif;
-}
-
-a {
-    font-family: 'Montserrat', sans-serif;
 }
 
 nav {
@@ -64,3 +57,5 @@ nav ul li {
     background-color: #555;
     border-radius: 5px;
 }
+
+
