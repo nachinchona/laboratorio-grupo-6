@@ -19,16 +19,52 @@
         <ul>
             <li><a class="botonNav" href="index.html">Inicio</a></li>
             <li><a class="botonNav" href="faq.html">FAQ</a></li>
-            <li><a class="botonNav" href="contacto.html">Quiénes somos</a></li>
+            <li><a class="botonNav" href="contacto.html">Quienes somos</a></li>
         </ul>
     </nav>
+    <div class="contenedor">
+        <div class="pregunta">
+            <div class="preguntaEncabezado">
+                <h3>Pregunta Uno</h3>
+            </div>
+            <div class="respuesta">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </div>
+        </div> 
+        <div class="pregunta">
+            <div class="preguntaEncabezado">
+                <h3>Pregunta Dos</h3>
+            </div>
+            <div class="respuesta">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </div>
+        </div>
+        <div class="pregunta">
+            <div class="preguntaEncabezado">
+                <h3>Pregunta Tres</h3>
+            </div>
+            <div class="respuesta">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </div>
+        </div> 
+        <div class="pregunta">
+            <div class="preguntaEncabezado">
+                <h3>Pregunta Cuatro</h3>
+            </div>
+            <div class="respuesta">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </div>
+        </div> 
+    </div>  
 </body>
 
-<div class = "cajaPreguntas">
-    <h2>Pregunta loca jijiji...</h1>
-</div>
-
-<div class= " botonRespuesta">
-    
-</div>
 </html>
+<script>
+    const preguntas = document.querySelectorAll(".preguntaEncabezado");
+    preguntas.forEach(pregunta => {
+        pregunta.addEventListener('click',() => {
+            
+            pregunta.nextElementSibling.classList.toggle('activo');
+        })
+    })
+</script>
