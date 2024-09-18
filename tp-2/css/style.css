@@ -31,6 +31,7 @@ body {
     list-style: none;
     position : absolute;
     box-sizing: border-box;
+    
     margin-left: 117px;
     margin-top: 230px;
     padding: 12px 12px;
@@ -133,4 +134,12 @@ nav ul li {
 .botonNav:hover {
     background-color: #555;
     border-radius: 5px;
+}
+.infoCancion1 h3,h5{
+    color: rgb(255, 255, 255);
+
+    margin-top:7px;
+    margin:2px ;
+    margin-right:580px;
+    padding: 2px;
 }
