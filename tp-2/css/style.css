@@ -6,7 +6,24 @@ body {
     font-family: 'Montserrat', sans-serif;
     color: white;
     background-color: #333;
+    /* background-image: linear-gradient(#333, #111); */
+}
 
+/* reproducir y audio son para probar*/
+
+#reproducir {
+    clip-path: circle(47% at 50% 50%);
+}
+
+#reproducir svg {
+    position: relative;
+    left: 1px;
+    top: 2px;
+}
+
+audio {
+    width: 800px;
+    border-radius: 50px;
 }
 
 .barraPlaylist {
@@ -19,21 +36,54 @@ body {
     padding: 12px 12px;
     width: 1000px;
     height: 80px;
-    border: 1px solid black;
+    border: 2px solid white;
     border-radius: 15px;
     background: #666666;
+    background-image: linear-gradient(#666, #555);
 }
 
-.barraPlaylist:has(.botonDesplegar) + .canciones {
+.barraPlaylist:has(.botonDesplegar)+.canciones {
     display: grid;
     overflow: hidden;
     max-height: 0px;
+    /* transition: max-height 0.7s ease; */
     transition: max-height 1s ease;
 }
 
-.barraPlaylist:has(.botonDesplegar input:checked) + .canciones {
-    /*horrible pero bueno despues con js se puede ver*/
-    max-height: 99999px;
+.barraPlaylist:has(.botonDesplegar input:checked)+.canciones {
+    animation: desplegarPlaylist 1s ease-in-out forwards;
+}
+
+.barraPlaylist:has(.botonDesplegar input:not(:checked))+.canciones {
+    animation: plegarPlaylist 1s ease-in-out forwards;
+}
+
+@keyframes desplegarPlaylist {
+    0% {
+        max-height: 0;
+    }
+
+    50% {
+        max-height: 10000px;
+    }
+
+    100% {
+        max-height: 20000px;
+    }
+}
+
+@keyframes plegarPlaylist {
+    0% {
+        max-height: 20000px;
+    }
+
+    50% {
+        max-height: 1000px;
+    }
+
+    100% {
+        max-height: 0;
+    }
 }
 
 .barraPlaylist img {
@@ -49,7 +99,7 @@ body {
 
 .cancion {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     box-sizing: border-box;
     margin: auto;
@@ -68,9 +118,21 @@ body {
     border-radius: 15px;
 }
 
+.cancion audio {
+    flex-grow: 2;
+}
+
 .cancion h3 {
-    margin-right: auto;
     margin-left: 20px;
+}
+
+.cancion h5 {
+    max-width: 30%;
+    margin-left: auto;
+}
+
+.cancion svg {
+    margin-left: 4px;
 }
 
 .botonDesplegar {
@@ -81,13 +143,14 @@ body {
 }
 
 .botonDesplegar label input[type=checkbox] {
-    display: none;
+    opacity: 0;
     position: absolute;
-    width: 45px;
-    height: 52px;
-    left:-3px;
-    top:-3px;
-    clip-path: circle(47% at 50% 50%);
+    width: 1000px;
+    height: 80px;
+    left: -945px;
+    top: -20px;
+    border-radius: 100px;
+    /* clip-path: circle(47% at 50% 50%); */
 }
 
 .botonDesplegar label input[type=checkbox]+svg {
@@ -217,18 +280,21 @@ section {
     animation: fade 1s ease-in-out;
 }
 
-.faq.active svg{
+.faq.active svg {
     transform: rotate(180deg);
 }
-svg{
+
+svg {
     transition: transform 0.5s ease-in;
 }
-@keyframes fade{
-    from{
+
+@keyframes fade {
+    from {
         opacity: 0;
         transform: translateY(-10px);
     }
-    to{
+
+    to {
         opacity: 1;
         transform: translateY(0px);
     }
