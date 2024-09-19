@@ -95,6 +95,18 @@ function agregarCanciones(datos, canciones) {
         cancion.appendChild(nombresArtistas);
         cancion.appendChild(botonDesplegar);
 
+
+        var labelPopular = document.createElement("label");
+        var barrita = document.createElement("meter");
+        barrita.max = 100;
+        barrita.min = 0;
+        labelPopular.appendChild(barrita);
+        var popularidad = track.popularity;
+        labelPopular.textContent = "Popularidad:";
+        barrita.value = popularidad;
+        cancion.appendChild(labelPopular);
+
+
         canciones.appendChild(cancion);
     }
 }
