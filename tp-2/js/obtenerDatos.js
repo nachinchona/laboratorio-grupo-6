@@ -25,7 +25,7 @@ function agregarPlaylists(datos) {
     // lista con barraPlaylist y canciones
     var playlist = document.createElement("ul");
     playlist.className = "playlist";
-    
+
     var barraPlaylist = document.createElement("div");
     barraPlaylist.className = "barraPlaylist";
 
@@ -43,7 +43,7 @@ function agregarPlaylists(datos) {
     barraPlaylist.appendChild(nombrePlaylist);
     barraPlaylist.appendChild(botonDesplegar);
 
-    agregarCanciones(datos,canciones);
+    agregarCanciones(datos, canciones);
 
     playlist.appendChild(barraPlaylist);
     playlist.appendChild(canciones);
@@ -51,7 +51,7 @@ function agregarPlaylists(datos) {
     playlists.appendChild(playlist);
 }
 
-function agregarCanciones(datos,canciones) {
+function agregarCanciones(datos, canciones) {
 
     for (var item of datos.tracks.items) {
         var track = item.track;
@@ -59,16 +59,55 @@ function agregarCanciones(datos,canciones) {
         var cancion = document.createElement("li");
         cancion.className = "cancion";
         var nombreCancion = document.createElement("h3");
-        nombreCancion.textContent = track.name;       
+        nombreCancion.textContent = track.name;
         var imagenCancion = document.createElement("img");
         imagenCancion.src = track.album.images[0].url;
         var nombreAlbum = document.createElement("h5");
         nombreAlbum.textContent = track.album.name;
 
+        for (var artista of track.artists) {
+            var nombresArtistas = document.createElement("h5");
+            nombresArtistas.textContent += artista.name;
+        }
+
         cancion.appendChild(imagenCancion);
         cancion.appendChild(nombreCancion);
-        cancion.appendChild(nombreAlbum); 
+        if (track.explicit) {
+            cancion.innerHTML += '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#CCCC"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14z" /><path d="M15 15h-4v-2h4v-2h-4V9h4V7H9v10h6z" /></svg>'
+        }
+        /*
+        PARA AUDIO PREVIEW (VER SI USAR REPRODUCTOR NATIVO O QUE ONDA)
+        if (track.preview_url != null) {
+            var preview = document.createElement("audio");
+            preview.volume = 0.2;
+            preview.controls = true;
+            var previewSource = document.createElement("source");
+            previewSource.src = track.preview_url;
+            preview.appendChild(previewSource);
+            cancion.appendChild(preview);
+        }
+        */
+        cancion.appendChild(nombresArtistas);
+        var botonDesplegar = document.createElement("div");
+        botonDesplegar.className = "botonDesplegar";
+        botonDesplegar.innerHTML = '<label><input type="checkbox"><svg width="30" height="30" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 18L24 30L36 18" stroke="#1E1E1E" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg></label>';
+
+        cancion.appendChild(nombresArtistas);
+        cancion.appendChild(botonDesplegar);
+
+
+        var labelPopular = document.createElement("label");
+        var barrita = document.createElement("meter");
+        barrita.max = 100;
+        barrita.min = 0;
+        labelPopular.appendChild(barrita);
+        var popularidad = track.popularity;
+        labelPopular.textContent = "Popularidad:";
+        barrita.value = popularidad;
+        cancion.appendChild(labelPopular);
+
 
         canciones.appendChild(cancion);
     }
 }
+
