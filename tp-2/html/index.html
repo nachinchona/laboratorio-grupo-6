@@ -3,7 +3,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
 
 <head>
-    <meta charset="ISO 8859-1">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SpotiFAI</title>
     <link rel="stylesheet" href="../css/style.css">
@@ -19,23 +19,27 @@
         <ul>
             <li><a class="botonNav" href="index.html">Inicio</a></li>
             <li><a class="botonNav" href="faq.html">FAQ</a></li>
-            <li><a class="botonNav" href="contacto.html">Quiénes somos</a></li>
+            <li><a class="botonNav" href="contacto.html">Qui�nes somos</a></li>
         </ul>
     </nav>
 
-    <ul class="playlist">
-        <img src="https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da848adfc445760801d072211451">
-        <h3>Playlist #1</h3>
-        <div class="botonDesplegar">    
-            <label>
-                <input type="checkbox">
-                <svg width="30" height="30" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M12 18L24 30L36 18" stroke="#1E1E1E" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-            </label>
-        </div>
-    </ul>
+    <!--
+    <button id="reproducir" onclick="reproducir()">
+        <svg width="50" height="50" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="8.72727" cy="8.72727" r="8.72727" fill="#1DB954" />
+            <path d="M6.54541 12L12.2727 8.72732L6.54541 5.45459V12Z" fill="#191414" />
+        </svg>
+    </button>
 
+    <audio controls>
+        <source src="https://p.scdn.co/mp3-preview/a7718f2e0bdad78f08cd7c9f3240ddb8374a5f32?cid=96d19b8fd5ab4cf0b06c69e802c925a1"></source>
+    </audio>
+    -->
+
+    <div id="playlists"></div>
+
+    <script src="../js/obtenerDatos.js"></script>
+    <script src="../js/reproducir.js"></script>
 </body>
 
 </html>
