@@ -1,10 +1,15 @@
-body {
-    font-family: 'Montserrat', sans-serif;
-    color:white;
-    background-color: #333;
+* {
+    box-sizing: border-box;
 }
 
-.playlist {
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    background-color: #333;
+
+}
+
+.barraPlaylist {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -14,15 +19,32 @@ body {
     padding: 12px 12px;
     width: 1000px;
     height: 80px;
-    border: 1px solid white;
+    border: 1px solid black;
     border-radius: 15px;
     background: #666666;
 }
 
-.playlist img {
+.barraPlaylist:has(.botonDesplegar) + .canciones {
+    display: grid;
+    overflow: hidden;
+    max-height: 0px;
+    transition: max-height 1s ease;
+}
+
+.barraPlaylist:has(.botonDesplegar input:checked) + .canciones {
+    /*horrible pero bueno despues con js se puede ver*/
+    max-height: 99999px;
+}
+
+.barraPlaylist img {
     width: 60px;
     height: 60px;
     border-radius: 15px;
+}
+
+.barraPlaylist h3 {
+    margin-right: auto;
+    margin-left: 20px;
 }
 
 .cancion {
@@ -42,9 +64,20 @@ body {
     background: #666666;
 }
 
+.cancion img {
+    width: 60px;
+    height: 60px;
+    border-radius: 15px;
+}
+
+.cancion h3 {
+    margin-right: auto;
+    margin-left: 20px;
+}
+
 .botonDesplegar {
     position: relative;
-    background-color:transparent;
+    background-color: transparent;
     border-radius: 100px;
     transition: background-color 0.3s ease;
 }
@@ -54,18 +87,18 @@ body {
     position: absolute;
     width: 45px;
     height: 52px;
-    left:-4px;
-    top:-5px;
+    left:-3px;
+    top:-3px;
     clip-path: circle(47% at 50% 50%);
 }
 
-.botonDesplegar label input[type=checkbox] + svg {
+.botonDesplegar label input[type=checkbox]+svg {
     transition-duration: 0.2s;
     transition-property: transform;
     transform: rotate(270deg);
 }
 
-.botonDesplegar label input[type=checkbox]:checked + svg {
+.botonDesplegar label input[type=checkbox]:checked+svg {
     transition-duration: 0.2s;
     transition-property: transform;
     transform: rotate(360deg);
@@ -89,7 +122,7 @@ nav {
     background-color: rgb(24, 24, 24);
     margin-top: 10px;
     margin-inline: -8px;
-    border-style:solid;
+    border-style: solid;
     border-color: #111;
     padding: 10px 20px;
     display: flex;
@@ -114,7 +147,7 @@ nav h1 {
 }
 
 nav ul {
-    list-style-type: none; 
+    list-style-type: none;
     display: flex;
     margin-left: 400px;
 }
@@ -128,6 +161,7 @@ nav ul li {
     color: white;
     font-size: 18px;
     padding: 10px;
+    border-radius: 5px;
     transition: background-color 0.3s ease;
 }
 
@@ -137,9 +171,3 @@ nav ul li {
 }
 .infoCancion1 h3,h5{
     color: rgb(255, 255, 255);
-
-    margin-top:7px;
-    margin:2px ;
-    margin-right:580px;
-    padding: 2px;
-}
