@@ -139,34 +139,68 @@ nav ul li {
     border-radius: 5px;
 }
 
-.contenedor {
+section {
+    min-height: 100vh;
+    width: 80%;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    max-width: 80%;
-    margin: auto;
 }
 
-.pregunta {
-    margin: 10px;
-    max-width: 500px;
-    border: 1px solid gray;
-    padding: 1rem;
+.titulo {
+    font-size: 3rem;
+    margin: 2rem;
 }
 
-.preguntaEncabezado h3 {
-    font-size: 1.5rem;
-    margin: 0;
+.faq {
+    max-width: 700px;
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid white;
     cursor: pointer;
 }
 
-.respuesta {
-    opacity: 0;
-    height: 0;
+.pregunta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.respuesta.activo {
-    opacity: 1;
-    height: auto;
+.pregunta h3 {
+    font-size: 1.8rem;
+}
+
+.respuesta p {
+    padding-top: rem;
+    line-height: 1.4;
+    font-size: 1.4rem;
+}
+
+.respuesta {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1.3s ease;
+}
+
+.faq.active .respuesta {
+    max-height: 300px;
+    animation: fade 1s ease-in-out;
+}
+
+.faq.active svg{
+    transform: rotate(180deg);
+}
+svg{
+    transition: transform 0.5s ease-in;
+}
+@keyframes fade{
+    from{
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
 }
