@@ -88,6 +88,12 @@ function agregarCanciones(datos, canciones) {
         }
         */
         cancion.appendChild(nombresArtistas);
+        var botonDesplegar = document.createElement("div");
+        botonDesplegar.className = "botonDesplegar";
+        botonDesplegar.innerHTML = '<label><input type="checkbox"><svg width="30" height="30" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 18L24 30L36 18" stroke="#1E1E1E" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg></label>';
+
+        cancion.appendChild(nombresArtistas);
+        cancion.appendChild(botonDesplegar);
 
         canciones.appendChild(cancion);
     }
