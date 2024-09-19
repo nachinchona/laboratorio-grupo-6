@@ -1,0 +1,2235 @@
+{
+    "images": [
+        {
+            "url": "https://seed-mix-image.spotifycdn.com/v6/img/pop/1HY2Jd0NmPuamShAr6KMms/pt/default"
+        }
+    ],
+    "tracks": {
+        "items": [
+            {
+                "track": {
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/1HY2Jd0NmPuamShAr6KMms"
+                            },
+                            "name": "Lady Gaga"
+                        },
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/0du5cEVh5yTK9QJze8zA0C"
+                            },
+                            "name": "Bruno Mars"
+                        }
+                    ],
+                    "album": {
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000b27382ea2e9e1858aa012c57cd45",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00001e0282ea2e9e1858aa012c57cd45",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000485182ea2e9e1858aa012c57cd45",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/10FLjwfpbxLmW8c25Xyc2N"
+                        },
+                        "name": "Die With A Smile",
+                        "release_date": "2024-08-16"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/2plbrEY59IikOBgBGLjaoe"
+                    },
+                    "explicit": false,
+                    "preview_url": null,
+                    "name": "Die With A Smile",
+                    "popularity": 99
+                }
+            },
+            {
+                "track": {
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/6qqNVTkY8uBg9cP3Jd7DAH"
+                            },
+                            "name": "Billie Eilish"
+                        }
+                    ],
+                    "album": {
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000b27371d62ea7ea8a5be92d3c1f62",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00001e0271d62ea7ea8a5be92d3c1f62",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000485171d62ea7ea8a5be92d3c1f62",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/7aJuG4TFXa2hmE4z1yxc3n"
+                        },
+                        "name": "HIT ME HARD AND SOFT",
+                        "release_date": "2024-05-17"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/6dOtVTDdiauQNBQEDOtlAB"
+                    },
+                    "explicit": false,
+                    "preview_url": null,
+                    "name": "BIRDS OF A FEATHER",
+                    "popularity": 100
+                }
+            },
+            {
+                "track": {
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/74KM79TiuVKeVCqs8QtB0B"
+                            },
+                            "name": "Sabrina Carpenter"
+                        }
+                    ],
+                    "album": {
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000b273fd8d7a8d96871e791cb1f626",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00001e02fd8d7a8d96871e791cb1f626",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00004851fd8d7a8d96871e791cb1f626",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/3iPSVi54hsacKKl1xIR2eH"
+                        },
+                        "name": "Short n' Sweet",
+                        "release_date": "2024-08-23"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/5G2f63n7IPVPPjfNIGih7Q"
+                    },
+                    "explicit": false,
+                    "preview_url": null,
+                    "name": "Taste",
+                    "popularity": 95
+                }
+            },
+            {
+                "track": {
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/69GGBxA162lTqCwzJG5jLp"
+                            },
+                            "name": "The Chainsmokers"
+                        },
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/4gzpq5DPGxSnKTe4SA8HAU"
+                            },
+                            "name": "Coldplay"
+                        }
+                    ],
+                    "album": {
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000b2730c13d3d5a503c84fcc60ae94",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00001e020c13d3d5a503c84fcc60ae94",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d000048510c13d3d5a503c84fcc60ae94",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/4JPguzRps3kuWDD5GS6oXr"
+                        },
+                        "name": "Memories...Do Not Open",
+                        "release_date": "2017-04-07"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/6RUKPb4LETWmmr3iAEQktW"
+                    },
+                    "explicit": false,
+                    "preview_url": "https://p.scdn.co/mp3-preview/4e117abe76700eb13e9e0557fa2d9c44b565b9da?cid=96d19b8fd5ab4cf0b06c69e802c925a1",
+                    "name": "Something Just Like This",
+                    "popularity": 88
+                }
+            },
+            {
+                "track": {
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/6M2wZ9GZgrQXHCFfjv46we"
+                            },
+                            "name": "Dua Lipa"
+                        }
+                    ],
+                    "album": {
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000b2734bc66095f8a70bc4e6593f4f",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00001e024bc66095f8a70bc4e6593f4f",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d000048514bc66095f8a70bc4e6593f4f",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/7fJJK56U9fHixgO0HQkhtI"
+                        },
+                        "name": "Future Nostalgia",
+                        "release_date": "2020-03-27"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/3PfIrDoz19wz7qK7tYeu62"
+                    },
+                    "explicit": false,
+                    "preview_url": "https://p.scdn.co/mp3-preview/cfc6684fc467e40bb9c7e6da2ea1b22eeccb211c?cid=96d19b8fd5ab4cf0b06c69e802c925a1",
+                    "name": "Don't Start Now",
+                    "popularity": 83
+                }
+            },
+            {
+                "track": {
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/6jJ0s89eD6GaHleKKya26X"
+                            },
+                            "name": "Katy Perry"
+                        },
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/5gCRApTajqwbnHHPbr2Fpi"
+                            },
+                            "name": "Juicy J"
+                        }
+                    ],
+                    "album": {
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000b2731e9a057052d59004caf47e22",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00001e021e9a057052d59004caf47e22",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d000048511e9a057052d59004caf47e22",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/3jB9yFDwRe3KhtGnHXJntk"
+                        },
+                        "name": "PRISM",
+                        "release_date": "2013-01-01"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/4jbmgIyjGoXjY01XxatOx6"
+                    },
+                    "explicit": false,
+                    "preview_url": null,
+                    "name": "Dark Horse",
+                    "popularity": 80
+                }
+            },
+            {
+                "track": {
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/6LqNN22kT3074XbTVUrhzX"
+                            },
+                            "name": "Kesha"
+                        }
+                    ],
+                    "album": {
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000b2737a6339d6ddfd579f77559b3c",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00001e027a6339d6ddfd579f77559b3c",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d000048517a6339d6ddfd579f77559b3c",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/6fpLLJsDSSAlToEDW2jv4F"
+                        },
+                        "name": "Animal (Expanded Edition)",
+                        "release_date": "2010-01-01"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/0HPD5WQqrq7wPWR7P7Dw1i"
+                    },
+                    "explicit": false,
+                    "preview_url": "https://p.scdn.co/mp3-preview/ea95bec21bd6c4979cc91f5d5528b533d879905c?cid=96d19b8fd5ab4cf0b06c69e802c925a1",
+                    "name": "TiK ToK",
+                    "popularity": 84
+                }
+            },
+            {
+                "track": {
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/74KM79TiuVKeVCqs8QtB0B"
+                            },
+                            "name": "Sabrina Carpenter"
+                        }
+                    ],
+                    "album": {
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000b273659cd4673230913b3918e0d5",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00001e02659cd4673230913b3918e0d5",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00004851659cd4673230913b3918e0d5",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/5quMTd5zeI9yW5UDua8wS4"
+                        },
+                        "name": "Espresso",
+                        "release_date": "2024-04-12"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/2qSkIjg1o9h3YT9RAgYN75"
+                    },
+                    "explicit": true,
+                    "preview_url": null,
+                    "name": "Espresso",
+                    "popularity": 97
+                }
+            },
+            {
+                "track": {
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/69GGBxA162lTqCwzJG5jLp"
+                            },
+                            "name": "The Chainsmokers"
+                        },
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/26VFTg2z8YR0cCuwLzESi2"
+                            },
+                            "name": "Halsey"
+                        }
+                    ],
+                    "album": {
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000b273495ce6da9aeb159e94eaa453",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00001e02495ce6da9aeb159e94eaa453",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00004851495ce6da9aeb159e94eaa453",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/0rSLgV8p5FzfnqlEk4GzxE"
+                        },
+                        "name": "Closer",
+                        "release_date": "2016-07-29"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/7BKLCZ1jbUBVqRi2FVlTVw"
+                    },
+                    "explicit": false,
+                    "preview_url": "https://p.scdn.co/mp3-preview/cfd565c4d3c621771e6d25d99749b9fc200e396c?cid=96d19b8fd5ab4cf0b06c69e802c925a1",
+                    "name": "Closer",
+                    "popularity": 83
+                }
+            },
+            {
+                "track": {
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/5Pwc4xIPtQLFEnJriah9YJ"
+                            },
+                            "name": "OneRepublic"
+                        }
+                    ],
+                    "album": {
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000b2739e2f95ae77cf436017ada9cb",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00001e029e2f95ae77cf436017ada9cb",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d000048519e2f95ae77cf436017ada9cb",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/20lOt6G8MHv8ZO7ViOmiP7"
+                        },
+                        "name": "Native",
+                        "release_date": "2013-01-01"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/2tpWsVSb9UEmDRxAl1zhX1"
+                    },
+                    "explicit": false,
+                    "preview_url": null,
+                    "name": "Counting Stars",
+                    "popularity": 86
+                }
+            },
+            {
+                "track": {
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/7n2wHs1TKAczGzO7Dd2rGr"
+                            },
+                            "name": "Shawn Mendes"
+                        }
+                    ],
+                    "album": {
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000b2731376b4b16f4bfcba02dc571b",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00001e021376b4b16f4bfcba02dc571b",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d000048511376b4b16f4bfcba02dc571b",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/1ne2D0NxoGyZd31gAM4HNd"
+                        },
+                        "name": "Illuminate",
+                        "release_date": "2017-04-20"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/3QGsuHI8jO1Rx4JWLUh9jd"
+                    },
+                    "explicit": false,
+                    "preview_url": null,
+                    "name": "Treat You Better",
+                    "popularity": 84
+                }
+            },
+            {
+                "track": {
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/6jJ0s89eD6GaHleKKya26X"
+                            },
+                            "name": "Katy Perry"
+                        }
+                    ],
+                    "album": {
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000b2731e9a057052d59004caf47e22",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00001e021e9a057052d59004caf47e22",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d000048511e9a057052d59004caf47e22",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/3jB9yFDwRe3KhtGnHXJntk"
+                        },
+                        "name": "PRISM",
+                        "release_date": "2013-01-01"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/27tNWlhdAryQY04Gb2ZhUI"
+                    },
+                    "explicit": false,
+                    "preview_url": null,
+                    "name": "Roar",
+                    "popularity": 78
+                }
+            },
+            {
+                "track": {
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/74KM79TiuVKeVCqs8QtB0B"
+                            },
+                            "name": "Sabrina Carpenter"
+                        }
+                    ],
+                    "album": {
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000b273de84adf0e48248ea2d769c3e",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00001e02de84adf0e48248ea2d769c3e",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00004851de84adf0e48248ea2d769c3e",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/5bBaoign62r1i7OV8w7mi9"
+                        },
+                        "name": "Please Please Please",
+                        "release_date": "2024-06-06"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/5N3hjp1WNayUPZrA8kJmJP"
+                    },
+                    "explicit": true,
+                    "preview_url": null,
+                    "name": "Please Please Please",
+                    "popularity": 96
+                }
+            },
+            {
+                "track": {
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/5YGY8feqx7naU7z4HrwZM6"
+                            },
+                            "name": "Miley Cyrus"
+                        }
+                    ],
+                    "album": {
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000b273cd222052a2594be29a6616b5",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00001e02cd222052a2594be29a6616b5",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00004851cd222052a2594be29a6616b5",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/5DvJgsMLbaR1HmAI6VhfcQ"
+                        },
+                        "name": "Endless Summer Vacation",
+                        "release_date": "2023-08-18"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/7DSAEUvxU8FajXtRloy8M0"
+                    },
+                    "explicit": false,
+                    "preview_url": "https://p.scdn.co/mp3-preview/5184d19d1b7fcc3e7c067e38af45a7cc80851440?cid=96d19b8fd5ab4cf0b06c69e802c925a1",
+                    "name": "Flowers",
+                    "popularity": 88
+                }
+            },
+            {
+                "track": {
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/6M2wZ9GZgrQXHCFfjv46we"
+                            },
+                            "name": "Dua Lipa"
+                        }
+                    ],
+                    "album": {
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000b273778c1e4660aa23f6728b32a1",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00001e02778c1e4660aa23f6728b32a1",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00004851778c1e4660aa23f6728b32a1",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/1Mo92916G2mmG7ajpmSVrc"
+                        },
+                        "name": "Radical Optimism",
+                        "release_date": "2024-05-03"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/6D8y7Bck8h11byRY88Pt2z"
+                    },
+                    "explicit": false,
+                    "preview_url": "https://p.scdn.co/mp3-preview/df4af86970ffb1a7042d1d228bcea7b4aabfdba4?cid=96d19b8fd5ab4cf0b06c69e802c925a1",
+                    "name": "Houdini",
+                    "popularity": 82
+                }
+            },
+            {
+                "track": {
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/6VuMaDnrHyPL1p4EHjYLi7"
+                            },
+                            "name": "Charlie Puth"
+                        }
+                    ],
+                    "album": {
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000b273897f73256b9128a9d70eaf66",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00001e02897f73256b9128a9d70eaf66",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00004851897f73256b9128a9d70eaf66",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/0mZIUXje90JtHxPNzWsJNR"
+                        },
+                        "name": "Voicenotes",
+                        "release_date": "2018-05-11"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/5cF0dROlMOK5uNZtivgu50"
+                    },
+                    "explicit": false,
+                    "preview_url": "https://p.scdn.co/mp3-preview/db76d34af2f966975e0c1b8b9e43dca882e27229?cid=96d19b8fd5ab4cf0b06c69e802c925a1",
+                    "name": "Attention",
+                    "popularity": 83
+                }
+            },
+            {
+                "track": {
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/4npEfmQ6YuiwW1GpUmaq3F"
+                            },
+                            "name": "Ava Max"
+                        }
+                    ],
+                    "album": {
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000b2739a95e89d24214b94de36ccf7",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00001e029a95e89d24214b94de36ccf7",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d000048519a95e89d24214b94de36ccf7",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/26c7MmQ4w8EAvVLb4jilaM"
+                        },
+                        "name": "Heaven & Hell",
+                        "release_date": "2020-09-18"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/7DnAm9FOTWE3cUvso43HhI"
+                    },
+                    "explicit": false,
+                    "preview_url": "https://p.scdn.co/mp3-preview/fab7f8e87979878248e78a3cdb7e28222d45dcec?cid=96d19b8fd5ab4cf0b06c69e802c925a1",
+                    "name": "Sweet but Psycho",
+                    "popularity": 80
+                }
+            },
+            {
+                "track": {
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/74KM79TiuVKeVCqs8QtB0B"
+                            },
+                            "name": "Sabrina Carpenter"
+                        }
+                    ],
+                    "album": {
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000b273fd8d7a8d96871e791cb1f626",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00001e02fd8d7a8d96871e791cb1f626",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00004851fd8d7a8d96871e791cb1f626",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/3iPSVi54hsacKKl1xIR2eH"
+                        },
+                        "name": "Short n' Sweet",
+                        "release_date": "2024-08-23"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/1UHS8Rf6h5Ar3CDWRd3wjF"
+                    },
+                    "explicit": false,
+                    "preview_url": null,
+                    "name": "Bed Chem",
+                    "popularity": 92
+                }
+            },
+            {
+                "track": {
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/6MDME20pz9RveH9rEXvrOM"
+                            },
+                            "name": "Clean Bandit"
+                        },
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/3Isy6kedDrgPYoTS1dazA9"
+                            },
+                            "name": "Sean Paul"
+                        },
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/1zNqDE7qDGCsyzJwohVaoX"
+                            },
+                            "name": "Anne-Marie"
+                        }
+                    ],
+                    "album": {
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000b27337fb0680110fbb107740de5d",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00001e0237fb0680110fbb107740de5d",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000485137fb0680110fbb107740de5d",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/1MvF4ulZKH7SaDQs9rE5nc"
+                        },
+                        "name": "What Is Love? (Deluxe Edition)",
+                        "release_date": "2018-11-30"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/2hrUO4drrO63i7FYbCLBl2"
+                    },
+                    "explicit": false,
+                    "preview_url": "https://p.scdn.co/mp3-preview/dbf4049b4e6c037a9f03f7ce5299e9512d2ae8fa?cid=96d19b8fd5ab4cf0b06c69e802c925a1",
+                    "name": "Rockabye (feat. Sean Paul & Anne-Marie)",
+                    "popularity": 77
+                }
+            },
+            {
+                "track": {
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/6M2wZ9GZgrQXHCFfjv46we"
+                            },
+                            "name": "Dua Lipa"
+                        },
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/4r63FhuTkUYltbVAg5TQnk"
+                            },
+                            "name": "DaBaby"
+                        }
+                    ],
+                    "album": {
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000b2732172b607853fa89cefa2beb4",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00001e022172b607853fa89cefa2beb4",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d000048512172b607853fa89cefa2beb4",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/5lKlFlReHOLShQKyRv6AL9"
+                        },
+                        "name": "Future Nostalgia",
+                        "release_date": "2020-03-27"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/5nujrmhLynf4yMoMtj8AQF"
+                    },
+                    "explicit": false,
+                    "preview_url": "https://p.scdn.co/mp3-preview/6af6db91dba9103cca41d6d5225f6fe120fcfcd3?cid=96d19b8fd5ab4cf0b06c69e802c925a1",
+                    "name": "Levitating (feat. DaBaby)",
+                    "popularity": 81
+                }
+            },
+            {
+                "track": {
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/1Xylc3o4UrD53lo9CvFvVg"
+                            },
+                            "name": "Zara Larsson"
+                        }
+                    ],
+                    "album": {
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000b2739e1683774b22648f4f178ed3",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00001e029e1683774b22648f4f178ed3",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d000048519e1683774b22648f4f178ed3",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/5YLRVHDVRw3QqWbeTGpC5B"
+                        },
+                        "name": "So Good",
+                        "release_date": "2017-03-17"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/1rIKgCH4H52lrvDcz50hS8"
+                    },
+                    "explicit": false,
+                    "preview_url": "https://p.scdn.co/mp3-preview/2f14e67d9660815897317b300241b228e40bcd97?cid=96d19b8fd5ab4cf0b06c69e802c925a1",
+                    "name": "Lush Life",
+                    "popularity": 81
+                }
+            },
+            {
+                "track": {
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/7n2wHs1TKAczGzO7Dd2rGr"
+                            },
+                            "name": "Shawn Mendes"
+                        }
+                    ],
+                    "album": {
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000b273d26246b23c8bfa8ce543b3bb",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00001e02d26246b23c8bfa8ce543b3bb",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00004851d26246b23c8bfa8ce543b3bb",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/6sUOosXuYt0oUeczJRbedZ"
+                        },
+                        "name": "Handwritten",
+                        "release_date": "2015-04-14"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/5jsw9uXEGuKyJzs0boZ1bT"
+                    },
+                    "explicit": false,
+                    "preview_url": null,
+                    "name": "Stitches",
+                    "popularity": 83
+                }
+            },
+            {
+                "track": {
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/74KM79TiuVKeVCqs8QtB0B"
+                            },
+                            "name": "Sabrina Carpenter"
+                        }
+                    ],
+                    "album": {
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000b2730f45623be014a592a5815827",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00001e020f45623be014a592a5815827",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d000048510f45623be014a592a5815827",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/2g4aJTa5ejGpp0O0GKzWAQ"
+                        },
+                        "name": "emails i can’t send fwd:",
+                        "release_date": "2023-03-17"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/2Zo1PcszsT9WQ0ANntJbID"
+                    },
+                    "explicit": true,
+                    "preview_url": null,
+                    "name": "Feather",
+                    "popularity": 87
+                }
+            },
+            {
+                "track": {
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/4npEfmQ6YuiwW1GpUmaq3F"
+                            },
+                            "name": "Ava Max"
+                        }
+                    ],
+                    "album": {
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000b2739a95e89d24214b94de36ccf7",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00001e029a95e89d24214b94de36ccf7",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d000048519a95e89d24214b94de36ccf7",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/26c7MmQ4w8EAvVLb4jilaM"
+                        },
+                        "name": "Heaven & Hell",
+                        "release_date": "2020-09-18"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/7a53HqqArd4b9NF4XAmlbI"
+                    },
+                    "explicit": false,
+                    "preview_url": "https://p.scdn.co/mp3-preview/dc90347787fa47daa898d4ffbfff36074d184d64?cid=96d19b8fd5ab4cf0b06c69e802c925a1",
+                    "name": "Kings & Queens",
+                    "popularity": 80
+                }
+            },
+            {
+                "track": {
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/6M2wZ9GZgrQXHCFfjv46we"
+                            },
+                            "name": "Dua Lipa"
+                        }
+                    ],
+                    "album": {
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000b273778c1e4660aa23f6728b32a1",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00001e02778c1e4660aa23f6728b32a1",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00004851778c1e4660aa23f6728b32a1",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/1Mo92916G2mmG7ajpmSVrc"
+                        },
+                        "name": "Radical Optimism",
+                        "release_date": "2024-05-03"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/5b5cPscqVEMChvDqscVw26"
+                    },
+                    "explicit": false,
+                    "preview_url": "https://p.scdn.co/mp3-preview/5608f578347ae26c20bfebbad47a057eca7b3d5a?cid=96d19b8fd5ab4cf0b06c69e802c925a1",
+                    "name": "Training Season",
+                    "popularity": 82
+                }
+            },
+            {
+                "track": {
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/6MDME20pz9RveH9rEXvrOM"
+                            },
+                            "name": "Clean Bandit"
+                        },
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/1Xylc3o4UrD53lo9CvFvVg"
+                            },
+                            "name": "Zara Larsson"
+                        }
+                    ],
+                    "album": {
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000b27337fb0680110fbb107740de5d",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00001e0237fb0680110fbb107740de5d",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000485137fb0680110fbb107740de5d",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/1MvF4ulZKH7SaDQs9rE5nc"
+                        },
+                        "name": "What Is Love? (Deluxe Edition)",
+                        "release_date": "2018-11-30"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/72gv4zhNvRVdQA0eOenCal"
+                    },
+                    "explicit": false,
+                    "preview_url": "https://p.scdn.co/mp3-preview/582525d17cae952887337a1fcdf0e4763bf9ad1a?cid=96d19b8fd5ab4cf0b06c69e802c925a1",
+                    "name": "Symphony (feat. Zara Larsson)",
+                    "popularity": 78
+                }
+            },
+            {
+                "track": {
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/66CXWjxzNUsdJxJ2JdwvnR"
+                            },
+                            "name": "Ariana Grande"
+                        }
+                    ],
+                    "album": {
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000b2738b58d20f1b77295730db15b4",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00001e028b58d20f1b77295730db15b4",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d000048518b58d20f1b77295730db15b4",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/5EYKrEDnKhhcNxGedaRQeK"
+                        },
+                        "name": "eternal sunshine",
+                        "release_date": "2024-03-08"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/51ZQ1vr10ffzbwIjDCwqm4"
+                    },
+                    "explicit": false,
+                    "preview_url": null,
+                    "name": "we can't be friends (wait for your love)",
+                    "popularity": 89
+                }
+            },
+            {
+                "track": {
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/74KM79TiuVKeVCqs8QtB0B"
+                            },
+                            "name": "Sabrina Carpenter"
+                        }
+                    ],
+                    "album": {
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000b273fd8d7a8d96871e791cb1f626",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00001e02fd8d7a8d96871e791cb1f626",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00004851fd8d7a8d96871e791cb1f626",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/3iPSVi54hsacKKl1xIR2eH"
+                        },
+                        "name": "Short n' Sweet",
+                        "release_date": "2024-08-23"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/102YUQbYmwdBXS7jwamI90"
+                    },
+                    "explicit": true,
+                    "preview_url": null,
+                    "name": "Good Graces",
+                    "popularity": 90
+                }
+            },
+            {
+                "track": {
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/4nDoRrQiYLoBzwC5BhVJzF"
+                            },
+                            "name": "Camila Cabello"
+                        },
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/50co4Is1HCEo8bhOyUWKpn"
+                            },
+                            "name": "Young Thug"
+                        }
+                    ],
+                    "album": {
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000b2736eb0b9e73adcf04e4ed3eca4",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00001e026eb0b9e73adcf04e4ed3eca4",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d000048516eb0b9e73adcf04e4ed3eca4",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/2vD3zSQr8hNlg0obNel4TE"
+                        },
+                        "name": "Camila",
+                        "release_date": "2018-01-12"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/1rfofaqEpACxVEHIZBJe6W"
+                    },
+                    "explicit": false,
+                    "preview_url": "https://p.scdn.co/mp3-preview/49653dbbec996f228cb6edc046d318cd5a249ee6?cid=96d19b8fd5ab4cf0b06c69e802c925a1",
+                    "name": "Havana (feat. Young Thug)",
+                    "popularity": 80
+                }
+            },
+            {
+                "track": {
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/6M2wZ9GZgrQXHCFfjv46we"
+                            },
+                            "name": "Dua Lipa"
+                        }
+                    ],
+                    "album": {
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000b2737dd3ba455ee3390cb55b0192",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00001e027dd3ba455ee3390cb55b0192",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d000048517dd3ba455ee3390cb55b0192",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/5cH7FqB7JD5q1tJXJ7FHYu"
+                        },
+                        "name": "Dance The Night (From Barbie The Album)",
+                        "release_date": "2023-05-25"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/1vYXt7VSjH9JIM5oRRo7vA"
+                    },
+                    "explicit": false,
+                    "preview_url": "https://p.scdn.co/mp3-preview/acaea048f50a3b30ca24b348c84a6047373baabb?cid=96d19b8fd5ab4cf0b06c69e802c925a1",
+                    "name": "Dance The Night - From Barbie The Album",
+                    "popularity": 82
+                }
+            },
+            {
+                "track": {
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/04gDigrS5kc9YWfZHwBETP"
+                            },
+                            "name": "Maroon 5"
+                        }
+                    ],
+                    "album": {
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000b273442b53773d50e1b5369bb16c",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00001e02442b53773d50e1b5369bb16c",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00004851442b53773d50e1b5369bb16c",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/2Auw0pTT6EcQdvHNimhLQI"
+                        },
+                        "name": "V",
+                        "release_date": "2014-09-02"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/4gbVRS8gloEluzf0GzDOFc"
+                    },
+                    "explicit": false,
+                    "preview_url": null,
+                    "name": "Maps",
+                    "popularity": 84
+                }
+            },
+            {
+                "track": {
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/66CXWjxzNUsdJxJ2JdwvnR"
+                            },
+                            "name": "Ariana Grande"
+                        }
+                    ],
+                    "album": {
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000b273deec12a28d1e336c5052e9aa",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00001e02deec12a28d1e336c5052e9aa",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00004851deec12a28d1e336c5052e9aa",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/6EVYTRG1drKdO8OnIQBeEj"
+                        },
+                        "name": "My Everything - Deluxe",
+                        "release_date": "2014-08-22"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/7xoUc6faLbCqZO6fQEYprd"
+                    },
+                    "explicit": false,
+                    "preview_url": null,
+                    "name": "One Last Time",
+                    "popularity": 83
+                }
+            },
+            {
+                "track": {
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/74KM79TiuVKeVCqs8QtB0B"
+                            },
+                            "name": "Sabrina Carpenter"
+                        }
+                    ],
+                    "album": {
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000b273700f7bf79c9f063ad0362bdf",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00001e02700f7bf79c9f063ad0362bdf",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00004851700f7bf79c9f063ad0362bdf",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/5kDmlA2g9Y1YCbNo2Ufxlz"
+                        },
+                        "name": "emails i can't send",
+                        "release_date": "2022-07-15"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/6dgUya35uo964z7GZXM07g"
+                    },
+                    "explicit": false,
+                    "preview_url": null,
+                    "name": "Nonsense",
+                    "popularity": 88
+                }
+            },
+            {
+                "track": {
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/07YZf4WDAMNwqr4jfgOZ8y"
+                            },
+                            "name": "Jason Derulo"
+                        }
+                    ],
+                    "album": {
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000b273519241bcfc352fc3eaaac5db",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00001e02519241bcfc352fc3eaaac5db",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00004851519241bcfc352fc3eaaac5db",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/59eUYETmE1zi31ESb3SUkI"
+                        },
+                        "name": "Everything Is 4",
+                        "release_date": "2015-05-29"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/7oGZAicScQt96OAW4AruYy"
+                    },
+                    "explicit": false,
+                    "preview_url": "https://p.scdn.co/mp3-preview/41c4fc0c9ed13ba61f99841cfee3182d32976686?cid=96d19b8fd5ab4cf0b06c69e802c925a1",
+                    "name": "Want to Want Me",
+                    "popularity": 76
+                }
+            },
+            {
+                "track": {
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/6M2wZ9GZgrQXHCFfjv46we"
+                            },
+                            "name": "Dua Lipa"
+                        }
+                    ],
+                    "album": {
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000b2734bc66095f8a70bc4e6593f4f",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00001e024bc66095f8a70bc4e6593f4f",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d000048514bc66095f8a70bc4e6593f4f",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/7fJJK56U9fHixgO0HQkhtI"
+                        },
+                        "name": "Future Nostalgia",
+                        "release_date": "2020-03-27"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/017PF4Q3l4DBUiWoXk4OWT"
+                    },
+                    "explicit": false,
+                    "preview_url": "https://p.scdn.co/mp3-preview/a0078bbdb4351ec221eb7f330bd01856636601b5?cid=96d19b8fd5ab4cf0b06c69e802c925a1",
+                    "name": "Break My Heart",
+                    "popularity": 76
+                }
+            },
+            {
+                "track": {
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/1HY2Jd0NmPuamShAr6KMms"
+                            },
+                            "name": "Lady Gaga"
+                        }
+                    ],
+                    "album": {
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000b2735c9890c0456a3719eeecd8aa",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00001e025c9890c0456a3719eeecd8aa",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d000048515c9890c0456a3719eeecd8aa",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/6rePArBMb5nLWEaY9aQqL4"
+                        },
+                        "name": "The Fame Monster (Deluxe Edition)",
+                        "release_date": "2009-11-05"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/0SiywuOBRcynK0uKGWdCnn"
+                    },
+                    "explicit": true,
+                    "preview_url": null,
+                    "name": "Bad Romance",
+                    "popularity": 83
+                }
+            },
+            {
+                "track": {
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/1zNqDE7qDGCsyzJwohVaoX"
+                            },
+                            "name": "Anne-Marie"
+                        }
+                    ],
+                    "album": {
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000b27338aae75dc37fb42457866ffd",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00001e0238aae75dc37fb42457866ffd",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000485138aae75dc37fb42457866ffd",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/7lPoGKpCGgdKFAxpudhAH5"
+                        },
+                        "name": "Speak Your Mind (Deluxe)",
+                        "release_date": "2018-04-27"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/2BgEsaKNfHUdlh97KmvFyo"
+                    },
+                    "explicit": false,
+                    "preview_url": "https://p.scdn.co/mp3-preview/d469ce8346ff12dcd2af05877d99662a0b334eca?cid=96d19b8fd5ab4cf0b06c69e802c925a1",
+                    "name": "2002",
+                    "popularity": 78
+                }
+            },
+            {
+                "track": {
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/74KM79TiuVKeVCqs8QtB0B"
+                            },
+                            "name": "Sabrina Carpenter"
+                        }
+                    ],
+                    "album": {
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000b273fd8d7a8d96871e791cb1f626",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00001e02fd8d7a8d96871e791cb1f626",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00004851fd8d7a8d96871e791cb1f626",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/3iPSVi54hsacKKl1xIR2eH"
+                        },
+                        "name": "Short n' Sweet",
+                        "release_date": "2024-08-23"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/21B4gaTWnTkuSh77iWEXdS"
+                    },
+                    "explicit": true,
+                    "preview_url": null,
+                    "name": "Juno",
+                    "popularity": 88
+                }
+            },
+            {
+                "track": {
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/6jJ0s89eD6GaHleKKya26X"
+                            },
+                            "name": "Katy Perry"
+                        }
+                    ],
+                    "album": {
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000b2732f9bc7ad2feeb0706b329edd",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00001e022f9bc7ad2feeb0706b329edd",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d000048512f9bc7ad2feeb0706b329edd",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/6UEGp3MQnsKoK9rwKcKBUo"
+                        },
+                        "name": "LIFETIMES",
+                        "release_date": "2024-08-08"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/0K8sKuo6xLHZgySZmmw2rV"
+                    },
+                    "explicit": false,
+                    "preview_url": null,
+                    "name": "LIFETIMES",
+                    "popularity": 78
+                }
+            },
+            {
+                "track": {
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/6sFIWsNpZYqfjUpaCgueju"
+                            },
+                            "name": "Carly Rae Jepsen"
+                        }
+                    ],
+                    "album": {
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000b273d3ee4bf67c2ac2154006ad72",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00001e02d3ee4bf67c2ac2154006ad72",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00004851d3ee4bf67c2ac2154006ad72",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/6SSSF9Y6MiPdQoxqBptrR2"
+                        },
+                        "name": "Kiss",
+                        "release_date": "2012-01-01"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/20I6sIOMTCkB6w7ryavxtO"
+                    },
+                    "explicit": false,
+                    "preview_url": null,
+                    "name": "Call Me Maybe",
+                    "popularity": 81
+                }
+            },
+            {
+                "track": {
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/6S2OmqARrzebs0tKUEyXyp"
+                            },
+                            "name": "Demi Lovato"
+                        }
+                    ],
+                    "album": {
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000b273aadb13ae608f6af20528409b",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00001e02aadb13ae608f6af20528409b",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00004851aadb13ae608f6af20528409b",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/6Kssm2LosQ0WyLukFZkEG5"
+                        },
+                        "name": "Demi",
+                        "release_date": "2013-01-01"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/1V6gIisPpYqgFeWbMLI0bA"
+                    },
+                    "explicit": false,
+                    "preview_url": null,
+                    "name": "Heart Attack",
+                    "popularity": 79
+                }
+            },
+            {
+                "track": {
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/6M2wZ9GZgrQXHCFfjv46we"
+                            },
+                            "name": "Dua Lipa"
+                        }
+                    ],
+                    "album": {
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000b2734bc66095f8a70bc4e6593f4f",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00001e024bc66095f8a70bc4e6593f4f",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d000048514bc66095f8a70bc4e6593f4f",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/7fJJK56U9fHixgO0HQkhtI"
+                        },
+                        "name": "Future Nostalgia",
+                        "release_date": "2020-03-27"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/39LLxExYz6ewLAcYrzQQyP"
+                    },
+                    "explicit": false,
+                    "preview_url": "https://p.scdn.co/mp3-preview/ac28d1b0be285ed3bfd8e9fa5fad133776d7cf36?cid=96d19b8fd5ab4cf0b06c69e802c925a1",
+                    "name": "Levitating",
+                    "popularity": 76
+                }
+            },
+            {
+                "track": {
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/1l8Fu6IkuTP0U5QetQJ5Xt"
+                            },
+                            "name": "Fifth Harmony"
+                        },
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/7c0XG5cIJTrrAgEC3ULPiq"
+                            },
+                            "name": "Ty Dolla $ign"
+                        }
+                    ],
+                    "album": {
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000b273d03fa6f4e758282b7920b5c8",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00001e02d03fa6f4e758282b7920b5c8",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00004851d03fa6f4e758282b7920b5c8",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/0pF0oyuPNdOObniB1Ng0kW"
+                        },
+                        "name": "7/27 (Deluxe)",
+                        "release_date": "2016-05-27"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/4tCtwWceOPWzenK2HAIJSb"
+                    },
+                    "explicit": false,
+                    "preview_url": "https://p.scdn.co/mp3-preview/58fd9aa04f6972b8302f497dc6bb6160941c1e58?cid=96d19b8fd5ab4cf0b06c69e802c925a1",
+                    "name": "Work from Home (feat. Ty Dolla $ign)",
+                    "popularity": 76
+                }
+            },
+            {
+                "track": {
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/74KM79TiuVKeVCqs8QtB0B"
+                            },
+                            "name": "Sabrina Carpenter"
+                        }
+                    ],
+                    "album": {
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000b273fd8d7a8d96871e791cb1f626",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00001e02fd8d7a8d96871e791cb1f626",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00004851fd8d7a8d96871e791cb1f626",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/3iPSVi54hsacKKl1xIR2eH"
+                        },
+                        "name": "Short n' Sweet",
+                        "release_date": "2024-08-23"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/5oIVNm56t6OIf9ZjdEG3ud"
+                    },
+                    "explicit": false,
+                    "preview_url": null,
+                    "name": "Coincidence",
+                    "popularity": 87
+                }
+            },
+            {
+                "track": {
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/6jJ0s89eD6GaHleKKya26X"
+                            },
+                            "name": "Katy Perry"
+                        }
+                    ],
+                    "album": {
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000b273d20c38f295039520d688a888",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00001e02d20c38f295039520d688a888",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00004851d20c38f295039520d688a888",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/2eQMC9nJE3f3hCNKlYYHL1"
+                        },
+                        "name": "Teenage Dream",
+                        "release_date": "2010-01-01"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/3avYqdwHKEq8beXbeWCKqJ"
+                    },
+                    "explicit": false,
+                    "preview_url": null,
+                    "name": "Last Friday Night (T.G.I.F.)",
+                    "popularity": 76
+                }
+            },
+            {
+                "track": {
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/66CXWjxzNUsdJxJ2JdwvnR"
+                            },
+                            "name": "Ariana Grande"
+                        }
+                    ],
+                    "album": {
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000b2738b58d20f1b77295730db15b4",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00001e028b58d20f1b77295730db15b4",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d000048518b58d20f1b77295730db15b4",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/5EYKrEDnKhhcNxGedaRQeK"
+                        },
+                        "name": "eternal sunshine",
+                        "release_date": "2024-03-08"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/0Lmbke3KNVFXtoH2mMSHCw"
+                    },
+                    "explicit": true,
+                    "preview_url": null,
+                    "name": "the boy is mine",
+                    "popularity": 85
+                }
+            },
+            {
+                "track": {
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/2gsggkzM5R49q6jpPvazou"
+                            },
+                            "name": "Jessie J"
+                        },
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/66CXWjxzNUsdJxJ2JdwvnR"
+                            },
+                            "name": "Ariana Grande"
+                        },
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/0hCNtLu0JehylgoiP8L4Gh"
+                            },
+                            "name": "Nicki Minaj"
+                        }
+                    ],
+                    "album": {
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000b273930f686fe89425c7b6bf9a7d",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00001e02930f686fe89425c7b6bf9a7d",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00004851930f686fe89425c7b6bf9a7d",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/2rDIivxBafNKpgRqlzIRSb"
+                        },
+                        "name": "Sweet Talker (Deluxe Version)",
+                        "release_date": "2014-10-10"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/0puf9yIluy9W0vpMEUoAnN"
+                    },
+                    "explicit": false,
+                    "preview_url": null,
+                    "name": "Bang Bang",
+                    "popularity": 78
+                }
+            },
+            {
+                "track": {
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/6M2wZ9GZgrQXHCFfjv46we"
+                            },
+                            "name": "Dua Lipa"
+                        }
+                    ],
+                    "album": {
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000b2734bc66095f8a70bc4e6593f4f",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00001e024bc66095f8a70bc4e6593f4f",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d000048514bc66095f8a70bc4e6593f4f",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/7fJJK56U9fHixgO0HQkhtI"
+                        },
+                        "name": "Future Nostalgia",
+                        "release_date": "2020-03-27"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/3AzjcOeAmA57TIOr9zF1ZW"
+                    },
+                    "explicit": false,
+                    "preview_url": "https://p.scdn.co/mp3-preview/a40862d3e14b3758de55a84a6e06e5dbf87b3d0b?cid=96d19b8fd5ab4cf0b06c69e802c925a1",
+                    "name": "Physical",
+                    "popularity": 76
+                }
+            },
+            {
+                "track": {
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/5YGY8feqx7naU7z4HrwZM6"
+                            },
+                            "name": "Miley Cyrus"
+                        }
+                    ],
+                    "album": {
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000b2736b18d0490878750cd69abf2c",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00001e026b18d0490878750cd69abf2c",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d000048516b18d0490878750cd69abf2c",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/3RDqXDc1bAETps54MSSOW0"
+                        },
+                        "name": "Bangerz (Deluxe Version)",
+                        "release_date": "2013-10-04"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/2vwlzO0Qp8kfEtzTsCXfyE"
+                    },
+                    "explicit": false,
+                    "preview_url": "https://p.scdn.co/mp3-preview/e174e5edd688f7ae112ce20b83741e28367d37b8?cid=96d19b8fd5ab4cf0b06c69e802c925a1",
+                    "name": "Wrecking Ball",
+                    "popularity": 79
+                }
+            },
+            {
+                "track": {
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/74KM79TiuVKeVCqs8QtB0B"
+                            },
+                            "name": "Sabrina Carpenter"
+                        }
+                    ],
+                    "album": {
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d0000b273fd8d7a8d96871e791cb1f626",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00001e02fd8d7a8d96871e791cb1f626",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/ab67616d00004851fd8d7a8d96871e791cb1f626",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/3iPSVi54hsacKKl1xIR2eH"
+                        },
+                        "name": "Short n' Sweet",
+                        "release_date": "2024-08-23"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/3iPIDAFybaoyqX7hvAfWkl"
+                    },
+                    "explicit": true,
+                    "preview_url": null,
+                    "name": "Sharpest Tool",
+                    "popularity": 87
+                }
+            }
+        ]
+    },
+    "name": "Mix pop",
+    "description": "<a href=spotify:playlist:37i9dQZF1EIVNN1WQoxAb6>Lady Gaga</a>, <a href=spotify:playlist:37i9dQZF1EIZ1HkjHHzYzZ>Billie Eilish</a>, <a href=spotify:playlist:37i9dQZF1EIX3vr6UVonYQ>Sabrina Carpenter</a> e mais"
+}
