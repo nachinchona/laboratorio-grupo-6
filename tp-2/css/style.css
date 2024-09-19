@@ -4,6 +4,21 @@ body {
     background-color: #333;
 }
 
+#reproducir {
+    clip-path: circle(47% at 50% 50%);
+}
+
+#reproducir svg {
+    position: relative;
+    left: 1px;
+    top: 2px;
+}
+
+audio {
+    width: 800px;
+    border-radius: 50px;
+}
+
 .barraPlaylist {
     display: flex;
     justify-content: space-between;
@@ -23,7 +38,7 @@ body {
     display: grid;
     overflow: hidden;
     max-height: 0px;
-    transition: max-height 1s ease;
+    transition: max-height 0.7s ease;
 }
 
 .barraPlaylist:has(.botonDesplegar input:checked) + .canciones {
@@ -44,7 +59,7 @@ body {
 
 .cancion {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     box-sizing: border-box;
     margin: auto;
@@ -63,9 +78,21 @@ body {
     border-radius: 15px;
 }
 
+.cancion audio {
+    flex-grow: 2;
+}
+
 .cancion h3 {
-    margin-right: auto;
     margin-left: 20px;
+}
+
+.cancion h5 {
+    max-width: 30%;
+    margin-left: auto;
+}
+
+.cancion svg {
+    margin-left: 4px;
 }
 
 .botonDesplegar {
