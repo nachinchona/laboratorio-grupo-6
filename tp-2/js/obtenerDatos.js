@@ -70,10 +70,20 @@ function agregarCanciones(datos, canciones) {
             nombresArtistas.textContent += artista.name;
         }
 
+        var contenedorCancionE = document.createElement("div");
+        contenedorCancionE.className = "infoCancionEX";
+        contenedorCancionE.appendChild(nombreCancion)
+
+
+        var contenedorNombres = document.createElement("div");
+        contenedorNombres.className="infoCancion";
+        contenedorNombres.appendChild(contenedorCancionE);
+        contenedorNombres.appendChild(nombresArtistas);
+        
         cancion.appendChild(imagenCancion);
-        cancion.appendChild(nombreCancion);
+        cancion.appendChild(contenedorNombres);
         if (track.explicit) {
-            cancion.innerHTML += '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#CCCC"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14z" /><path d="M15 15h-4v-2h4v-2h-4V9h4V7H9v10h6z" /></svg>'
+            contenedorCancionE.innerHTML += '<svg class="explicito" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#000000"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14z" /><path d="M15 15h-4v-2h4v-2h-4V9h4V7H9v10h6z" /></svg>'
         }
         /*
         PARA AUDIO PREVIEW (VER SI USAR REPRODUCTOR NATIVO O QUE ONDA)
@@ -87,15 +97,15 @@ function agregarCanciones(datos, canciones) {
             cancion.appendChild(preview);
         }
         */
-        cancion.appendChild(nombresArtistas);
+        
         var botonDesplegar = document.createElement("div");
         botonDesplegar.className = "botonDesplegar";
         botonDesplegar.innerHTML = '<label><input type="checkbox"><svg width="30" height="30" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 18L24 30L36 18" stroke="#1E1E1E" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg></label>';
 
-        cancion.appendChild(nombresArtistas);
+        
         cancion.appendChild(botonDesplegar);
 
-
+/*
         var labelPopular = document.createElement("label");
         var barrita = document.createElement("meter");
         barrita.max = 100;
@@ -105,7 +115,7 @@ function agregarCanciones(datos, canciones) {
         labelPopular.textContent = "Popularidad:";
         barrita.value = popularidad;
         cancion.appendChild(labelPopular);
-
+*/
 
         canciones.appendChild(cancion);
     }
