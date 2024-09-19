@@ -4,6 +4,8 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    color:white;
+    background-image: linear-gradient(#333, #111);
     color: white;
     background-color: #333;
     /* background-image: linear-gradient(#333, #111); */
@@ -230,6 +232,69 @@ nav ul li {
     background-color: #555;
     border-radius: 5px;
 }
+
+.bienvenida {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 50px;
+    margin-top: 35px;
+}
+
+.texto {
+    flex-basis: 50%;
+    margin-right: 20px;
+    font-size: 1.5rem;
+}
+
+.imagen {
+    flex-basis: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.imagen img{
+    width: 100% ;
+    height: 100%;
+}
+
+.texto a button {
+    margin-left: 200px; /* ver como puedo dejarlo en el medio asi nomas*/
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(24, 24, 24);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 15px;
+    border: 2px, solid, rgb(127,127,127);
+    border-radius: 25px;
+    
+}
+
+.intermedio {
+    padding: 50px;
+    margin: 35px;
+    text-align: center;
+}
+
+.intermedio h2 {
+    font-size: 46px;
+}
+
+.intermedio p {
+    line-height: 1.80;
+}
+
+.gifs {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    padding: 50px;
+    text-align: center;
+}
+
+
+
 
 section {
     min-height: 100vh;
