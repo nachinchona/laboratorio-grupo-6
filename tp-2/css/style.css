@@ -42,19 +42,26 @@ body {
 
 /* reproducir y audio son para probar*/
 
-#reproducir {
-    clip-path: circle(47% at 50% 50%);
+#reproductor {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+    width: 74px;
+    height: 40px;
+    background-color: #858585;
+    border-radius: 100px;
+    margin: 20px;
 }
 
-#reproducir svg {
-    position: relative;
-    left: 1px;
-    top: 2px;
+.reproducir {
+    width: 24px;
+    height: 28px;
+    color: #FFF;
 }
 
 audio {
-    width: 800px;
-    border-radius: 50px;
+    border-radius: 100px;
 }
 
 .barraPlaylist {
@@ -121,7 +128,7 @@ audio {
     border-radius: 15px;
 }
 
-.barraPlaylist h3 { 
+.barraPlaylist h3 {
     min-width: 40%;
     margin-left: 20px;
 }
@@ -131,7 +138,7 @@ audio {
     max-width: 40%;
     font-size: 12px;
     margin-right: auto;
-    color:#a7a7a7;
+    color: #a7a7a7;
 }
 
 .cancion {
@@ -421,7 +428,8 @@ svg {
 }
 
 .texto a button {
-    margin-left: 200px; /* ver como puedo dejarlo en el medio asi nomas*/
+    margin-left: 200px;
+    /* ver como puedo dejarlo en el medio asi nomas*/
     font-family: 'Montserrat', sans-serif;
     background-color: rgb(24, 24, 24);
     color: white;

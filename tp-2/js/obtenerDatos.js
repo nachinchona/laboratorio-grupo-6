@@ -5,7 +5,8 @@ const urls = [
     'http://127.0.0.1:3000/tp-2/json/rock-nacional.json',
     'http://127.0.0.1:3000/tp-2/json/exitos-argentina.json',
     'http://127.0.0.1:3000/tp-2/json/edm-hits.json',
-    'http://127.0.0.1:3000/tp-2/json/electronica.json'
+    'http://127.0.0.1:3000/tp-2/json/electronica.json',
+    'http://127.0.0.1:3000/tp-2/json/pop-up.json'
 ];
 
 Promise.all(urls.map(url => fetch(url)
@@ -42,7 +43,7 @@ function agregarPlaylists(datos) {
     barraPlaylist.appendChild(imagenPlaylist);
     barraPlaylist.appendChild(nombrePlaylist);
 
-    var descripcion = document.createElement("h5");
+    var descripcion = document.createElement("span");
     descripcion.textContent = datos.description;
     barraPlaylist.appendChild(descripcion);
 
