@@ -42,22 +42,101 @@ body {
 
 /* reproducir y audio son para probar*/
 
-#reproductor {
+.reproductor {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 8px;
-    width: 74px;
+    width: 80px;
     height: 40px;
-    background-color: #858585;
+    background-color: #aaaaaa;
     border-radius: 100px;
     margin: 20px;
 }
 
-.reproducir {
+.reproductor .reproducir button {
+    opacity: 1;
     width: 24px;
-    height: 28px;
-    color: #FFF;
+    height: 24px;
+    border-radius: 30px;
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+
+.reproducir {
+    width: 30px;
+    margin-left: 2px;
+    padding-left: 4px;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+}
+
+.reproductor .reproducir button .botonReproducir {
+    position: relative;
+    margin-top: 4px;
+    opacity: 0.4;
+    width: 20px;
+    height: 20px;
+    pointer-events: none;
+}
+
+.reproductor .reproducir button .botonPausa {
+    position: relative;
+    margin-top: 4px;
+    opacity: 0;
+    width: 20px;
+    height: 20px;
+    pointer-events: none;
+}
+
+.reproducir:hover {
+    background-color: #c0c0c0;
+}
+
+.reproductor .silenciar button {
+    opacity: 1;
+    width: 24px;
+    height: 24px;
+    border-radius: 30px;
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+
+.silenciar {
+    width: 30px;
+    padding-left: 4px;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+}
+
+.reproductor .silenciar button .botonSilenciar {
+    position: relative;
+    opacity: 0.4;
+    margin-top: 4px;
+    margin-left: -2px;
+    width: 20px;
+    height: 20px;
+    pointer-events: none;
+}
+
+.reproductor .silenciar button .botonDesilenciar {
+    position: relative;
+    opacity: 0;
+    margin-top: 4px;
+    margin-left: -2px;
+    width: 20px;
+    height: 20px;
+    pointer-events: none;
+}
+
+.silenciar:hover {
+    background-color: #c0c0c0;
 }
 
 audio {
@@ -246,9 +325,9 @@ audio {
 .cancion .botonDesplegar label input[type=checkbox] {
     opacity: 0;
     position: absolute;
-    width: 800px;
+    width: 50px;
     height: 80px;
-    left: -755px;
+    left: -20px;
     top: -23px;
     border-radius: 100px;
     z-index: 1;
