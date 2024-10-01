@@ -11,18 +11,7 @@
 </head>
 
 <body>
-    <nav>
-        <div id="logoTitulo">
-            <img id="logo" src="../resources/iconofai grande.png" alt="SpotiFAI">
-            <h1>SpotiFAI</h1>
-        </div>
-        <ul>
-            <li><a class="botonNav" href="index.html">Inicio</a></li>
-            <li><a class="botonNav" href="playlists.html">Playlists</a></li>
-            <li><a class="botonNav" href="faq.html">FAQ</a></li>
-            <li><a class="botonNav" href="contacto.html">Quiénes somos</a></li>
-        </ul>
-    </nav>
+    <nav id="navegacion"></nav>
     <section>
         <h2 class="titulo"> FAQ's</h2>
         <div class="faq">
@@ -61,31 +50,10 @@
             </div>
         </div>
     </section>
+    <script src="../js/nav-bar.js"></script>
+    <script src="../js/faq.js"></script>
 </body>
 </html>
 <script>
-    const faqs = document.querySelectorAll(".faq");
 
-faqs.forEach(faq => {
-  const question = faq.querySelector(".pregunta");
-  const answer = faq.querySelector(".respuesta");
-
-  question.addEventListener("click", () => {
-    if (faq.classList.contains("active")) {
-      faq.classList.remove("active");
-      answer.style.maxHeight = null;
-    } else {
-
-      faqs.forEach(otherFaq => {
-        if (otherFaq.classList.contains("active")) {
-          otherFaq.classList.remove("active");
-          otherFaq.querySelector(".answer").style.maxHeight = null;
-        }
-      });
-
-      faq.classList.add("active");
-      answer.style.maxHeight = answer.scrollHeight + "px";
-    }
-  });
-});
 </script>
