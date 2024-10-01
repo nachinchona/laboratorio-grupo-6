@@ -108,11 +108,11 @@ function agregarCanciones(datos, canciones) {
             reproducir.className = "reproducir";
             let botonReproducir = document.createElement("button");
             botonReproducir.type = "button";
-            botonReproducir.addEventListener('click', function () { reproducir_preview(preview) });
             let iconoPlay = document.createElement("img");
             iconoPlay.src = "../resources/play-1003-svgrepo-com.svg";
             iconoPlay.className = "botonReproducir";
-
+            botonReproducir.addEventListener('click', function () { reproducir_preview(preview,iconoPlay) });
+            
             botonReproducir.appendChild(iconoPlay);
             reproducir.appendChild(botonReproducir);
 
@@ -120,10 +120,10 @@ function agregarCanciones(datos, canciones) {
             silenciar.className = "silenciar";
             let botonSilenciar = document.createElement("button");
             botonSilenciar.type = "button";
-            botonSilenciar.addEventListener('click', function () { silenciar_preview(preview) });
             let iconoSilenciar = document.createElement("img");
             iconoSilenciar.src = "../resources/volume-up-solid-svgrepo-com.svg";
-            iconoSilenciar.className = "botonVolumen";
+            iconoSilenciar.className = "botonSilenciar";
+            botonSilenciar.addEventListener('click', function () { silenciar_preview(preview,iconoSilenciar) });
 
             botonSilenciar.appendChild(iconoSilenciar);
             silenciar.appendChild(botonSilenciar);
@@ -164,10 +164,17 @@ function agregarCanciones(datos, canciones) {
 
 let estaReproducido = false;
 
-let audio;
+let audio = new Audio;
+let iconoActual;
 
-function reproducir_preview(audioTag) {
-    if (audio == undefined) {
+function reproducir_preview(audioTag, icono) {
+    // si se reproduce otra cancion que no es la actual
+    if (audio.currentSrc != audioTag.src) {
+        audio.pause();
+        if (iconoActual == undefined) {
+            iconoActual = icono;
+        }
+        iconoActual.src = "../resources/play-1003-svgrepo-com.svg";
         audio = new Audio(audioTag.src);
         audio.volume = 0.2;
         estaReproducido = false;
@@ -177,32 +184,26 @@ function reproducir_preview(audioTag) {
         audio.onpause = function () {
             estaReproducido = false;
         };
-    } else {
-        if (audio.currentSrc != audioTag.src) {
-            audio.pause();
-            audio = new Audio(audioTag.src);
-            audio.volume = 0.2;
-            estaReproducido = false;
-            audio.onplaying = function () {
-                estaReproducido = true;
-            };
-            audio.onpause = function () {
-                estaReproducido = false;
-            };
-        }
+
     }
 
     if (!estaReproducido) {
         audio.play();
+        icono.src = "../resources/pause-1006-svgrepo-com.svg";
     } else {
         audio.pause();
+        icono.src = "../resources/play-1003-svgrepo-com.svg";
     }
+    iconoActual = icono;
 }
 
-function silenciar_preview(audioTag) {
-    if (audio != undefined) {
-        if (audio.currentSrc == audioTag.src) {
-            audio.muted = !audio.muted;
+function silenciar_preview(audioTag, icono) {
+    if (audio.currentSrc == audioTag.src) {
+        audio.muted = !audio.muted;
+        if (audio.muted) {
+            icono.src = "../resources/volume-off-solid-svgrepo-com.svg";
+        } else {
+            icono.src = "../resources/volume-up-solid-svgrepo-com.svg";
         }
     }
 }
