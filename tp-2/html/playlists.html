@@ -3,7 +3,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="ISO-8859-1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Playlists - SpotiFAI</title>
     <link rel="stylesheet" href="../css/style.css">
@@ -11,35 +11,27 @@
 </head>
 
 <body>
-    <nav>
-        <div id="logoTitulo">
-            <img id="logo" src="../resources/iconofai grande.png" alt="SpotiFAI">
-            <h1>SpotiFAI</h1>
-        </div>
-        <ul>
-            <li><a class="botonNav" href="index.html">Inicio</a></li>
-            <li><a class="botonNav" href="faq.html">FAQ</a></li>
-            <li><a class="botonNav" href="contacto.html">Quiénes somos</a></li>
-        </ul>
-    </nav>
+    <div id="loaderCaja">
+        <div class="loader"></div>
+    </div>
+    <div id="contenido">
+        <nav>
+            <div id="logoTitulo">
+                <img id="logo" src="../resources/iconofai grande.png" alt="SpotiFAI">
+                <h1>SpotiFAI</h1>
+            </div>
+            <ul>
+                <li><a class="botonNav" href="index.html">Inicio</a></li>
+                <li><a class="botonNav" href="playlists.html">Playlists</a></li>
+                <li><a class="botonNav" href="faq.html">FAQ</a></li>
+                <li><a class="botonNav" href="contacto.html">QuiÃ©nes somos</a></li>
+            </ul>
+        </nav>
 
-    <!--
-    <button id="reproducir" onclick="reproducir()">
-        <svg width="50" height="50" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="8.72727" cy="8.72727" r="8.72727" fill="#1DB954" />
-            <path d="M6.54541 12L12.2727 8.72732L6.54541 5.45459V12Z" fill="#191414" />
-        </svg>
-    </button>
-
-    <audio controls>
-        <source src="https://p.scdn.co/mp3-preview/a7718f2e0bdad78f08cd7c9f3240ddb8374a5f32?cid=96d19b8fd5ab4cf0b06c69e802c925a1"></source>
-    </audio>
-    -->
-
-    <div id="playlists"></div>
-
+        <div id="playlists"></div>
+    </div>
     <script src="../js/obtenerDatos.js"></script>
-    <script src="../js/reproducir.js"></script>
+    <script src="../js/cargador.js"></script>
 </body>
 
 </html>

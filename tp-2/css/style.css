@@ -5,25 +5,142 @@
 body {
     font-family: 'Montserrat', sans-serif;
     color: white;
-    background-color: #333;
     background-image: linear-gradient(#333, #111);
+    min-height: 2000px;
+}
+
+#contenido {
+    display: none;
+}
+
+#loaderCaja {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.9);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader {
+    width: 100px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: 8px solid lightblue;
+    border-right-color: rgb(0, 179, 60);
+    animation: l2 1s infinite linear;
+}
+
+@keyframes l2 {
+    to {
+        transform: rotate(1turn)
+    }
 }
 
 /* reproducir y audio son para probar*/
 
-#reproducir {
-    clip-path: circle(47% at 50% 50%);
+.reproductor {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+    width: 80px;
+    height: 40px;
+    background-color: #aaaaaa;
+    border-radius: 100px;
+    margin: 20px;
 }
 
-#reproducir svg {
+.reproductor .reproducir button {
+    opacity: 1;
+    width: 24px;
+    height: 24px;
+    border-radius: 30px;
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+
+.reproducir {
+    width: 30px;
+    margin-left: 2px;
+    padding-left: 4px;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+}
+
+.reproductor .reproducir button .botonReproducir {
     position: relative;
-    left: 1px;
-    top: 2px;
+    margin-top: 4px;
+    opacity: 0.4;
+    width: 20px;
+    height: 20px;
+    pointer-events: none;
+}
+
+.reproductor .reproducir button .botonPausa {
+    position: relative;
+    margin-top: 4px;
+    opacity: 0;
+    width: 20px;
+    height: 20px;
+    pointer-events: none;
+}
+
+.reproducir:hover {
+    background-color: #c0c0c0;
+}
+
+.reproductor .silenciar button {
+    opacity: 1;
+    width: 24px;
+    height: 24px;
+    border-radius: 30px;
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+
+.silenciar {
+    width: 30px;
+    padding-left: 4px;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+}
+
+.reproductor .silenciar button .botonSilenciar {
+    position: relative;
+    opacity: 0.4;
+    margin-top: 4px;
+    margin-left: -2px;
+    width: 20px;
+    height: 20px;
+    pointer-events: none;
+}
+
+.reproductor .silenciar button .botonDesilenciar {
+    position: relative;
+    opacity: 0;
+    margin-top: 4px;
+    margin-left: -2px;
+    width: 20px;
+    height: 20px;
+    pointer-events: none;
+}
+
+.silenciar:hover {
+    background-color: #c0c0c0;
 }
 
 audio {
-    width: 800px;
-    border-radius: 50px;
+    border-radius: 100px;
 }
 
 .barraPlaylist {
@@ -45,7 +162,6 @@ audio {
     display: grid;
     overflow: hidden;
     max-height: 0px;
-    /* transition: max-height 0.7s ease; */
     transition: max-height 1s ease;
 }
 
@@ -92,8 +208,16 @@ audio {
 }
 
 .barraPlaylist h3 {
-    margin-right: auto;
+    min-width: 40%;
     margin-left: 20px;
+}
+
+.barraPlaylist span {
+    flex-grow: 1;
+    max-width: 40%;
+    font-size: 12px;
+    margin-right: auto;
+    color: #a7a7a7;
 }
 
 .cancion {
@@ -104,7 +228,7 @@ audio {
     margin: auto;
     margin-top: 40px;
     padding: 12px 12px;
-    width: 700px;
+    width: 800px;
     height: 80px;
     border-radius: 15px;
     background: #babbba;
@@ -117,7 +241,9 @@ audio {
 }
 
 .cancion audio {
-    flex-grow: 2;
+    opacity: 0.2;
+    z-index: 2;
+    width: 10%;
 }
 
 .cancion h3 {
@@ -125,7 +251,6 @@ audio {
 }
 
 .cancion h5 {
-    max-width: 30%;
     margin-left: auto;
 }
 
@@ -144,32 +269,35 @@ audio {
     align-items: flex-start;
     justify-content: flex-start;
     margin-right: auto;
-    flex:900 1 auto;
-    width:500px;
+    flex: 900 1 auto;
+    width: 500px;
 }
 
-.cancion .infoCancion 
-h3 {
+.cancion .infoCancion h3 {
     margin-top: 5px;
     margin: 2px;
     margin-left: 10px;
     padding: 2px;
-    color:#111;
-    
+    color: #111;
+
 }
-.cancion .infoCancion 
-h5{
-    width:500px;
+
+.cancion .infoCancion h5 {
     margin-top: 5px;
     margin: 2px;
     margin-right: 10px;
     margin-left: 10px;
     padding: 2px;
-    color:#222121d8
+    color: #222121d8
 }
-.cancion .infoCancionEX{
+
+.cancion .infoCancionEX {
     display: flex;
     align-items: center;
+}
+
+.cancion .botonDesplegar {
+    margin-left: 15px;
 }
 
 .cancion .botonDesplegar input {
@@ -183,14 +311,26 @@ h5{
     transition: background-color 0.3s ease;
 }
 
-.botonDesplegar label input[type=checkbox] {
+.barraPlaylist .botonDesplegar label input[type=checkbox] {
     opacity: 0;
     position: absolute;
     width: 1000px;
     height: 80px;
-    left: -945px;
-    top: -20px;
+    left: -955px;
+    top: -23px;
     border-radius: 100px;
+    /* clip-path: circle(47% at 50% 50%); */
+}
+
+.cancion .botonDesplegar label input[type=checkbox] {
+    opacity: 0;
+    position: absolute;
+    width: 50px;
+    height: 80px;
+    left: -20px;
+    top: -23px;
+    border-radius: 100px;
+    z-index: 1;
     /* clip-path: circle(47% at 50% 50%); */
 }
 
@@ -361,20 +501,21 @@ svg {
     justify-content: flex-end;
 }
 
-.imagen img{
-    width: 100% ;
+.imagen img {
+    width: 100%;
     height: 100%;
 }
 
 .texto a button {
-    margin-left: 200px; /* ver como puedo dejarlo en el medio asi nomas*/
+    margin-left: 200px;
+    /* ver como puedo dejarlo en el medio asi nomas*/
     font-family: 'Montserrat', sans-serif;
     background-color: rgb(24, 24, 24);
     color: white;
     font-size: 16px;
     cursor: pointer;
     padding: 15px;
-    border: 2px, solid, rgb(127,127,127);
+    border: 2px, solid, rgb(127, 127, 127);
     border-radius: 25px;
 
 }
@@ -399,4 +540,40 @@ svg {
     align-content: center;
     padding: 50px;
     text-align: center;
+}
+
+.tarjetas {
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.tarjetita {
+    background-color: black;
+    border-radius: 10px;
+    width: 200px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tarjetita a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.tarjetita a:hover {
+    color: rgb(41, 251, 111);
+}
+
+.circulo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+    background-size: cover;
+    background-position: center;
 }
