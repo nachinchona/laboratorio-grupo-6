@@ -24,26 +24,26 @@ function agregarPlaylists(datos) {
     const playlists = document.getElementById("playlists");
 
     // lista con barraPlaylist y canciones
-    var playlist = document.createElement("ul");
+    let playlist = document.createElement("ul");
     playlist.className = "playlist";
 
-    var barraPlaylist = document.createElement("div");
+    let barraPlaylist = document.createElement("div");
     barraPlaylist.className = "barraPlaylist";
 
-    var imagenPlaylist = document.createElement("img");
+    let imagenPlaylist = document.createElement("img");
     imagenPlaylist.src = datos.images[0].url;
-    var nombrePlaylist = document.createElement("h3");
+    let nombrePlaylist = document.createElement("h3");
     nombrePlaylist.textContent = datos.name;
-    var botonDesplegar = document.createElement("div");
+    let botonDesplegar = document.createElement("div");
     botonDesplegar.className = "botonDesplegar";
     botonDesplegar.innerHTML = '<label><input type="checkbox"><svg width="30" height="30" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 18L24 30L36 18" stroke="#1E1E1E" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg></label>';
-    var canciones = document.createElement("div");
+    let canciones = document.createElement("div");
     canciones.className = "canciones";
 
     barraPlaylist.appendChild(imagenPlaylist);
     barraPlaylist.appendChild(nombrePlaylist);
 
-    var descripcion = document.createElement("span");
+    let descripcion = document.createElement("span");
     descripcion.textContent = datos.description;
     barraPlaylist.appendChild(descripcion);
 
@@ -59,70 +59,151 @@ function agregarPlaylists(datos) {
 
 function agregarCanciones(datos, canciones) {
 
-    for (var item of datos.tracks.items) {
-        var track = item.track;
+    for (let item of datos.tracks.items) {
+        let track = item.track;
 
-        var cancion = document.createElement("li");
+        let cancion = document.createElement("li");
         cancion.className = "cancion";
-        var nombreCancion = document.createElement("h3");
+        let nombreCancion = document.createElement("h3");
         nombreCancion.textContent = track.name;
-        var imagenCancion = document.createElement("img");
-        imagenCancion.src = track.album.images[0].url;  
-        var nombreAlbum = document.createElement("h5");
+        let imagenCancion = document.createElement("img");
+        imagenCancion.src = track.album.images[0].url;
+        let nombreAlbum = document.createElement("h5");
         nombreAlbum.textContent = track.album.name;
 
-        for (var artista of track.artists) {
-            var nombresArtistas = document.createElement("h5");
+        let nombresArtistas;
+        for (let artista of track.artists) {
+            nombresArtistas = document.createElement("h5");
             nombresArtistas.textContent += artista.name;
         }
 
-        var contenedorCancionE = document.createElement("div");
+        let contenedorCancionE = document.createElement("div");
         contenedorCancionE.className = "infoCancionEX";
         contenedorCancionE.appendChild(nombreCancion)
 
 
-        var contenedorNombres = document.createElement("div");
-        contenedorNombres.className="infoCancion";
+        let contenedorNombres = document.createElement("div");
+        contenedorNombres.className = "infoCancion";
         contenedorNombres.appendChild(contenedorCancionE);
         contenedorNombres.appendChild(nombresArtistas);
-        
+
         cancion.appendChild(imagenCancion);
         cancion.appendChild(contenedorNombres);
         if (track.explicit) {
             contenedorCancionE.innerHTML += '<svg class="explicito" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#666"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14z" /><path d="M15 15h-4v-2h4v-2h-4V9h4V7H9v10h6z" /></svg>'
         }
-        
-        var botonDesplegar = document.createElement("div");
+
+        let botonDesplegar = document.createElement("div");
         botonDesplegar.className = "botonDesplegar";
         botonDesplegar.innerHTML = '<label><input type="checkbox"><svg width="30" height="30" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 18L24 30L36 18" stroke="#1E1E1E" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg></label>';
 
         if (track.preview_url != null) {
-            var preview = document.createElement("audio");
+            let reproductor = document.createElement("div");
+            reproductor.className = "reproductor";
+
+            let preview = document.createElement("audio");
+            preview.src = track.preview_url;
+
+            let reproducir = document.createElement("div");
+            reproducir.className = "reproducir";
+            let botonReproducir = document.createElement("button");
+            botonReproducir.type = "button";
+            botonReproducir.addEventListener('click', function () { reproducir_preview(preview) });
+            let iconoPlay = document.createElement("img");
+            iconoPlay.src = "../resources/play-1003-svgrepo-com.svg";
+            iconoPlay.className = "botonReproducir";
+
+            botonReproducir.appendChild(iconoPlay);
+            reproducir.appendChild(botonReproducir);
+
+            let silenciar = document.createElement("div");
+            silenciar.className = "silenciar";
+            let botonSilenciar = document.createElement("button");
+            botonSilenciar.type = "button";
+            botonSilenciar.addEventListener('click', function () { silenciar_preview(preview) });
+            let iconoSilenciar = document.createElement("img");
+            iconoSilenciar.src = "../resources/volume-up-solid-svgrepo-com.svg";
+            iconoSilenciar.className = "botonVolumen";
+
+            botonSilenciar.appendChild(iconoSilenciar);
+            silenciar.appendChild(botonSilenciar);
+
+            reproductor.appendChild(reproducir);
+            reproductor.appendChild(silenciar);
+            reproductor.appendChild(preview);
+            cancion.appendChild(reproductor);
+
+            /* 
+            let preview = document.createElement("audio");
             preview.volume = 0.2;
             preview.controls = true;
-            var previewSource = document.createElement("source");
+            let previewSource = document.createElement("source");
             previewSource.src = track.preview_url;
             preview.appendChild(previewSource);
-            cancion.appendChild(preview);
+            cancion.appendChild(preview); 
+            */
         }
 
         cancion.appendChild(botonDesplegar);
 
-/*
-        var labelPopular = document.createElement("label");
-        var barrita = document.createElement("meter");
-        barrita.max = 100;
-        barrita.min = 0;
-        labelPopular.appendChild(barrita);
-        var popularidad = track.popularity;
-        labelPopular.textContent = "Popularidad:";
-        barrita.value = popularidad;
-        cancion.appendChild(labelPopular);
-*/
-
-        
+        /*
+                let labelPopular = document.createElement("label");
+                let barrita = document.createElement("meter");
+                barrita.max = 100;
+                barrita.min = 0;
+                labelPopular.appendChild(barrita);
+                let popularidad = track.popularity;
+                labelPopular.textContent = "Popularidad:";
+                barrita.value = popularidad;
+                cancion.appendChild(labelPopular);
+        */
 
         canciones.appendChild(cancion);
+    }
+}
+
+let estaReproducido = false;
+
+let audio;
+
+function reproducir_preview(audioTag) {
+    if (audio == undefined) {
+        audio = new Audio(audioTag.src);
+        audio.volume = 0.2;
+        estaReproducido = false;
+        audio.onplaying = function () {
+            estaReproducido = true;
+        };
+        audio.onpause = function () {
+            estaReproducido = false;
+        };
+    } else {
+        if (audio.currentSrc != audioTag.src) {
+            audio.pause();
+            audio = new Audio(audioTag.src);
+            audio.volume = 0.2;
+            estaReproducido = false;
+            audio.onplaying = function () {
+                estaReproducido = true;
+            };
+            audio.onpause = function () {
+                estaReproducido = false;
+            };
+        }
+    }
+
+    if (!estaReproducido) {
+        audio.play();
+    } else {
+        audio.pause();
+    }
+}
+
+function silenciar_preview(audioTag) {
+    if (audio != undefined) {
+        if (audio.currentSrc == audioTag.src) {
+            audio.muted = !audio.muted;
+        }
     }
 }
 
