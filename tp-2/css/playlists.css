@@ -1,0 +1,294 @@
+.reproductor {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+    width: 80px;
+    height: 40px;
+    background-color: #aaaaaa;
+    border-radius: 100px;
+    margin: 20px;
+}
+
+.reproductor .reproducir button {
+    opacity: 1;
+    width: 24px;
+    height: 24px;
+    border-radius: 30px;
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+
+.reproducir {
+    width: 30px;
+    margin-left: 2px;
+    padding-left: 4px;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+}
+
+.reproductor .reproducir button .botonReproducir {
+    position: relative;
+    margin-top: 4px;
+    opacity: 0.4;
+    width: 20px;
+    height: 20px;
+    pointer-events: none;
+}
+
+.reproducir:hover {
+    background-color: #c0c0c0;
+}
+
+.reproductor .silenciar button {
+    opacity: 1;
+    width: 24px;
+    height: 24px;
+    border-radius: 30px;
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+
+.silenciar {
+    width: 30px;
+    padding-left: 4px;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+}
+
+.reproductor .silenciar button .botonSilenciar {
+    position: relative;
+    opacity: 0.4;
+    margin-top: 4px;
+    margin-left: -2px;
+    width: 20px;
+    height: 20px;
+    pointer-events: none;
+}
+
+.silenciar:hover {
+    background-color: #c0c0c0;
+}
+
+.barraPlaylist {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 40px;
+    padding: 12px 12px;
+    width: 1000px;
+    height: 80px;
+    border-radius: 15px;
+    background: #666666;
+    background-image: linear-gradient(#666, #555);
+}
+
+.barraPlaylist:has(.botonDesplegar)+.canciones {
+    display: grid;
+    overflow: hidden;
+    max-height: 0px;
+    transition: max-height 1s ease;
+}
+
+.barraPlaylist:has(.botonDesplegar input:checked)+.canciones {
+    animation: desplegarPlaylist 1s ease-in-out forwards;
+}
+
+.barraPlaylist:has(.botonDesplegar input:not(:checked))+.canciones {
+    animation: plegarPlaylist 1s ease-in-out forwards;
+}
+
+@keyframes desplegarPlaylist {
+    0% {
+        max-height: 0;
+    }
+
+    50% {
+        max-height: 10000px;
+    }
+
+    100% {
+        max-height: 20000px;
+    }
+}
+
+@keyframes plegarPlaylist {
+    0% {
+        max-height: 20000px;
+    }
+
+    50% {
+        max-height: 1000px;
+    }
+
+    100% {
+        max-height: 0;
+    }
+}
+
+.barraPlaylist img {
+    width: 60px;
+    height: 60px;
+    border-radius: 15px;
+}
+
+.barraPlaylist h3 {
+    min-width: 40%;
+    margin-left: 20px;
+}
+
+.barraPlaylist span {
+    flex-grow: 1;
+    max-width: 40%;
+    font-size: 12px;
+    margin-right: auto;
+    color: #a7a7a7;
+}
+
+.cancion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 40px;
+    padding: 12px 12px;
+    width: 800px;
+    height: 80px;
+    border-radius: 15px;
+    background: #babbba;
+}
+
+.cancion img {
+    width: 60px;
+    height: 60px;
+    border-radius: 15px;
+}
+
+.cancion audio {
+    opacity: 0.2;
+    z-index: 2;
+    width: 10%;
+}
+
+.cancion h3 {
+    margin-left: 20px;
+}
+
+.cancion h5 {
+    margin-left: auto;
+}
+
+.cancion svg {
+    margin-left: 4px;
+}
+
+.cancion label progress {
+    width: 370px;
+}
+
+.cancion .infoCancion {
+    display: flex;
+    text-align: start;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-right: auto;
+    flex: 900 1 auto;
+    width: 500px;
+}
+
+.cancion .infoCancion h3 {
+    margin-top: 5px;
+    margin: 2px;
+    margin-left: 10px;
+    padding: 2px;
+    color: #111;
+
+}
+
+.cancion .infoCancion h5 {
+    margin-top: 5px;
+    margin: 2px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 2px;
+    color: #222121d8
+}
+
+.cancion .infoCancionEX {
+    display: flex;
+    align-items: center;
+}
+
+.cancion .botonDesplegar {
+    margin-left: 15px;
+}
+
+.cancion .botonDesplegar input {
+    margin-right: auto;
+}
+
+.botonDesplegar {
+    position: relative;
+    background-color: transparent;
+    border-radius: 100px;
+    transition: background-color 0.3s ease;
+}
+
+.barraPlaylist .botonDesplegar label input[type=checkbox] {
+    opacity: 0;
+    position: absolute;
+    width: 1000px;
+    height: 80px;
+    left: -955px;
+    top: -23px;
+    border-radius: 100px;
+    /* clip-path: circle(47% at 50% 50%); */
+}
+
+.cancion .botonDesplegar label input[type=checkbox] {
+    opacity: 0;
+    position: absolute;
+    width: 50px;
+    height: 80px;
+    left: -20px;
+    top: -23px;
+    border-radius: 100px;
+    z-index: 1;
+    /* clip-path: circle(47% at 50% 50%); */
+}
+
+.botonDesplegar label input[type=checkbox]+svg {
+    transition-duration: 0.2s;
+    transition-property: transform;
+    transform: rotate(270deg);
+}
+
+.botonDesplegar label input[type=checkbox]:checked+svg {
+    transition-duration: 0.2s;
+    transition-property: transform;
+    transform: rotate(360deg);
+}
+
+.botonDesplegar:hover {
+    background-color: #999;
+}
+
+.botonDesplegar:active {
+    background-color: #FFF;
+}
+
+.botonDesplegar svg {
+    padding: 4px 6px 4px 6px;
+    margin-top: 4px;
+    margin-left: 3px;
+}

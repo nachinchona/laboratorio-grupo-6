@@ -44,7 +44,7 @@ let contacto = document.createElement("li");
 let linkContacto = document.createElement("a");
 linkContacto.className = "botonNav";
 linkContacto.href = "contacto.html";
-linkContacto.textContent = "Quiénes somos";
+linkContacto.textContent = "QuiÃ©nes somos";
 contacto.appendChild(linkContacto);
 lista.appendChild(contacto);
 
