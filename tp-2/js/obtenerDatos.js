@@ -81,7 +81,6 @@ function agregarCanciones(datos, canciones) {
         contenedorCancionE.className = "infoCancionEX";
         contenedorCancionE.appendChild(nombreCancion)
 
-
         let contenedorNombres = document.createElement("div");
         contenedorNombres.className = "infoCancion";
         contenedorNombres.appendChild(contenedorCancionE);
@@ -89,6 +88,7 @@ function agregarCanciones(datos, canciones) {
 
         cancion.appendChild(imagenCancion);
         cancion.appendChild(contenedorNombres);
+
         if (track.explicit) {
             contenedorCancionE.innerHTML += '<svg class="explicito" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#666"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14z" /><path d="M15 15h-4v-2h4v-2h-4V9h4V7H9v10h6z" /></svg>'
         }
@@ -111,8 +111,7 @@ function agregarCanciones(datos, canciones) {
             let iconoPlay = document.createElement("img");
             iconoPlay.src = "../resources/play-1003-svgrepo-com.svg";
             iconoPlay.className = "botonReproducir";
-            botonReproducir.addEventListener('click', function () { reproducir_preview(preview,iconoPlay) });
-            
+
             botonReproducir.appendChild(iconoPlay);
             reproducir.appendChild(botonReproducir);
 
@@ -123,88 +122,34 @@ function agregarCanciones(datos, canciones) {
             let iconoSilenciar = document.createElement("img");
             iconoSilenciar.src = "../resources/volume-up-solid-svgrepo-com.svg";
             iconoSilenciar.className = "botonSilenciar";
-            botonSilenciar.addEventListener('click', function () { silenciar_preview(preview,iconoSilenciar) });
 
             botonSilenciar.appendChild(iconoSilenciar);
             silenciar.appendChild(botonSilenciar);
+
+            botonReproducir.addEventListener('click', function () { reproducir_preview(preview, iconoPlay, iconoSilenciar) });
+            botonSilenciar.addEventListener('click', function () { silenciar_preview(preview, iconoSilenciar) });
 
             reproductor.appendChild(reproducir);
             reproductor.appendChild(silenciar);
             reproductor.appendChild(preview);
             cancion.appendChild(reproductor);
-
-            /* 
-            let preview = document.createElement("audio");
-            preview.volume = 0.2;
-            preview.controls = true;
-            let previewSource = document.createElement("source");
-            previewSource.src = track.preview_url;
-            preview.appendChild(previewSource);
-            cancion.appendChild(preview); 
-            */
         }
 
         cancion.appendChild(botonDesplegar);
 
         /*
-                let labelPopular = document.createElement("label");
-                let barrita = document.createElement("meter");
-                barrita.max = 100;
-                barrita.min = 0;
-                labelPopular.appendChild(barrita);
-                let popularidad = track.popularity;
-                labelPopular.textContent = "Popularidad:";
-                barrita.value = popularidad;
-                cancion.appendChild(labelPopular);
+        let labelPopular = document.createElement("label");
+        let barrita = document.createElement("meter");
+        barrita.max = 100;
+        barrita.min = 0;
+        labelPopular.appendChild(barrita);
+        let popularidad = track.popularity;
+        labelPopular.textContent = "Popularidad:";
+        barrita.value = popularidad;
+        cancion.appendChild(labelPopular);
         */
 
         canciones.appendChild(cancion);
-    }
-}
-
-let estaReproducido = false;
-
-let audio = new Audio;
-let iconoActual;
-
-function reproducir_preview(audioTag, icono) {
-    // si se reproduce otra cancion que no es la actual
-    if (audio.currentSrc != audioTag.src) {
-        audio.pause();
-        if (iconoActual == undefined) {
-            iconoActual = icono;
-        }
-        iconoActual.src = "../resources/play-1003-svgrepo-com.svg";
-        audio = new Audio(audioTag.src);
-        audio.volume = 0.2;
-        estaReproducido = false;
-        audio.onplaying = function () {
-            estaReproducido = true;
-        };
-        audio.onpause = function () {
-            estaReproducido = false;
-        };
-
-    }
-
-    if (!estaReproducido) {
-        audio.play();
-        icono.src = "../resources/pause-1006-svgrepo-com.svg";
-    } else {
-        audio.pause();
-        icono.src = "../resources/play-1003-svgrepo-com.svg";
-    }
-    iconoActual = icono;
-}
-
-function silenciar_preview(audioTag, icono) {
-    if (audio.currentSrc == audioTag.src) {
-        audio.muted = !audio.muted;
-        if (audio.muted) {
-            icono.src = "../resources/volume-off-solid-svgrepo-com.svg";
-        } else {
-            icono.src = "../resources/volume-up-solid-svgrepo-com.svg";
-        }
     }
 }
 
