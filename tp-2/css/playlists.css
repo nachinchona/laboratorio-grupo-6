@@ -153,18 +153,37 @@
     color: #a7a7a7;
 }
 
+.infoExtra {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 800px;
+    height: 40px;
+}
+
+.columnasCancion {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    align-content: flex-start;
+    margin: auto;
+    margin-top: 40px;
+    width: 800px;
+    height: 180px;
+    gap: 0;
+    border-radius: 15px;
+    background: #babbba;
+}
+
 .cancion {
     display: flex;
     justify-content: space-between;
     align-items: center;
     box-sizing: border-box;
-    margin: auto;
-    margin-top: 40px;
     padding: 12px 12px;
     width: 800px;
     height: 80px;
     border-radius: 15px;
-    background: #babbba;
 }
 
 .cancion img {
@@ -235,6 +254,22 @@
 
 .cancion .botonDesplegar input {
     margin-right: auto;
+}
+/*estilos info del desplegable de cancion */
+
+.cancion:has(.botonDesplegar)+.infoExtra {
+    display: grid;
+    overflow: hidden;
+    height: 0px;
+    transition: height 0.5s ease;
+}
+
+.cancion:has(.botonDesplegar input:checked)+.infoExtra {
+    height: 120px;
+}
+
+.cancion:has(.botonDesplegar input:not(:checked))+.infoExtra {
+    height: 0px;
 }
 
 .botonDesplegar {
