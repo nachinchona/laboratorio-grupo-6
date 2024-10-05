@@ -34,6 +34,7 @@ function agregarPlaylists(datos) {
     imagenPlaylist.src = datos.images[0].url;
     let nombrePlaylist = document.createElement("h3");
     nombrePlaylist.textContent = datos.name;
+    nombrePlaylist.style.textShadow = "2px 2px 5px rgba(0, 0, 0, 0.8)";
     let botonDesplegar = document.createElement("div");
     botonDesplegar.className = "botonDesplegar";
     botonDesplegar.innerHTML = '<label><input type="checkbox"><svg width="30" height="30" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 18L24 30L36 18" stroke="#1E1E1E" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg></label>';
@@ -69,15 +70,17 @@ function agregarCanciones(datos, canciones) {
         cancion.className = "cancion";
         let nombreCancion = document.createElement("h3");
         nombreCancion.textContent = track.name;
+        nombreCancion.style.fontWeight = "bold";
         let imagenCancion = document.createElement("img");
         imagenCancion.src = track.album.images[0].url;
-        let nombreAlbum = document.createElement("h5");
-        nombreAlbum.textContent = track.album.name;
+
+
 
         let nombresArtistas;
         for (let artista of track.artists) {
             nombresArtistas = document.createElement("h5");
             nombresArtistas.textContent += artista.name;
+
         }
 
         let contenedorCancionE = document.createElement("div");
@@ -138,26 +141,53 @@ function agregarCanciones(datos, canciones) {
             cancion.appendChild(reproductor);
         }
         cancion.appendChild(botonDesplegar);
-        let infoExtra  = document.createElement("div");
+        let infoExtra = document.createElement("div");
         infoExtra.className = "infoExtra";
-        
+
+        //album
+        let nombreAlbum = document.createElement("h3");
+        nombreAlbum.textContent = "💿" + track.album.name;
+        nombreAlbum.style.textShadow = "2px 2px 5px rgba(0, 0, 0, 0.8)";
+        nombreAlbum.style.width = "400px";
+        infoExtra.appendChild(nombreAlbum);
+
+        //fecha album
+        let fechaAlbum = document.createElement("h4");
+        fechaAlbum.textContent = "🗓️" + track.album.release_date;
+        fechaAlbum.style.textShadow = "2px 2px 5px rgba(0, 0, 0, 0.8)";
+        fechaAlbum.style.width = "400px";
+        fechaAlbum.style.marginTop = "4px";
+        infoExtra.appendChild(fechaAlbum);
+
+
+
+
         let labelPopular = document.createElement("label");
         let barrita = document.createElement("meter");
         barrita.max = 100;
         barrita.min = 0;
+        barrita.style.width = "300px";
+        barrita.style.height = "30px";
+        barrita.style.border = "10px black";
+
+
         labelPopular.appendChild(barrita);
         let popularidad = track.popularity;
-        labelPopular.textContent = "Popularidad:";
+        labelPopular.textContent = "📈 Popularidad: ";
+        labelPopular.style.textShadow = "2px 2px 5px rgba(0, 0, 0, 0.8)";
+
         barrita.value = popularidad;
         infoExtra.appendChild(labelPopular);
         infoExtra.appendChild(barrita);
+
+
 
         columnas.appendChild(cancion);
         columnas.appendChild(infoExtra);
 
         canciones.appendChild(columnas);
 
-        
+
     }
 }
 
