@@ -62,6 +62,9 @@ function agregarCanciones(datos, canciones) {
     for (let item of datos.tracks.items) {
         let track = item.track;
 
+        let columnas = document.createElement("div");
+        columnas.className = "columnasCancion";
+
         let cancion = document.createElement("li");
         cancion.className = "cancion";
         let nombreCancion = document.createElement("h3");
@@ -134,10 +137,10 @@ function agregarCanciones(datos, canciones) {
             reproductor.appendChild(preview);
             cancion.appendChild(reproductor);
         }
-
         cancion.appendChild(botonDesplegar);
-
-        /*
+        let infoExtra  = document.createElement("div");
+        infoExtra.className = "infoExtra";
+        
         let labelPopular = document.createElement("label");
         let barrita = document.createElement("meter");
         barrita.max = 100;
@@ -146,10 +149,15 @@ function agregarCanciones(datos, canciones) {
         let popularidad = track.popularity;
         labelPopular.textContent = "Popularidad:";
         barrita.value = popularidad;
-        cancion.appendChild(labelPopular);
-        */
+        infoExtra.appendChild(labelPopular);
+        infoExtra.appendChild(barrita);
 
-        canciones.appendChild(cancion);
+        columnas.appendChild(cancion);
+        columnas.appendChild(infoExtra);
+
+        canciones.appendChild(columnas);
+
+        
     }
 }
 
