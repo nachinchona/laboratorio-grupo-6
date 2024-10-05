@@ -256,11 +256,11 @@
     margin-right: auto;
 }
 /*estilos info del desplegable de cancion */
-
 .cancion:has(.botonDesplegar)+.infoExtra {
-    display: grid;
+    display: flex;
     overflow: hidden;
     height: 0px;
+    margin-left: 10px;
     transition: height 0.5s ease;
 }
 
@@ -271,6 +271,25 @@
 .cancion:has(.botonDesplegar input:not(:checked))+.infoExtra {
     height: 0px;
 }
+/*orden en el desplegable de cancion*/
+.infoExtra{
+    display: flex;
+    text-align: start;
+    flex-direction: grid;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.infoExtra h3, h4{
+    margin-top: 5px;
+    margin: 0px;
+}
+
+.infoExtra meter{
+    
+    margin-left: 30px;
+}
+
 
 .botonDesplegar {
     position: relative;
