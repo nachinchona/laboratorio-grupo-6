@@ -294,7 +294,8 @@
     margin-bottom: 10px;
 }
 
-.infoExtra h3,h4 {
+.infoExtra h3,
+h4 {
     margin: 0px;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
     width: 400px;
@@ -308,7 +309,13 @@
     margin-left: 30px;
     width: 300px;
     height: 30px;
-    border: 10px black;
+    border-radius: 30px;
+}
+
+meter::-moz-meter-bar {
+    /* para que no se vea tan feo en firefox juaaa */
+    border-radius: 30px;
+    background: #107c10;
 }
 
 .botonDesplegar {
