@@ -1,8 +1,12 @@
+body {
+    background: linear-gradient(to bottom, #333 3%, #00d457 4%, #333 15%, #111 100%);
+}
+
 .bienvenida {
     display: flex;
     justify-content: space-between;
     align-content: center;
-    overflow: hidden
+    overflow: hidden;
 }
 
 .texto {
@@ -10,15 +14,15 @@
     margin-right: 20px;
     font-size: 1.5rem;
     text-align: center;
-    margin-top: 200px;
+    margin-top: 100px;
 }
 
 .imagen {
     flex-basis: 50%;
     display: flex;
     justify-content: flex-end;
-    position: relative; /* Esto permite mover la imagen en relación con su posición original */
-    top: -180px; /* Mueve la imagen 10 píxeles hacia arriba */
+    position: relative;
+    top: -180px;
     left: 165px;
     z-index: -1;
 }
@@ -41,7 +45,7 @@
 }
 
 .intermedio {
-    margin-top: -190px;
+    margin-top: -120px;
     text-align: center;
 }
 
@@ -57,42 +61,7 @@
     display: flex;
     justify-content: space-around;
     align-content: center;
+    margin-top: 50px;
     padding: 50px;
     text-align: center;
-}
-
-.tarjetas {
-    margin-top: 100px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-}
-
-.tarjetita {
-    background-color: black;
-    border-radius: 10px;
-    width: 200px;
-    padding: 20px;
-    text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.tarjetita a {
-    text-decoration: none;
-    color: white;
-    transition: color 0.3s ease;
-}
-
-.tarjetita a:hover {
-    color: rgb(41, 251, 111);
-}
-
-.circulo {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    margin: 0 auto 20px;
-    background-size: cover;
-    background-position: center;
 }
