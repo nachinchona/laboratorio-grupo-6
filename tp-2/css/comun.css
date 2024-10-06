@@ -71,7 +71,6 @@ nav h1 {
 nav ul {
     list-style-type: none;
     display: flex;
-    margin-left: 400px;
 }
 
 nav ul li {
@@ -89,5 +88,4 @@ nav ul li {
 
 .botonNav:hover {
     background-color: #555;
-    border-radius: 5px;
 }

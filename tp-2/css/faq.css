@@ -1,3 +1,7 @@
+body {
+    min-height: 1200px;
+}
+
 section {
     min-height: 100vh;
     width: 80%;
