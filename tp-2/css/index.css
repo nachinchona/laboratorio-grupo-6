@@ -17,8 +17,8 @@
     flex-basis: 50%;
     display: flex;
     justify-content: flex-end;
-    position: relative; /* Esto permite mover la imagen en relación con su posición original */
-    top: -180px; /* Mueve la imagen 10 píxeles hacia arriba */
+    position: relative;
+    top: -180px;
     left: 165px;
     z-index: -1;
 }

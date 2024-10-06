@@ -173,6 +173,7 @@
     gap: 0;
     border-radius: 15px;
     background: #babbba;
+    transition: height 0.5s ease;
 }
 
 .cancion {
@@ -255,6 +256,7 @@
 .cancion .botonDesplegar input {
     margin-right: auto;
 }
+
 /*estilos info del desplegable de cancion */
 .cancion:has(.botonDesplegar)+.infoExtra {
     display: flex;
@@ -271,25 +273,43 @@
 .cancion:has(.botonDesplegar input:not(:checked))+.infoExtra {
     height: 0px;
 }
+
+.columnasCancion:has(.cancion >.botonDesplegar input:checked) {
+    height: 180px;
+}
+
+.columnasCancion:has(.cancion > .botonDesplegar input:not(:checked)) {
+    height: 80px;
+}
+
 /*orden en el desplegable de cancion*/
-.infoExtra{
+.infoExtra {
     display: flex;
     text-align: start;
     flex-direction: grid;
-    align-items: flex-start;
+    align-items: center;
     justify-content: flex-start;
+    align-content: stretch;
     flex-wrap: wrap;
+    margin-bottom: 10px;
 }
-.infoExtra h3, h4{
-    margin-top: 5px;
+
+.infoExtra h3,h4 {
     margin: 0px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+    width: 400px;
 }
 
-.infoExtra meter{
-    
+.infoExtra label {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+}
+
+.infoExtra meter {
     margin-left: 30px;
+    width: 300px;
+    height: 30px;
+    border: 10px black;
 }
-
 
 .botonDesplegar {
     position: relative;

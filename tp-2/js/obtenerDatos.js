@@ -59,7 +59,6 @@ function agregarPlaylists(datos) {
 }
 
 function agregarCanciones(datos, canciones) {
-
     for (let item of datos.tracks.items) {
         let track = item.track;
 
@@ -73,8 +72,6 @@ function agregarCanciones(datos, canciones) {
         nombreCancion.style.fontWeight = "bold";
         let imagenCancion = document.createElement("img");
         imagenCancion.src = track.album.images[0].url;
-
-
 
         let nombresArtistas;
         for (let artista of track.artists) {
@@ -140,54 +137,39 @@ function agregarCanciones(datos, canciones) {
             reproductor.appendChild(preview);
             cancion.appendChild(reproductor);
         }
+
         cancion.appendChild(botonDesplegar);
+
         let infoExtra = document.createElement("div");
         infoExtra.className = "infoExtra";
 
         //album
         let nombreAlbum = document.createElement("h3");
-        nombreAlbum.textContent = "💿" + track.album.name;
-        nombreAlbum.style.textShadow = "2px 2px 5px rgba(0, 0, 0, 0.8)";
-        nombreAlbum.style.width = "400px";
+        nombreAlbum.textContent = "💿 " + track.album.name;
         infoExtra.appendChild(nombreAlbum);
 
         //fecha album
         let fechaAlbum = document.createElement("h4");
-        fechaAlbum.textContent = "🗓️" + track.album.release_date;
-        fechaAlbum.style.textShadow = "2px 2px 5px rgba(0, 0, 0, 0.8)";
-        fechaAlbum.style.width = "400px";
-        fechaAlbum.style.marginTop = "4px";
+        fechaAlbum.textContent = "🗓️ " + track.album.release_date;
         infoExtra.appendChild(fechaAlbum);
-
-
-
 
         let labelPopular = document.createElement("label");
         let barrita = document.createElement("meter");
         barrita.max = 100;
         barrita.min = 0;
-        barrita.style.width = "300px";
-        barrita.style.height = "30px";
-        barrita.style.border = "10px black";
-
 
         labelPopular.appendChild(barrita);
         let popularidad = track.popularity;
         labelPopular.textContent = "📈 Popularidad: ";
-        labelPopular.style.textShadow = "2px 2px 5px rgba(0, 0, 0, 0.8)";
 
         barrita.value = popularidad;
         infoExtra.appendChild(labelPopular);
         infoExtra.appendChild(barrita);
 
-
-
         columnas.appendChild(cancion);
         columnas.appendChild(infoExtra);
 
         canciones.appendChild(columnas);
-
-
     }
 }
 
