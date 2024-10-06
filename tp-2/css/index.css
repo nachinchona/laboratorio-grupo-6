@@ -2,30 +2,33 @@
     display: flex;
     justify-content: space-between;
     align-content: center;
-    padding: 50px;
-    margin-top: 35px;
+    overflow: hidden
 }
 
 .texto {
     flex-basis: 50%;
     margin-right: 20px;
     font-size: 1.5rem;
+    text-align: center;
+    margin-top: 200px;
 }
 
 .imagen {
     flex-basis: 50%;
     display: flex;
     justify-content: flex-end;
+    position: relative; /* Esto permite mover la imagen en relación con su posición original */
+    top: -180px; /* Mueve la imagen 10 píxeles hacia arriba */
+    left: 165px;
+    z-index: -1;
 }
 
 .imagen img {
-    width: 100%;
-    height: 100%;
+    width: 110%;
+    height: auto;
 }
 
 .texto a button {
-    margin-left: 200px;
-    /* ver como puedo dejarlo en el medio asi nomas*/
     font-family: 'Montserrat', sans-serif;
     background-color: rgb(24, 24, 24);
     color: white;
@@ -38,8 +41,7 @@
 }
 
 .intermedio {
-    padding: 50px;
-    margin: 35px;
+    margin-top: -190px;
     text-align: center;
 }
 
