@@ -21,6 +21,7 @@ Promise.all(urls.map(url => fetch(url)
     });
 
 function agregarPlaylists(datos) {
+    const cantCanciones = Object.keys(datos.tracks.items).length;
     const playlists = document.getElementById("playlists");
 
     // lista con barraPlaylist y canciones
@@ -35,9 +36,18 @@ function agregarPlaylists(datos) {
     let nombrePlaylist = document.createElement("h3");
     nombrePlaylist.textContent = datos.name;
     nombrePlaylist.style.textShadow = "2px 2px 5px rgba(0, 0, 0, 0.8)";
+    
+    let inputDesplegar = document.createElement("input");
+    inputDesplegar.type = "checkbox";
+
+    let labelDesplegar = document.createElement("label");
+    labelDesplegar.appendChild(inputDesplegar);
+    
     let botonDesplegar = document.createElement("div");
     botonDesplegar.className = "botonDesplegar";
-    botonDesplegar.innerHTML = '<label><input type="checkbox"><svg width="30" height="30" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 18L24 30L36 18" stroke="#1E1E1E" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg></label>';
+    /* botonDesplegar.innerHTML = '<label><input type="checkbox"><svg width="30" height="30" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 18L24 30L36 18" stroke="#1E1E1E" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg></label>'; */
+    botonDesplegar.appendChild(labelDesplegar);
+
     let canciones = document.createElement("div");
     canciones.className = "canciones";
 
@@ -51,6 +61,14 @@ function agregarPlaylists(datos) {
     barraPlaylist.appendChild(botonDesplegar);
 
     agregarCanciones(datos, canciones);
+
+    inputDesplegar.addEventListener("change", function() {
+        if (this.checked) {
+            canciones.style.maxHeight = cantCanciones*110 + "px";
+        } else {
+            canciones.style.maxHeight = 0;
+        }
+    })
 
     playlist.appendChild(barraPlaylist);
     playlist.appendChild(canciones);
