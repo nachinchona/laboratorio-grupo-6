@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "nombre": "Pedro",
+        "apellido": "Gomez",
+        "edad": 25,
+        "fecha_creacion": "2022-10-01T19:31:13.239Z"
+    },
+    {
+        "id": 2,
+        "nombre": "Maria",
+        "apellido": "Lopez",
+        "edad": 30,
+        "fecha_creacion": "2023-03-12T15:45:23.532Z"
+    },
+    {
+        "id": 3,
+        "nombre": "Luis",
+        "apellido": "Martinez",
+        "edad": 27,
+        "fecha_creacion": "2023-05-20T10:22:45.761Z"
+    },
+    {
+        "id": 4,
+        "nombre": "Ana",
+        "apellido": "Hernandez",
+        "edad": 22,
+        "fecha_creacion": "2022-11-14T08:12:19.425Z"
+    },
+    {
+        "id": 5,
+        "nombre": "Carlos",
+        "apellido": "Torres",
+        "edad": 34,
+        "fecha_creacion": "2023-01-05T13:50:31.789Z"
+    },
+    {
+        "id": 6,
+        "nombre": "Lucia",
+        "apellido": "Fernandez",
+        "edad": 28,
+        "fecha_creacion": "2023-04-25T21:05:17.652Z"
+    },
+    {
+        "id": 7,
+        "nombre": "Jorge",
+        "apellido": "Vargas",
+        "edad": 26,
+        "fecha_creacion": "2023-02-09T17:38:59.158Z"
+    },
+    {
+        "id": 8,
+        "nombre": "Sofia",
+        "apellido": "Gutierrez",
+        "edad": 24,
+        "fecha_creacion": "2023-07-19T12:28:43.983Z"
+    },
+    {
+        "id": 9,
+        "nombre": "Rafael",
+        "apellido": "Rios",
+        "edad": 31,
+        "fecha_creacion": "2023-06-30T14:14:29.874Z"
+    },
+    {
+        "id": 10,
+        "nombre": "D.",
+        "apellido": "Bessoner",
+        "edad": 29,
+        "fecha_creacion": "2022-12-17T18:03:56.493Z"
+    }
+]
