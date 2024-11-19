@@ -1,0 +1,73 @@
+body {
+    background: linear-gradient(to bottom, #333 3%, #00d457 4%, #333 15%, #111 100%);
+}
+
+.bienvenida {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    overflow: hidden;
+    min-height: 800px;
+}
+
+.texto {
+    flex-basis: 50%;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.imagen {
+    flex-basis: 50%;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: -180px;
+    left: 165px;
+    z-index: -1;
+}
+
+.imagen img {
+    width: 110%;
+    height: auto;
+}
+
+.texto a button {
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(24, 24, 24);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 15px;
+    border: 2px, solid, rgb(127, 127, 127);
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+}
+
+.texto a button:hover {
+    background-color: #555;
+}
+
+.intermedio {
+    margin-top: -120px;
+    text-align: center;
+}
+
+.intermedio h2 {
+    font-size: 46px;
+}
+
+.intermedio p {
+    line-height: 1.80;
+}
+
+.gifs {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    margin-top: 50px;
+    padding: 50px;
+    text-align: center;
+}

@@ -95,7 +95,6 @@ function agregarCanciones(datos, canciones) {
         for (let artista of track.artists) {
             nombresArtistas = document.createElement("h5");
             nombresArtistas.textContent += artista.name;
-
         }
 
         let contenedorCancionE = document.createElement("div");
