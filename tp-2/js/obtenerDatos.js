@@ -1,15 +1,15 @@
-const urls = [
-    'http://127.0.0.1:3000/tp-2/json/asadito-cumbiero.json',
-    'http://127.0.0.1:3000/tp-2/json/pop-mix.json',
-    'http://127.0.0.1:3000/tp-2/json/rock-ingles.json',
-    'http://127.0.0.1:3000/tp-2/json/rock-nacional.json',
-    'http://127.0.0.1:3000/tp-2/json/exitos-argentina.json',
-    'http://127.0.0.1:3000/tp-2/json/edm-hits.json',
-    'http://127.0.0.1:3000/tp-2/json/electronica.json',
-    'http://127.0.0.1:3000/tp-2/json/pop-up.json'
-];
+const fs = require('fs');
+const path = require('path');
 
-Promise.all(urls.map(url => fetch(url)
+function getJsonUrls(folderPath, baseUrl) {
+    const absoluteFolderPath = path.join(__dirname, folderPath);
+    const files = fs.readdirSync(absoluteFolderPath);
+    const jsonUrls = files.map(file => `${baseUrl}/${file}`);
+
+    return jsonUrls;
+}
+
+Promise.all(getJsonUrls('/public/json', 'http://localhost:3000/static/json').map(url => fetch(url)
     .then(response => response.json())))
     .then(arregloDatos => {
         arregloDatos.forEach(datos => {
