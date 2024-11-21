@@ -161,6 +161,13 @@
     border-radius: 15px;
 }
 
+.imagenfalsa {
+    width: 60px;
+    height: 60px;
+    border-radius: 15px;
+    background: linear-gradient(#000 60%, #22a800);
+}
+
 .cancion audio {
     opacity: 0.2;
     z-index: 2;
@@ -340,4 +347,28 @@ meter::-moz-meter-bar {
     padding: 4px 6px 4px 6px;
     margin-top: 4px;
     margin-left: 3px;
+}
+
+#contenedorBoton {
+    display: flex;
+    justify-content: center;
+}
+
+#botonCargar {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    position: center;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(24, 24, 24);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 15px;
+    border: 2px, solid, rgb(127, 127, 127);
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+}
+
+#botonCargar:hover {
+    background-color: #555;
 }
