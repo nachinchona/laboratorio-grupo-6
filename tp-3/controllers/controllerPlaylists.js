@@ -38,7 +38,7 @@ const obtenerPlaylistPorID = (req, res) => {
 
 const obtenerPlaylistsPaginadas = (req, res) => {
     const from = parseInt(req.query.from);
-    if (!from) {
+    if (!from || isNaN(from)) {
         return res.status(404).json({ message: 'parámetros query no especificados' });
     }
     let ultimaID;
@@ -46,7 +46,6 @@ const obtenerPlaylistsPaginadas = (req, res) => {
     let iter = 0;
     let playlistsEncontradas = [];
     playlists.sort((a, b) => a.id - b.id);
-    console.log(playlists);
     for (let playlist of playlists) {
         if (playlist.id > from) {
             if (iter <= 2) {
@@ -58,7 +57,7 @@ const obtenerPlaylistsPaginadas = (req, res) => {
             }
         }
     }
-    if (playlistsEncontradas == []) {
+    if (playlistsEncontradas.length === 0) {
         return res.status(404).json({ message: 'No se encontraron playlists' });
     }
     res.json({ message: 'Playlists obtenidas!', playlists: playlistsEncontradas, ultimaID: ultimaID });

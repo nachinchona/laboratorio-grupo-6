@@ -12,7 +12,7 @@ function loadPlaylists() {
 }
 
 function writePlaylist(name) {
-    fs.writeFile(path.join(__dirname, `/public/json/${name}.json`), json, 'utf-8', () => { });
+    fs.writeFile(path.join(__dirname, `/public/json/${name}.json`), 'utf-8', () => { });
 }
 
 module.exports = { loadPlaylists, writePlaylist };

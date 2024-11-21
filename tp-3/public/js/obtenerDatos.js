@@ -2,76 +2,104 @@ let ultimaID = 0;
 
 let botonCargar = document.getElementById('botonCargar');
 
+obtenerPlaylists();
 async function obtenerPlaylists() {
-    const request = await fetch(`http://localhost:3000/api/playlists?from=${ultimaID + 1}`,
+    const response = await fetch(`http://localhost:3000/api/playlist?from=${ultimaID + 1}`,
         {
             method: 'GET',
             headers: {
                 "Content-Type": 'application/json'
-            },
-            body: {}
+            }
         });
     const data = await response.json();
     if (data && data.playlists) {
-        ultimaID = data.ultimaID;
-        agregarPlaylists(data.playlists.map(playlist => agregarPlaylists(playlist)));
+        ultimaID = data.ultimaID - 1;
+        data.playlists.map(playlist => agregarPlaylists(playlist));
     }
 }
 
 function agregarPlaylists(datos) {
-    const cantCanciones = Object.keys(datos.tracks.items).length;
-    const playlists = document.getElementById("playlists");
+    if (datos.tracks) {
+        const cantCanciones = Object.keys(datos.tracks.items).length;
+        const playlists = document.getElementById("playlists");
 
-    // lista con barraPlaylist y canciones
-    let playlist = document.createElement("ul");
-    playlist.className = "playlist";
+        // lista con barraPlaylist y canciones
+        let playlist = document.createElement("ul");
+        playlist.className = "playlist";
 
-    let barraPlaylist = document.createElement("div");
-    barraPlaylist.className = "barraPlaylist";
+        let barraPlaylist = document.createElement("div");
+        barraPlaylist.className = "barraPlaylist";
 
-    let imagenPlaylist = document.createElement("img");
-    imagenPlaylist.src = datos.images[0].url;
-    let nombrePlaylist = document.createElement("h3");
-    nombrePlaylist.textContent = datos.name;
-    nombrePlaylist.style.textShadow = "2px 2px 5px rgba(0, 0, 0, 0.8)";
+        let imagenPlaylist = document.createElement("img");
+        imagenPlaylist.src = datos.images[0].url;
+        let nombrePlaylist = document.createElement("h3");
+        nombrePlaylist.textContent = datos.name;
+        nombrePlaylist.style.textShadow = "2px 2px 5px rgba(0, 0, 0, 0.8)";
 
-    let inputDesplegar = document.createElement("input");
-    inputDesplegar.type = "checkbox";
+        let inputDesplegar = document.createElement("input");
+        inputDesplegar.type = "checkbox";
 
-    let labelDesplegar = document.createElement("label");
-    labelDesplegar.appendChild(inputDesplegar);
+        let labelDesplegar = document.createElement("label");
+        labelDesplegar.appendChild(inputDesplegar);
 
-    let botonDesplegar = document.createElement("div");
-    botonDesplegar.className = "botonDesplegar";
-    /* botonDesplegar.innerHTML = '<label><input type="checkbox"><svg width="30" height="30" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 18L24 30L36 18" stroke="#1E1E1E" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg></label>'; */
-    botonDesplegar.appendChild(labelDesplegar);
+        let botonDesplegar = document.createElement("div");
+        botonDesplegar.className = "botonDesplegar";
+        /* botonDesplegar.innerHTML = '<label><input type="checkbox"><svg width="30" height="30" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 18L24 30L36 18" stroke="#1E1E1E" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg></label>'; */
+        botonDesplegar.appendChild(labelDesplegar);
 
-    let canciones = document.createElement("div");
-    canciones.className = "canciones";
+        let canciones = document.createElement("div");
+        canciones.className = "canciones";
 
-    barraPlaylist.appendChild(imagenPlaylist);
-    barraPlaylist.appendChild(nombrePlaylist);
+        barraPlaylist.appendChild(imagenPlaylist);
+        barraPlaylist.appendChild(nombrePlaylist);
 
-    let descripcion = document.createElement("span");
-    descripcion.textContent = datos.description;
-    barraPlaylist.appendChild(descripcion);
+        let descripcion = document.createElement("span");
+        descripcion.textContent = datos.description;
+        barraPlaylist.appendChild(descripcion);
 
-    barraPlaylist.appendChild(botonDesplegar);
+        barraPlaylist.appendChild(botonDesplegar);
 
-    agregarCanciones(datos, canciones);
+        agregarCanciones(datos, canciones);
 
-    inputDesplegar.addEventListener("change", function () {
-        if (this.checked) {
-            canciones.style.maxHeight = cantCanciones * 110 + "px";
-        } else {
-            canciones.style.maxHeight = 0;
-        }
-    })
+        inputDesplegar.addEventListener("change", function () {
+            if (this.checked) {
+                canciones.style.maxHeight = cantCanciones * 110 + "px";
+            } else {
+                canciones.style.maxHeight = 0;
+            }
+        })
 
-    playlist.appendChild(barraPlaylist);
-    playlist.appendChild(canciones);
+        playlist.appendChild(barraPlaylist);
+        playlist.appendChild(canciones);
 
-    playlists.appendChild(playlist);
+        playlists.appendChild(playlist);
+    } else {
+        const playlists = document.getElementById("playlists");
+
+        // lista con barraPlaylist y canciones
+        let playlist = document.createElement("ul");
+        playlist.className = "playlist";
+
+        let barraPlaylist = document.createElement("div");
+        barraPlaylist.className = "barraPlaylist";
+
+        let imagenPlaylist = document.createElement("div");
+        imagenPlaylist.className = "imagenfalsa";
+        barraPlaylist.appendChild(imagenPlaylist);
+
+        let nombrePlaylist = document.createElement("h3");
+        nombrePlaylist.textContent = datos.name;
+        nombrePlaylist.style.textShadow = "2px 2px 5px rgba(0, 0, 0, 0.8)";
+        barraPlaylist.appendChild(nombrePlaylist);
+
+        let descripcion = document.createElement("span");
+        descripcion.textContent = datos.description;
+        barraPlaylist.appendChild(descripcion);
+
+        playlist.appendChild(barraPlaylist);
+
+        playlists.appendChild(playlist);
+    }
 }
 
 function agregarCanciones(datos, canciones) {
