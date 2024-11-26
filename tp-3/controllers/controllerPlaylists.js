@@ -3,7 +3,19 @@ const { loadPlaylists, writePlaylist } = require('../models/loadPlaylists');
 const crearPlaylist = (req, res) => {
     const { id, name, description } = req.body;
     const json = JSON.stringify({ id, name, description });
-    writePlaylist(`playlist-${id}.json`);
+
+    if (typeof id === "string" && id > 0) {
+        return res.status(400).json({ message: 'Id invalida' });
+    }
+
+    const variasPlaylists = loadPlaylists();
+    for (let playlist of variasPlaylists) {
+        if (playlist.id == id) {
+            return res.status(400).json({ message: 'Id ya existente' });
+        }
+    }
+
+    writePlaylist(`playlist-${id}.json`, json);
     res.json({ message: 'Playlist creada correctamente!', data: { id, name, description } });
 };
 
@@ -12,8 +24,21 @@ const editarPlaylist = (req, res) => {
     const { name, description } = req.body;
     const playlists = loadPlaylists();
     const playlistIndex = playlists.findIndex(p => p.id === idPlaylist);
+
+    if (!idPlaylist) {
+        return res.status(400).json({ message: 'Id no especificada' });
+    }
+
     if (playlistIndex == -1) {
         return res.status(404).json({ message: 'No se encontró la playlist' });
+    }
+
+    if (typeof name !== "string" && idPlaylist < 1) {
+        return res.status(400).json({ message: 'Nombre Invalido' });
+    }
+
+    if (typeof description !== "string") {
+        return res.status(400).json({ message: 'Descripcion Invalida' });
     }
 
     if (name) playlists[playlistIndex].name = name;
@@ -30,9 +55,15 @@ const obtenerPlaylistPorID = (req, res) => {
     const idPlaylist = parseInt(req.params.idPlaylist);
     const playlists = loadPlaylists();
     const playlistIndex = playlists.findIndex(p => p.id === idPlaylist);
+
+    if (!idPlaylist) {
+        return res.status(400).json({ message: 'Id no especificada' });
+    }
+
     if (playlistIndex == -1) {
         return res.status(404).json({ message: 'No se encontró la playlist' });
     }
+    
     res.json({ message: 'Playlist obtenida!', playlist: playlists[playlistIndex] });
 };
 

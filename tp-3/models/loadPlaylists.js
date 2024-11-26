@@ -11,8 +11,8 @@ function loadPlaylists() {
     });
 }
 
-function writePlaylist(name) {
-    fs.writeFile(path.join(__dirname, `/public/json/${name}.json`), 'utf-8', () => { });
+function writePlaylist(name, json) {
+    fs.writeFile(path.join(__dirname, `/public/json/${name}.json`), json, 'utf-8', () => { });
 }
 
 module.exports = { loadPlaylists, writePlaylist };
