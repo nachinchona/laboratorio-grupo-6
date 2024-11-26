@@ -1,6 +1,6 @@
 const express = require('express');
 const routerPlaylists = express.Router();
-const { crearPlaylist, editarPlaylist, obtenerPlaylistPorID, obtenerPlaylistsPaginadas } = require('../controllers/controllerPlaylists');
+const { crearPlaylist, editarPlaylist, obtenerPlaylistPorID, obtenerPlaylistsPaginadas, eliminarPlaylist } = require('../controllers/controllerPlaylists');
 
 routerPlaylists
     // Crea playlist
@@ -14,6 +14,6 @@ routerPlaylists
     .get('/:idPlaylist', obtenerPlaylistPorID)
 
     // Obtiene 3 playlists para realizar la paginación (a través de un botón 'Cargar más' se envían las faltantes)
-    .get('/', obtenerPlaylistsPaginadas);
+    .get('/', obtenerPlaylistsPaginadas)
 
 module.exports = routerPlaylists;

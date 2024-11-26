@@ -1,3 +1,4 @@
+const { type } = require('express/lib/response');
 const { loadPlaylists, writePlaylist } = require('../models/loadPlaylists');
 
 const crearPlaylist = (req, res) => {
@@ -17,6 +18,7 @@ const crearPlaylist = (req, res) => {
 
     writePlaylist(`playlist-${id}.json`, json);
     res.json({ message: 'Playlist creada correctamente!', data: { id, name, description } });
+
 };
 
 const editarPlaylist = (req, res) => {
@@ -70,28 +72,35 @@ const obtenerPlaylistPorID = (req, res) => {
 const obtenerPlaylistsPaginadas = (req, res) => {
     const from = parseInt(req.query.from);
     if (!from || isNaN(from)) {
-        return res.status(404).json({ message: 'parámetros query no especificados' });
+        return res.status(404).json({ message: 'Parámetros query no especificados' });
     }
+
     let ultimaID;
     const playlists = loadPlaylists();
-    let iter = 0;
     let playlistsEncontradas = [];
     playlists.sort((a, b) => a.id - b.id);
-    for (let playlist of playlists) {
+    let i = 0
+    while (i < playlists.length) { //peor caso tuvo que iterar toda la coleccion de playlists
+        let playlist = playlists[i]; //agarro una
         if (playlist.id > from) {
-            if (iter <= 2) {
+            if ((i + 1) % 3 == 0) {
+                if (i !== playlist.length - 1) {
+                    ultimaID = playlist.id;
+                } else {
+                    ultimaID = NaN;
+                }
                 playlistsEncontradas.push(playlist);
             }
-            iter++;
-            if (iter == 3) {
-                ultimaID = playlist.id;
-            }
+            i++;
         }
     }
+    
     if (playlistsEncontradas.length === 0) {
         return res.status(404).json({ message: 'No se encontraron playlists' });
     }
+
     res.json({ message: 'Playlists obtenidas!', playlists: playlistsEncontradas, ultimaID: ultimaID });
+
 };
 
 module.exports = { crearPlaylist, editarPlaylist, obtenerPlaylistPorID, obtenerPlaylistsPaginadas };
